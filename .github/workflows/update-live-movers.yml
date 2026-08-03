@@ -1,0 +1,58 @@
+name: Update CK live movers
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mtg-price-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sample Card Kingdom buylist changes
+        run: python scripts/update_live_movers.py
+
+      - name: Validate live movement feed
+        run: |
+          python - <<'PY'
+          import gzip, json
+          from pathlib import Path
+          with gzip.open("movers/live_history.json.gz", "rt", encoding="utf-8") as f:
+              history = json.load(f)
+          with open("movers/live.json", encoding="utf-8") as f:
+              live = json.load(f)
+          assert history.get("currentAt") and history.get("current")
+          assert live.get("meta", {}).get("activeRows", 0) > 50000
+          assert set(live.get("periods", {})) == {"hour", "day", "week"}
+          print(live["meta"])
+          PY
+
+      - name: Commit live feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add movers/live.json movers/live_history.json.gz
+          if git diff --cached --quiet; then
+            echo "No live feed changes."
+          else
+            git commit -m "Update CK live movers"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

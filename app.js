@@ -910,7 +910,7 @@ function bindEvents() {
     render();
   });
   els.queryTab.addEventListener("click", () => switchView("query"));
-  els.moversTab.addEventListener("click", () => switchView("movers"));
+  els.moversTab.addEventListener("click", () => { window.location.href = "./movers/"; });
   document.addEventListener("keydown", (event) => {
     const target = event.target;
     const typing = target instanceof HTMLInputElement || target instanceof HTMLSelectElement || target instanceof HTMLTextAreaElement;

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CK 回收价实时变动 | MTG 价格雷达</title>
+  <link rel="stylesheet" href="./styles.css?v=1">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">CARD KINGDOM BUYLIST</p>
+      <h1>CK 回收价实时变动</h1>
+      <p id="statusLine">正在读取最新采样...</p>
+    </div>
+    <a class="back-link" href="../">返回单卡查询</a>
+  </header>
+
+  <main>
+    <section class="toolbar" aria-label="榜单筛选">
+      <div class="control-group">
+        <span>对比周期</span>
+        <div class="segments" id="periodButtons">
+          <button class="active" data-period="hour" type="button">1 小时</button>
+          <button data-period="day" type="button">24 小时</button>
+          <button data-period="week" type="button">7 天</button>
+        </div>
+      </div>
+      <div class="control-group">
+        <span>排序</span>
+        <div class="segments" id="basisButtons">
+          <button class="active" data-basis="dollar" type="button">按美元</button>
+          <button data-basis="percent" type="button">按比例</button>
+        </div>
+      </div>
+      <div class="control-group format-group">
+        <span>赛制</span>
+        <select id="formatSelect" aria-label="赛制筛选">
+          <option value="all">全部</option>
+          <option value="standard">标准</option>
+          <option value="pioneer">先驱</option>
+          <option value="modern">摩登</option>
+          <option value="legacy">薪传</option>
+          <option value="special">特选</option>
+        </select>
+      </div>
+      <button class="refresh" id="refreshButton" type="button">刷新显示</button>
+    </section>
+
+    <section class="stats" aria-label="数据状态">
+      <div><strong id="sampleAt">-</strong><span>最新采样</span></div>
+      <div><strong id="activeRows">-</strong><span>当前收购单卡</span></div>
+      <div><strong id="availableRows">-</strong><span>可比较变动</span></div>
+    </section>
+
+    <p class="notice" id="notice" hidden></p>
+
+    <section class="boards">
+      <article class="board">
+        <header><h2 id="winnerTitle">上涨榜</h2><span id="winnerCount">0 张</span></header>
+        <div class="table-wrap"><table><thead><tr><th>#</th><th>牌名 / 精确版本</th><th>原回收价</th><th>现回收价</th><th>变动</th></tr></thead><tbody id="winners"></tbody></table></div>
+      </article>
+      <article class="board">
+        <header><h2 id="loserTitle">下跌榜</h2><span id="loserCount">0 张</span></header>
+        <div class="table-wrap"><table><thead><tr><th>#</th><th>牌名 / 精确版本</th><th>原回收价</th><th>现回收价</th><th>变动</th></tr></thead><tbody id="losers"></tbody></table></div>
+      </article>
+    </section>
+  </main>
+  <footer>价格来自 Card Kingdom 公开回收价接口。只记录收购中的单卡；首次采样建立基准后才会显示变动。</footer>
+  <script src="./movers.js?v=1"></script>
+</body>
+</html>

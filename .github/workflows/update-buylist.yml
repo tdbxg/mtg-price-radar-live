@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-card-kingdom-buylist
+  group: mtg-price-data
   cancel-in-progress: false
 
 jobs:
