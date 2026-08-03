@@ -31,6 +31,7 @@ SINGLES_URL = "https://api.cardkingdom.com/api/v2/pricelist"
 SEALED_URL = "https://api.cardkingdom.com/api/sealed_pricelist"
 FX_URL = "https://open.er-api.com/v6/latest/USD"
 SCRYFALL_COLLECTION_URL = "https://api.scryfall.com/cards/collection"
+SCRYFALL_SETS_URL = "https://api.scryfall.com/sets"
 SCRYFALL_BULK_URL = "https://api.scryfall.com/bulk-data/default-cards"
 SCRYFALL_BULK_LIST_URL = "https://api.scryfall.com/bulk-data"
 MTGCH_NAMES_URL = "https://mtgch.com/static/card_names.json"
@@ -308,6 +309,22 @@ def previous_sealed_images(payload: dict) -> dict:
     return images
 
 
+def previous_card_images(payload: dict) -> dict:
+    images: dict[str, str] = {}
+    for row in payload.get("cards", []):
+        image = row.get("image") or ""
+        if not image:
+            continue
+        for key, value in (
+            ("id", row.get("id")),
+            ("sku", row.get("sku")),
+            ("url", row.get("ckUrl")),
+        ):
+            if value:
+                images[f"{key}:{value}"] = image
+    return images
+
+
 def mtgch_indexes() -> tuple[dict, dict]:
     by_sid: dict[str, dict] = {}
     by_name: dict[str, dict] = {}
@@ -386,6 +403,68 @@ def fetch_missing_scryfall(needed: list[str], existing: dict) -> dict:
                 existing[card["id"]] = compact_scryfall_card(card)
         print(f"  {min(start + len(chunk), len(missing))}/{len(missing)}")
         time.sleep(0.08)
+    return existing
+
+
+def sku_set_collector(sku: str, set_codes: set[str]) -> tuple[str, str] | None:
+    match = re.fullmatch(r"([A-Z0-9]+)-([0-9]+[A-Z]?)", str(sku or "").upper())
+    if not match:
+        return None
+    prefix, collector = match.groups()
+    for start in range(len(prefix)):
+        code = prefix[start:].lower()
+        if code in set_codes:
+            return code, collector.lstrip("0") or "0"
+    return None
+
+
+def fetch_sku_scryfall_fallbacks(rows: list[dict], existing: dict) -> dict:
+    """Resolve images only when SKU, set, collector number, and name all agree."""
+    try:
+        set_codes = {
+            str(item.get("code") or "").lower()
+            for item in fetch_json(SCRYFALL_SETS_URL).get("data", [])
+        }
+    except Exception as exc:
+        print(f"WARN: Scryfall set catalog unavailable for SKU fallback: {exc}")
+        return existing
+
+    lookup: dict[tuple[str, str], list[tuple[str, str]]] = {}
+    identifiers: list[dict] = []
+    for row in rows:
+        if money(row.get("price_buy")) <= 0 or UUID_RE.match(str(row.get("scryfall_id") or "")):
+            continue
+        sku = str(row.get("sku") or "")
+        parsed = sku_set_collector(sku, set_codes)
+        if not parsed:
+            continue
+        set_code, collector = parsed
+        lookup.setdefault((set_code, collector), []).append((sku, row.get("name") or ""))
+        identifiers.append({"set": set_code, "collector_number": collector})
+    if not identifiers:
+        return existing
+
+    print(f"Fetching {len(identifiers)} SKU-derived Scryfall exact-print candidates...")
+    matched = 0
+    for start in range(0, len(identifiers), 50):
+        chunk = identifiers[start : start + 50]
+        try:
+            response = post_json(SCRYFALL_COLLECTION_URL, {"identifiers": chunk})
+        except Exception as exc:
+            print(f"WARN: Scryfall SKU fallback chunk failed: {exc}")
+            continue
+        for card in response.get("data", []):
+            key = (
+                str(card.get("set") or "").lower(),
+                str(card.get("collector_number") or "").lstrip("0") or "0",
+            )
+            for sku, ck_name in lookup.get(key, []):
+                if normalize_name(card.get("name") or "") == normalize_name(ck_name):
+                    existing[f"sku:{sku}"] = compact_scryfall_card(card)
+                    matched += 1
+        print(f"  {min(start + len(chunk), len(identifiers))}/{len(identifiers)}")
+        time.sleep(0.08)
+    print(f"Matched {matched} SKU-derived exact Scryfall printings.")
     return existing
 
 
@@ -503,6 +582,65 @@ def enrich_sealed_images(payload: dict, previous: dict) -> dict:
     return payload
 
 
+def enrich_card_images(payload: dict, previous: dict) -> dict:
+    """Fill only exact CK product images for cards Scryfall cannot identify."""
+    if os.environ.get("CK_SKIP_CARD_IMAGES") == "1":
+        payload.setdefault("meta", {})["cardImageSkipped"] = "local_skip"
+        return payload
+
+    cached = previous_card_images(previous)
+    cards = payload.get("cards", [])
+    cached_filled = 0
+    fetched_filled = 0
+    missing = []
+    for row in cards:
+        if row.get("image"):
+            continue
+        image = (
+            cached.get(f"id:{row.get('id')}")
+            or cached.get(f"sku:{row.get('sku')}")
+            or cached.get(f"url:{row.get('ckUrl')}")
+            or ""
+        )
+        if image:
+            row["image"] = image
+            cached_filled += 1
+        else:
+            missing.append(row)
+
+    if missing:
+        print(f"Fetching {len(missing)} exact Card Kingdom card images...")
+    workers = max(1, int(os.environ.get("CK_CARD_IMAGE_WORKERS") or 8))
+
+    def fetch_one(row: dict) -> tuple[dict, str, str]:
+        try:
+            return row, fetch_ck_product_image(row.get("ckUrl") or ""), ""
+        except Exception as exc:
+            return row, "", str(exc)
+
+    completed = 0
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = [executor.submit(fetch_one, row) for row in missing]
+        for future in as_completed(futures):
+            row, image, error = future.result()
+            completed += 1
+            if image:
+                row["image"] = image
+                fetched_filled += 1
+            elif error:
+                print(f"WARN: card image unavailable for {row.get('sku') or row.get('name')}: {error}")
+            if completed % 50 == 0 or completed == len(missing):
+                print(f"  card images {completed}/{len(missing)}")
+
+    still_missing = sum(1 for row in cards if not row.get("image"))
+    meta = payload.setdefault("meta", {})
+    meta["cardImagesCached"] = cached_filled
+    meta["cardImagesFetched"] = fetched_filled
+    meta["cardImagesMissing"] = still_missing
+    meta["missingImage"] = still_missing
+    return payload
+
+
 def build_payload(
     singles: dict,
     sealed: dict,
@@ -527,7 +665,7 @@ def build_payload(
         if money(row.get("price_buy")) <= 0:
             continue
         sid = row.get("scryfall_id") or ""
-        exact = exact_prints.get(sid) or {}
+        exact = exact_prints.get(sid) or exact_prints.get(f"sku:{row.get('sku') or ''}") or {}
         real_name = exact.get("name") or row.get("name") or ""
         cn, cn_source = lookup_cn(sid, real_name, mtgch_by_sid, mtgch_by_name, prev_cn_by_name)
         skin_name = exact.get("flavorName") or row.get("variation") or ""
@@ -1264,6 +1402,7 @@ def main() -> int:
         }
     )
     exact_prints = fetch_missing_scryfall(needed, exact_prints)
+    exact_prints = fetch_sku_scryfall_fallbacks(singles.get("data", []), exact_prints)
     payload = build_payload(
         singles,
         sealed,
@@ -1275,6 +1414,7 @@ def main() -> int:
         prev_skin_cn_by_name,
     )
     payload = enrich_market_reference_resilient(payload, previous)
+    payload = enrich_card_images(payload, previous)
     payload = enrich_sealed_images(payload, previous)
     write_payload_files(payload)
     write_fast_payload(payload)
