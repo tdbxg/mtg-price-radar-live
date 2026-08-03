@@ -631,11 +631,13 @@ function renderCard(row) {
     `;
     links.after(controls);
   } else {
-    badge.textContent = row.shipsInternationally ? "Intl" : "US";
+    const unavailable = row.activeBuying === false;
+    badge.textContent = unavailable ? "暂不收购" : row.shipsInternationally ? "Intl" : "US";
+    badge.classList.toggle("inactive", unavailable);
     cn.textContent = "密封产品";
     details.innerHTML = `
       <div>版本：<strong>${row.edition || "-"}</strong></div>
-      <div>收购数量：${row.qtyBuying.toLocaleString("zh-CN")} ｜ 零售库存：${row.qtyRetail.toLocaleString("zh-CN")}</div>
+      <div>状态：${unavailable ? "暂不收购" : "当前收购"} ｜ 收购数量：${row.qtyBuying.toLocaleString("zh-CN")} ｜ 零售库存：${row.qtyRetail.toLocaleString("zh-CN")}</div>
       <div>可国际运输：${row.shipsInternationally ? "是" : "否"}</div>
     `;
     links.innerHTML = `<a href="${row.ckUrl}" target="_blank" rel="noreferrer">Card Kingdom</a>`;

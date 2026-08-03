@@ -85,6 +85,7 @@ SEALED_FIELDS = [
     "sku",
     "name",
     "edition",
+    "activeBuying",
     "shipsInternationally",
     "ckUrl",
     "image",
@@ -620,9 +621,8 @@ def build_payload(
     sealed_rows = []
     sealed_base = sealed["meta"]["base_url"]
     for row in sealed.get("data", []):
-        if qty(row.get("qty_buying")) <= 0:
-            continue
-        cash_usd = money(row.get("price_buy"))
+        active_buying = qty(row.get("qty_buying")) > 0
+        cash_usd = money(row.get("price_buy")) if active_buying else 0.0
         retail_usd = money(row.get("price_retail"))
         sealed_rows.append(
             {
@@ -630,6 +630,7 @@ def build_payload(
                 "sku": row.get("sku"),
                 "name": row.get("name") or "",
                 "edition": row.get("edition") or "",
+                "activeBuying": active_buying,
                 "shipsInternationally": bool(row.get("ships_internationally")),
                 "ckUrl": full_url(sealed_base, row.get("url", "")),
                 "image": row.get("image") or "",
