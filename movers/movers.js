@@ -1,4 +1,4 @@
-const state = { data: null, period: "hour", basis: "dollar", format: "all", setCode: "" };
+const state = { data: null, period: "hour", basis: "dollar", format: "all", setCode: "", sldQuery: "" };
 
 const $ = (selector) => document.querySelector(selector);
 const labels = { hour: "1 小时", day: "24 小时", week: "7 天" };
@@ -50,6 +50,32 @@ function rowMarkup(row, index) {
   </tr>`;
 }
 
+function sldCatalogMarkup(row) {
+  const print = [row.sku, row.collectorNumber && `#${row.collectorNumber}`, row.foil ? "闪" : "平"].filter(Boolean).join(" · ");
+  const cardName = row.ckUrl ? `<a href="${escapeHtml(row.ckUrl)}" target="_blank" rel="noreferrer">${escapeHtml(row.name)}</a>` : escapeHtml(row.name);
+  const image = row.image ? `<img src="${escapeHtml(row.image)}" alt="" loading="lazy">` : `<span class="image-fallback">无图</span>`;
+  const detail = [row.flavorName, row.variation].filter(Boolean).join(" · ") || "-";
+  const change = row.hasBaseline
+    ? `<span class="delta ${row.deltaUsd > 0 ? "up" : row.deltaUsd < 0 ? "down" : ""}">${row.deltaUsd > 0 ? "+" : ""}${usd(row.deltaUsd)}<small>${pct(row.deltaPct)}</small></span>`
+    : `<span class="muted">基准积累中</span>`;
+  return `<tr><td><div class="card-cell">${image}<div><strong>${cardName}</strong>${row.cn ? `<small>${escapeHtml(row.cn)}</small>` : ""}<small>${escapeHtml(print)}</small></div></div></td><td>${escapeHtml(detail)}</td><td>${escapeHtml(row.releasedAt || "-")}</td><td>${Number(row.qtyBuying || 0)}</td><td>${usd(row.currentUsd)}</td><td>${change}</td></tr>`;
+}
+
+function renderSldCatalog() {
+  const section = $("#sldCatalog");
+  const isSld = state.setCode === "sld";
+  section.hidden = !isSld;
+  if (!isSld) return;
+  const query = state.sldQuery.trim().toLowerCase();
+  const rows = (state.data?.catalogs?.sld || []).filter((row) => {
+    const text = [row.name, row.cn, row.sku, row.collectorNumber, row.variation, row.flavorName].join(" ").toLowerCase();
+    return !query || text.includes(query);
+  });
+  const shown = rows.slice(0, 120);
+  $("#sldRows").innerHTML = shown.length ? shown.map(sldCatalogMarkup).join("") : `<tr><td class="empty" colspan="6">没有符合条件的 SLD 当前收购记录。</td></tr>`;
+  $("#sldCount").textContent = `显示 ${shown.length.toLocaleString("zh-CN")} / ${rows.length.toLocaleString("zh-CN")} 条。默认按当前 CK 回收价从高到低排序。`;
+}
+
 function renderBoard(direction, target, countTarget) {
   const rows = currentRows(direction);
   $(countTarget).textContent = `${rows.length} 张`;
@@ -77,6 +103,7 @@ function render() {
   $("#loserTitle").textContent = `${scopeName} 下跌榜 · ${suffix}`;
   renderBoard("winners", "#winners", "#winnerCount");
   renderBoard("losers", "#losers", "#loserCount");
+  renderSldCatalog();
 }
 
 async function load() {
@@ -99,5 +126,6 @@ document.querySelectorAll("[data-basis]").forEach((button) => button.addEventLis
 }));
 $("#formatSelect").addEventListener("change", (event) => { state.format = event.target.value; render(); });
 $("#setSelect").addEventListener("change", (event) => { state.setCode = event.target.value; render(); });
+$("#sldSearch").addEventListener("input", (event) => { state.sldQuery = event.target.value; renderSldCatalog(); });
 $("#refreshButton").addEventListener("click", () => load().catch((error) => { $("#statusLine").textContent = `刷新失败：${error.message}`; }));
 load().catch((error) => { $("#statusLine").textContent = `数据加载失败：${error.message}`; });

@@ -43,6 +43,7 @@ jobs:
           assert len(live.get("meta", {}).get("setCatalog", [])) > 300
           assert set(live.get("periods", {})) == {"hour", "day", "week"}
           assert all(isinstance(period.get("sets"), dict) for period in live["periods"].values())
+          assert len(live.get("catalogs", {}).get("sld", [])) > 3000
           print(live["meta"])
           PY
 

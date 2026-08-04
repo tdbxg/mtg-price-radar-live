@@ -64,7 +64,7 @@ def load_card_index() -> tuple[dict[str, dict[str, Any]], list[dict[str, str]]]:
         payload = json.load(handle)
     fields = (
         "sku", "name", "cn", "edition", "scryfallSet", "collectorNumber", "foil",
-        "image", "ckUrl", "formatBucket", "releasedAt",
+        "image", "ckUrl", "formatBucket", "releasedAt", "variation", "flavorName", "scryfallSetName",
     )
     index = {
         str(row.get("sku")): {field: row.get(field) for field in fields}
@@ -126,6 +126,9 @@ def compact_row(sku: str, current: dict[str, Any], old_price: float, meta: dict[
         "image": meta.get("image") or "",
         "ckUrl": meta.get("ckUrl") or "",
         "formatBucket": meta.get("formatBucket") or "special",
+        "variation": meta.get("variation") or "",
+        "flavorName": meta.get("flavorName") or "",
+        "releasedAt": meta.get("releasedAt") or "",
         "previousUsd": old_price,
         "currentUsd": price,
         "deltaUsd": delta,
@@ -164,6 +167,26 @@ def build_period(
         group.update(ranked)
 
     return {"available": len(rows), "sets": sets, **rank(rows, TOP_ROWS)}
+
+
+def build_sld_catalog(
+    current: dict[str, dict[str, Any]], changes: dict[str, list[list[Any]]], card_index: dict[str, dict[str, Any]], target: datetime
+) -> list[dict[str, Any]]:
+    """Expose every actively bought SLD print, not only records that moved."""
+    catalog: list[dict[str, Any]] = []
+    for sku, value in current.items():
+        meta = card_index.get(sku, {})
+        if str(meta.get("scryfallSet") or "").lower() != "sld":
+            continue
+        old_price = baseline_at(changes.get(sku, []), target)
+        row = compact_row(sku, value, old_price or money(value.get("price")), meta)
+        row["hasBaseline"] = old_price is not None
+        if not row["hasBaseline"]:
+            row["deltaUsd"] = None
+            row["deltaPct"] = None
+            row["previousUsd"] = None
+        catalog.append(row)
+    return sorted(catalog, key=lambda row: (-float(row["currentUsd"]), row["name"], row["sku"]))
 
 
 def main() -> int:
@@ -227,6 +250,9 @@ def main() -> int:
         "periods": {
             key: build_period(current, changes, card_index, run_at - timedelta(hours=hours))
             for key, hours in PERIODS.items()
+        },
+        "catalogs": {
+            "sld": build_sld_catalog(current, changes, card_index, run_at - timedelta(hours=1)),
         },
     }
     with open(LIVE_PATH, "w", encoding="utf-8") as handle:
