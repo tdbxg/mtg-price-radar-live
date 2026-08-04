@@ -15,7 +15,8 @@ function formatTime(value) {
 function currentRows(direction) {
   const period = state.data?.periods?.[state.period] || {};
   const setScope = state.setCode ? period.sets?.[state.setCode] : null;
-  const rows = (setScope?.[direction] || period[direction] || []).filter((row) => state.format === "all" || row.formatBucket === state.format);
+  const formatScope = state.format !== "all" ? period.formats?.[state.format] : null;
+  const rows = (setScope?.[direction] || formatScope?.[direction] || period[direction] || []).filter((row) => state.format === "all" || row.formatBucket === state.format);
   return rows.sort((a, b) => state.basis === "percent"
     ? Math.abs(b.deltaPct) - Math.abs(a.deltaPct)
     : Math.abs(b.deltaUsd) - Math.abs(a.deltaUsd));
@@ -89,16 +90,20 @@ function render() {
   const meta = state.data.meta || {};
   const period = state.data.periods?.[state.period] || {};
   const setScope = state.setCode ? period.sets?.[state.setCode] : null;
+  const formatScope = state.format !== "all" ? period.formats?.[state.format] : null;
   $("#statusLine").textContent = `每小时采样 · 数据源：${meta.source || "Card Kingdom"} · 追踪开始于 ${formatTime(meta.trackedSince)}`;
   $("#sampleAt").textContent = formatTime(meta.generatedAt);
   $("#activeRows").textContent = Number(meta.activeRows || 0).toLocaleString("zh-CN");
-  $("#availableRows").textContent = Number(setScope?.available ?? period.available ?? 0).toLocaleString("zh-CN");
-  const baselineMissing = !(setScope?.available ?? period.available);
+  const scopedAvailable = setScope?.available ?? formatScope?.available ?? period.available ?? 0;
+  $("#availableRows").textContent = Number(scopedAvailable).toLocaleString("zh-CN");
+  const baselineMissing = !scopedAvailable;
   $("#notice").hidden = !baselineMissing;
   const setName = selectedSet()?.name || "";
-  $("#notice").textContent = baselineMissing ? `${setName ? `${setName} 的` : ""}${labels[state.period]}可比较基准仍在积累。页面已保存首次采样，后续采样发生价格变化时会自动进入榜单。` : "";
+  const formatName = state.format !== "all" ? formatLabels[state.format] : "";
+  const scopeLabel = setName || formatName;
+  $("#notice").textContent = baselineMissing ? `${scopeLabel ? `${scopeLabel} 的` : ""}${labels[state.period]}可比较基准仍在积累。页面已保存首次采样，后续采样发生价格变化时会自动进入榜单。` : "";
   const suffix = state.basis === "percent" ? "按变动比例" : "按美元变动";
-  const scopeName = setName ? `${state.setCode.toUpperCase()} · ${setName}` : labels[state.period];
+  const scopeName = setName ? `${state.setCode.toUpperCase()} · ${setName}` : (formatName || labels[state.period]);
   $("#winnerTitle").textContent = `${scopeName} 上涨榜 · ${suffix}`;
   $("#loserTitle").textContent = `${scopeName} 下跌榜 · ${suffix}`;
   renderBoard("winners", "#winners", "#winnerCount");

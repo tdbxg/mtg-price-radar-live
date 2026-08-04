@@ -20,11 +20,21 @@ ROOT = Path(__file__).resolve().parents[1]
 SINGLES_URL = "https://api.cardkingdom.com/api/v2/pricelist"
 HISTORY_PATH = ROOT / "movers" / "live_history.json.gz"
 LIVE_PATH = ROOT / "movers" / "live.json"
+FORMAT_INDEX_PATH = ROOT / "movers" / "scryfall_format_index.json.gz"
 USER_AGENT = "mtg-price-radar-live-movers/1.0"
 PERIODS = {"hour": 1, "day": 24, "week": 24 * 7}
 HISTORY_WINDOW = timedelta(days=8)
 TOP_ROWS = 250
 SET_TOP_ROWS = 80
+FORMAT_TOP_ROWS = 120
+FORMAT_BUCKETS = ("standard", "pioneer", "modern", "legacy", "special")
+STANDARD_SETS = {"woe", "lci", "mkm", "otj", "blb", "dsk", "fdn", "dft", "tdm", "fin", "eoe", "tla"}
+MODERN_ONLY_SETS = {"mh1", "mh2", "mh3", "ltr", "ltc"}
+SPECIAL_EDITION_TERMS = (
+    "secret lair", "commander", "masters", "masterpiece", "promo", "from the vault",
+    "conspiracy", "planechase", "archenemy", "duel decks", "battlebond", "jumpstart",
+    "unfinity", "unset", "mystery booster", "box topper", "special guests",
+)
 
 
 def now_utc() -> datetime:
@@ -64,7 +74,7 @@ def load_card_index() -> tuple[dict[str, dict[str, Any]], list[dict[str, str]]]:
         payload = json.load(handle)
     fields = (
         "sku", "name", "cn", "edition", "scryfallSet", "collectorNumber", "foil",
-        "image", "ckUrl", "formatBucket", "releasedAt", "variation", "flavorName", "scryfallSetName",
+        "image", "ckUrl", "formatBucket", "releasedAt", "variation", "flavorName", "scryfallSetName", "scryfallId",
     )
     index = {
         str(row.get("sku")): {field: row.get(field) for field in fields}
@@ -93,6 +103,47 @@ def load_history() -> dict[str, Any]:
     history.setdefault("current", {})
     history.setdefault("changes", {})
     return history
+
+
+def load_format_index() -> dict[str, Any]:
+    if not FORMAT_INDEX_PATH.exists():
+        return {"updatedAt": "", "buckets": {}}
+    with gzip.open(FORMAT_INDEX_PATH, "rt", encoding="utf-8") as handle:
+        data = json.load(handle)
+    data.setdefault("buckets", {})
+    return data
+
+
+def format_bucket(legalities: dict[str, Any]) -> str:
+    if legalities.get("standard") == "legal":
+        return "standard"
+    if legalities.get("pioneer") == "legal":
+        return "pioneer"
+    if legalities.get("modern") == "legal":
+        return "modern"
+    if legalities.get("legacy") == "legal":
+        return "legacy"
+    return "special"
+
+
+def fallback_format_bucket(meta: dict[str, Any]) -> str:
+    """Classify by the printing's set environment when exact legality is absent."""
+    code = str(meta.get("scryfallSet") or "").lower()
+    edition = str(meta.get("edition") or "").lower()
+    released = str(meta.get("releasedAt") or "")
+    if code in STANDARD_SETS:
+        return "standard"
+    if code in MODERN_ONLY_SETS:
+        return "modern"
+    if code.startswith("p") or any(term in edition for term in SPECIAL_EDITION_TERMS):
+        return "special"
+    if released >= "2012-10-05":
+        return "pioneer"
+    if released >= "2003-07-28":
+        return "modern"
+    if released:
+        return "legacy"
+    return "special"
 
 
 def write_gzip_json(path: Path, payload: dict[str, Any]) -> None:
@@ -166,7 +217,12 @@ def build_period(
         ranked = rank(group.pop("rows"), SET_TOP_ROWS)
         group.update(ranked)
 
-    return {"available": len(rows), "sets": sets, **rank(rows, TOP_ROWS)}
+    formats: dict[str, dict[str, Any]] = {}
+    for bucket in FORMAT_BUCKETS:
+        group = [row for row in rows if row.get("formatBucket") == bucket]
+        formats[bucket] = {"available": len(group), **rank(group, FORMAT_TOP_ROWS)}
+
+    return {"available": len(rows), "sets": sets, "formats": formats, **rank(rows, TOP_ROWS)}
 
 
 def build_sld_catalog(
@@ -237,6 +293,12 @@ def main() -> int:
     write_gzip_json(HISTORY_PATH, history)
 
     card_index, set_catalog = load_card_index()
+    # Prefer exact legalities when a cache is available. Most rows use the
+    # printing's set environment so hourly updates never depend on a long API run.
+    format_index = load_format_index()
+    for meta in card_index.values():
+        card_id = str(meta.get("scryfallId") or "")
+        meta["formatBucket"] = format_index["buckets"].get(card_id) or fallback_format_bucket(meta)
     live = {
         "meta": {
             "generatedAt": iso(run_at),
@@ -244,6 +306,8 @@ def main() -> int:
             "source": "Card Kingdom public buylist",
             "activeRows": len(current),
             "changedSkus": len(changes),
+            "formatLegalitiesCached": len(format_index["buckets"]),
+            "formatClassification": "exact legality cache when available; otherwise printing set environment",
             "storage": "current SKU index plus changed price points",
             "setCatalog": set_catalog,
         },
