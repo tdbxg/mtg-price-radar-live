@@ -24,6 +24,7 @@ USER_AGENT = "mtg-price-radar-live-movers/1.0"
 PERIODS = {"hour": 1, "day": 24, "week": 24 * 7}
 HISTORY_WINDOW = timedelta(days=8)
 TOP_ROWS = 250
+SET_TOP_ROWS = 80
 
 
 def now_utc() -> datetime:
@@ -58,18 +59,30 @@ def quantity(value: Any) -> int:
         return 0
 
 
-def load_card_index() -> dict[str, dict[str, Any]]:
+def load_card_index() -> tuple[dict[str, dict[str, Any]], list[dict[str, str]]]:
     with gzip.open(ROOT / "data.json.gz", "rt", encoding="utf-8") as handle:
         payload = json.load(handle)
     fields = (
         "sku", "name", "cn", "edition", "scryfallSet", "collectorNumber", "foil",
         "image", "ckUrl", "formatBucket", "releasedAt",
     )
-    return {
+    index = {
         str(row.get("sku")): {field: row.get(field) for field in fields}
         for row in payload.get("cards", [])
         if row.get("sku")
     }
+    catalog: dict[str, dict[str, str]] = {}
+    for row in index.values():
+        code = str(row.get("scryfallSet") or "").lower()
+        if not code:
+            continue
+        existing = catalog.get(code, {})
+        catalog[code] = {
+            "code": code,
+            "name": str(row.get("edition") or existing.get("name") or code),
+            "releasedAt": str(row.get("releasedAt") or existing.get("releasedAt") or ""),
+        }
+    return index, sorted(catalog.values(), key=lambda item: (item["releasedAt"], item["name"]), reverse=True)
 
 
 def load_history() -> dict[str, Any]:
@@ -132,9 +145,25 @@ def build_period(
         row = compact_row(sku, value, old_price, card_index.get(sku, {}))
         if row["deltaUsd"]:
             rows.append(row)
-    winners = sorted((row for row in rows if row["deltaUsd"] > 0), key=lambda row: row["deltaUsd"], reverse=True)[:TOP_ROWS]
-    losers = sorted((row for row in rows if row["deltaUsd"] < 0), key=lambda row: row["deltaUsd"])[:TOP_ROWS]
-    return {"available": len(rows), "winners": winners, "losers": losers}
+    def rank(group: list[dict[str, Any]], limit: int) -> dict[str, list[dict[str, Any]]]:
+        return {
+            "winners": sorted((row for row in group if row["deltaUsd"] > 0), key=lambda row: row["deltaUsd"], reverse=True)[:limit],
+            "losers": sorted((row for row in group if row["deltaUsd"] < 0), key=lambda row: row["deltaUsd"])[:limit],
+        }
+
+    sets: dict[str, dict[str, Any]] = {}
+    for row in rows:
+        code = str(row.get("setCode") or "").lower()
+        if not code:
+            continue
+        group = sets.setdefault(code, {"name": row.get("edition") or code, "available": 0, "rows": []})
+        group["available"] += 1
+        group["rows"].append(row)
+    for code, group in sets.items():
+        ranked = rank(group.pop("rows"), SET_TOP_ROWS)
+        group.update(ranked)
+
+    return {"available": len(rows), "sets": sets, **rank(rows, TOP_ROWS)}
 
 
 def main() -> int:
@@ -184,7 +213,7 @@ def main() -> int:
     HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
     write_gzip_json(HISTORY_PATH, history)
 
-    card_index = load_card_index()
+    card_index, set_catalog = load_card_index()
     live = {
         "meta": {
             "generatedAt": iso(run_at),
@@ -193,6 +222,7 @@ def main() -> int:
             "activeRows": len(current),
             "changedSkus": len(changes),
             "storage": "current SKU index plus changed price points",
+            "setCatalog": set_catalog,
         },
         "periods": {
             key: build_period(current, changes, card_index, run_at - timedelta(hours=hours))

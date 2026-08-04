@@ -1,4 +1,4 @@
-const state = { data: null, period: "hour", basis: "dollar", format: "all" };
+const state = { data: null, period: "hour", basis: "dollar", format: "all", setCode: "" };
 
 const $ = (selector) => document.querySelector(selector);
 const labels = { hour: "1 小时", day: "24 小时", week: "7 天" };
@@ -14,10 +14,22 @@ function formatTime(value) {
 
 function currentRows(direction) {
   const period = state.data?.periods?.[state.period] || {};
-  const rows = (period[direction] || []).filter((row) => state.format === "all" || row.formatBucket === state.format);
+  const setScope = state.setCode ? period.sets?.[state.setCode] : null;
+  const rows = (setScope?.[direction] || period[direction] || []).filter((row) => state.format === "all" || row.formatBucket === state.format);
   return rows.sort((a, b) => state.basis === "percent"
     ? Math.abs(b.deltaPct) - Math.abs(a.deltaPct)
     : Math.abs(b.deltaUsd) - Math.abs(a.deltaUsd));
+}
+
+function selectedSet() {
+  return (state.data?.meta?.setCatalog || []).find((item) => item.code === state.setCode);
+}
+
+function populateSetSelect() {
+  const select = $("#setSelect");
+  const catalog = state.data?.meta?.setCatalog || [];
+  select.innerHTML = `<option value="">全部系列</option>${catalog.map((item) => `<option value="${escapeHtml(item.code)}">${escapeHtml(item.code.toUpperCase())} · ${escapeHtml(item.name)}${item.releasedAt ? ` · ${escapeHtml(item.releasedAt)}` : ""}</option>`).join("")}`;
+  select.value = state.setCode;
 }
 
 function rowMarkup(row, index) {
@@ -50,16 +62,19 @@ function render() {
   if (!state.data) return;
   const meta = state.data.meta || {};
   const period = state.data.periods?.[state.period] || {};
+  const setScope = state.setCode ? period.sets?.[state.setCode] : null;
   $("#statusLine").textContent = `每小时采样 · 数据源：${meta.source || "Card Kingdom"} · 追踪开始于 ${formatTime(meta.trackedSince)}`;
   $("#sampleAt").textContent = formatTime(meta.generatedAt);
   $("#activeRows").textContent = Number(meta.activeRows || 0).toLocaleString("zh-CN");
-  $("#availableRows").textContent = Number(period.available || 0).toLocaleString("zh-CN");
-  const baselineMissing = !period.available;
+  $("#availableRows").textContent = Number(setScope?.available ?? period.available ?? 0).toLocaleString("zh-CN");
+  const baselineMissing = !(setScope?.available ?? period.available);
   $("#notice").hidden = !baselineMissing;
-  $("#notice").textContent = baselineMissing ? `${labels[state.period]}的可比较基准仍在积累。页面已保存首次采样，后续采样发生价格变化时会自动进入榜单。` : "";
+  const setName = selectedSet()?.name || "";
+  $("#notice").textContent = baselineMissing ? `${setName ? `${setName} 的` : ""}${labels[state.period]}可比较基准仍在积累。页面已保存首次采样，后续采样发生价格变化时会自动进入榜单。` : "";
   const suffix = state.basis === "percent" ? "按变动比例" : "按美元变动";
-  $("#winnerTitle").textContent = `${labels[state.period]} 上涨榜 · ${suffix}`;
-  $("#loserTitle").textContent = `${labels[state.period]} 下跌榜 · ${suffix}`;
+  const scopeName = setName ? `${state.setCode.toUpperCase()} · ${setName}` : labels[state.period];
+  $("#winnerTitle").textContent = `${scopeName} 上涨榜 · ${suffix}`;
+  $("#loserTitle").textContent = `${scopeName} 下跌榜 · ${suffix}`;
   renderBoard("winners", "#winners", "#winnerCount");
   renderBoard("losers", "#losers", "#loserCount");
 }
@@ -68,6 +83,7 @@ async function load() {
   const response = await fetch(`./live.json?v=${Date.now()}`, { cache: "no-store" });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   state.data = await response.json();
+  populateSetSelect();
   render();
 }
 
@@ -82,5 +98,6 @@ document.querySelectorAll("[data-basis]").forEach((button) => button.addEventLis
   render();
 }));
 $("#formatSelect").addEventListener("change", (event) => { state.format = event.target.value; render(); });
+$("#setSelect").addEventListener("change", (event) => { state.setCode = event.target.value; render(); });
 $("#refreshButton").addEventListener("click", () => load().catch((error) => { $("#statusLine").textContent = `刷新失败：${error.message}`; }));
 load().catch((error) => { $("#statusLine").textContent = `数据加载失败：${error.message}`; });
