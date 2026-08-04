@@ -50,6 +50,14 @@
           <option value="">全部系列</option>
         </select>
       </div>
+      <div class="control-group">
+        <span>版本</span>
+        <div class="segments" id="finishButtons">
+          <button class="active" data-finish="all" type="button">全部</button>
+          <button data-finish="nonfoil" type="button">只看平卡</button>
+          <button data-finish="foil" type="button">只看闪卡</button>
+        </div>
+      </div>
       <button class="refresh" id="refreshButton" type="button">刷新显示</button>
     </section>
 
@@ -82,6 +90,6 @@
     </section>
   </main>
   <footer>价格来自 Card Kingdom 公开回收价接口。只记录收购中的单卡；首次采样建立基准后才会显示变动。</footer>
-  <script src="./movers.js?v=1"></script>
+  <script src="./movers.js?v=2"></script>
 </body>
 </html>

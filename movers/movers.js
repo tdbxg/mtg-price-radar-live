@@ -1,4 +1,4 @@
-const state = { data: null, period: "hour", basis: "dollar", format: "all", setCode: "", sldQuery: "" };
+const state = { data: null, period: "hour", basis: "dollar", format: "all", setCode: "", finish: "all", sldQuery: "" };
 
 const $ = (selector) => document.querySelector(selector);
 const labels = { hour: "1 小时", day: "24 小时", week: "7 天" };
@@ -16,7 +16,10 @@ function currentRows(direction) {
   const period = state.data?.periods?.[state.period] || {};
   const setScope = state.setCode ? period.sets?.[state.setCode] : null;
   const formatScope = state.format !== "all" ? period.formats?.[state.format] : null;
-  const rows = (setScope?.[direction] || formatScope?.[direction] || period[direction] || []).filter((row) => state.format === "all" || row.formatBucket === state.format);
+  const rows = (setScope?.[direction] || formatScope?.[direction] || period[direction] || []).filter((row) => (
+    (state.format === "all" || row.formatBucket === state.format)
+    && (state.finish === "all" || (state.finish === "foil" ? row.foil : !row.foil))
+  ));
   return rows.sort((a, b) => state.basis === "percent"
     ? Math.abs(b.deltaPct) - Math.abs(a.deltaPct)
     : Math.abs(b.deltaUsd) - Math.abs(a.deltaUsd));
@@ -70,7 +73,8 @@ function renderSldCatalog() {
   const query = state.sldQuery.trim().toLowerCase();
   const rows = (state.data?.catalogs?.sld || []).filter((row) => {
     const text = [row.name, row.cn, row.sku, row.collectorNumber, row.variation, row.flavorName].join(" ").toLowerCase();
-    return !query || text.includes(query);
+    const matchesFinish = state.finish === "all" || (state.finish === "foil" ? row.foil : !row.foil);
+    return matchesFinish && (!query || text.includes(query));
   });
   const shown = rows.slice(0, 120);
   $("#sldRows").innerHTML = shown.length ? shown.map(sldCatalogMarkup).join("") : `<tr><td class="empty" colspan="6">没有符合条件的 SLD 当前收购记录。</td></tr>`;
@@ -127,6 +131,11 @@ document.querySelectorAll("[data-period]").forEach((button) => button.addEventLi
 document.querySelectorAll("[data-basis]").forEach((button) => button.addEventListener("click", () => {
   state.basis = button.dataset.basis;
   document.querySelectorAll("[data-basis]").forEach((item) => item.classList.toggle("active", item === button));
+  render();
+}));
+document.querySelectorAll("[data-finish]").forEach((button) => button.addEventListener("click", () => {
+  state.finish = button.dataset.finish;
+  document.querySelectorAll("[data-finish]").forEach((item) => item.classList.toggle("active", item === button));
   render();
 }));
 $("#formatSelect").addEventListener("change", (event) => { state.format = event.target.value; render(); });
