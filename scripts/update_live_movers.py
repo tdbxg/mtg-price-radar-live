@@ -163,8 +163,10 @@ def baseline_at(points: list[list[Any]], target: datetime) -> float | None:
     return candidate
 
 
-def compact_row(sku: str, current: dict[str, Any], old_price: float, meta: dict[str, Any]) -> dict[str, Any]:
-    price = money(current["price"])
+def compact_row(
+    sku: str, current: dict[str, Any], old_price: float, meta: dict[str, Any], value_field: str = "price", qty_field: str = "qty"
+) -> dict[str, Any]:
+    price = money(current[value_field])
     delta = round(price - old_price, 2)
     return {
         "sku": sku,
@@ -184,19 +186,20 @@ def compact_row(sku: str, current: dict[str, Any], old_price: float, meta: dict[
         "currentUsd": price,
         "deltaUsd": delta,
         "deltaPct": round(delta / old_price * 100, 2) if old_price else 0,
-        "qtyBuying": quantity(current.get("qty")),
+        "qtyBuying": quantity(current.get(qty_field)),
     }
 
 
 def build_period(
-    current: dict[str, dict[str, Any]], changes: dict[str, list[list[Any]]], card_index: dict[str, dict[str, Any]], target: datetime
+    current: dict[str, dict[str, Any]], changes: dict[str, list[list[Any]]], card_index: dict[str, dict[str, Any]], target: datetime,
+    value_field: str = "price", qty_field: str = "qty",
 ) -> dict[str, Any]:
     rows: list[dict[str, Any]] = []
     for sku, value in current.items():
         old_price = baseline_at(changes.get(sku, []), target)
-        if old_price is None or old_price <= 0 or money(value.get("price")) <= 0:
+        if old_price is None or old_price <= 0 or money(value.get(value_field)) <= 0:
             continue
-        row = compact_row(sku, value, old_price, card_index.get(sku, {}))
+        row = compact_row(sku, value, old_price, card_index.get(sku, {}), value_field=value_field, qty_field=qty_field)
         if row["deltaUsd"]:
             rows.append(row)
     def rank(group: list[dict[str, Any]], limit: int) -> dict[str, list[dict[str, Any]]]:
@@ -225,6 +228,37 @@ def build_period(
     return {"available": len(rows), "sets": sets, "formats": formats, **rank(rows, TOP_ROWS)}
 
 
+def update_price_changes(
+    current: dict[str, dict[str, Any]], previous: dict[str, dict[str, Any]], changes: dict[str, list[list[Any]]],
+    field: str, prior_at: str, run_at: datetime,
+) -> None:
+    for sku, value in current.items():
+        before = previous.get(sku)
+        if not before:
+            continue
+        old_price = money(before.get(field))
+        new_price = money(value.get(field))
+        if old_price <= 0 or new_price <= 0 or old_price == new_price:
+            continue
+        points = changes.setdefault(sku, [])
+        if not points and prior_at:
+            points.append([prior_at, old_price])
+        if not points or points[-1][0] != iso(run_at):
+            points.append([iso(run_at), new_price])
+
+
+def prune_changes(changes: dict[str, list[list[Any]]], cutoff: datetime) -> None:
+    for sku, points in list(changes.items()):
+        kept = [point for point in points if parse_iso(point[0]) >= cutoff]
+        older = [point for point in points if parse_iso(point[0]) < cutoff]
+        if older:
+            kept.insert(0, older[-1])
+        if kept:
+            changes[sku] = kept
+        else:
+            changes.pop(sku, None)
+
+
 def build_sld_catalog(
     current: dict[str, dict[str, Any]], changes: dict[str, list[list[Any]]], card_index: dict[str, dict[str, Any]], target: datetime
 ) -> list[dict[str, Any]]:
@@ -248,39 +282,33 @@ def build_sld_catalog(
 def main() -> int:
     run_at = now_utc()
     raw = fetch_json(SINGLES_URL)
-    current = {
-        str(row.get("sku")): {"price": money(row.get("price_buy")), "qty": quantity(row.get("qty_buying")), "name": row.get("name") or ""}
-        for row in raw.get("data", [])
-        if row.get("sku") and money(row.get("price_buy")) > 0 and quantity(row.get("qty_buying")) > 0
-    }
+    current: dict[str, dict[str, Any]] = {}
+    cash_active_rows = 0
+    retail_active_rows = 0
+    for row in raw.get("data", []):
+        sku = str(row.get("sku") or "")
+        cash = money(row.get("price_buy"))
+        retail = money(row.get("price_retail"))
+        qty_buying = quantity(row.get("qty_buying"))
+        qty_retail = quantity(row.get("qty_retail"))
+        cash_active = cash > 0 and qty_buying > 0
+        retail_active = retail > 0 and qty_retail > 0
+        if not sku or not (cash_active or retail_active):
+            continue
+        current[sku] = {"price": cash if cash_active else 0, "qty": qty_buying, "retail": retail if retail_active else 0, "qtyRetail": qty_retail, "name": row.get("name") or ""}
+        cash_active_rows += int(cash_active)
+        retail_active_rows += int(retail_active)
     history = load_history()
     prior_at = history.get("currentAt") or ""
     previous = history.get("current", {})
     changes: dict[str, list[list[Any]]] = history.get("changes", {})
-    for sku, value in current.items():
-        before = previous.get(sku)
-        if not before:
-            continue
-        old_price = money(before.get("price"))
-        new_price = money(value.get("price"))
-        if old_price == new_price:
-            continue
-        points = changes.setdefault(sku, [])
-        if not points and prior_at:
-            points.append([prior_at, old_price])
-        if not points or points[-1][0] != iso(run_at):
-            points.append([iso(run_at), new_price])
+    retail_changes: dict[str, list[list[Any]]] = history.setdefault("retailChanges", {})
+    update_price_changes(current, previous, changes, "price", prior_at, run_at)
+    update_price_changes(current, previous, retail_changes, "retail", prior_at, run_at)
 
     cutoff = run_at - HISTORY_WINDOW
-    for sku, points in list(changes.items()):
-        kept = [point for point in points if parse_iso(point[0]) >= cutoff]
-        older = [point for point in points if parse_iso(point[0]) < cutoff]
-        if older:
-            kept.insert(0, older[-1])
-        if kept:
-            changes[sku] = kept
-        else:
-            changes.pop(sku, None)
+    prune_changes(changes, cutoff)
+    prune_changes(retail_changes, cutoff)
 
     history.update({
         "version": 1,
@@ -304,15 +332,20 @@ def main() -> int:
             "generatedAt": iso(run_at),
             "trackedSince": history["startedAt"],
             "source": "Card Kingdom public buylist",
-            "activeRows": len(current),
+            "activeRows": cash_active_rows,
+            "retailActiveRows": retail_active_rows,
             "changedSkus": len(changes),
+            "retailChangedSkus": len(retail_changes),
             "formatLegalitiesCached": len(format_index["buckets"]),
             "formatClassification": "exact legality cache when available; otherwise printing set environment",
             "storage": "current SKU index plus changed price points",
             "setCatalog": set_catalog,
         },
         "periods": {
-            key: build_period(current, changes, card_index, run_at - timedelta(hours=hours))
+            key: {
+                **build_period(current, changes, card_index, run_at - timedelta(hours=hours)),
+                "retail": build_period(current, retail_changes, card_index, run_at - timedelta(hours=hours), value_field="retail", qty_field="qtyRetail"),
+            }
             for key, hours in PERIODS.items()
         },
         "catalogs": {
@@ -321,7 +354,7 @@ def main() -> int:
     }
     with open(LIVE_PATH, "w", encoding="utf-8") as handle:
         json.dump(live, handle, ensure_ascii=False, separators=(",", ":"))
-    print(json.dumps({"generatedAt": live["meta"]["generatedAt"], "activeRows": len(current), "changedSkus": len(changes)}, ensure_ascii=False))
+    print(json.dumps({"generatedAt": live["meta"]["generatedAt"], "cashActiveRows": cash_active_rows, "retailActiveRows": retail_active_rows, "changedSkus": len(changes), "retailChangedSkus": len(retail_changes)}, ensure_ascii=False))
     return 0
 
 

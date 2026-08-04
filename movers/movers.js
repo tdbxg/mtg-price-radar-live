@@ -12,11 +12,17 @@ function formatTime(value) {
   return new Date(value).toLocaleString("zh-CN", { hour12: false });
 }
 
-function currentRows(direction) {
+function scopedPeriod(source) {
   const period = state.data?.periods?.[state.period] || {};
-  const setScope = state.setCode ? period.sets?.[state.setCode] : null;
-  const formatScope = state.format !== "all" ? period.formats?.[state.format] : null;
-  const rows = (setScope?.[direction] || formatScope?.[direction] || period[direction] || []).filter((row) => (
+  const sourcePeriod = source === "retail" ? period.retail || {} : period;
+  const setScope = state.setCode ? sourcePeriod.sets?.[state.setCode] : null;
+  const formatScope = state.format !== "all" ? sourcePeriod.formats?.[state.format] : null;
+  return setScope || formatScope || sourcePeriod;
+}
+
+function currentRows(source, direction) {
+  const scope = scopedPeriod(source);
+  const rows = (scope[direction] || []).filter((row) => (
     (state.format === "all" || row.formatBucket === state.format)
     && (state.finish === "all" || (state.finish === "foil" ? row.foil : !row.foil))
   ));
@@ -36,7 +42,7 @@ function populateSetSelect() {
   select.value = state.setCode;
 }
 
-function rowMarkup(row, index) {
+function rowMarkup(row, index, favorable = false) {
   const print = [row.setCode && row.setCode.toUpperCase(), row.collectorNumber && `#${row.collectorNumber}`, row.foil ? "闪" : "平"]
     .filter(Boolean).join(" ");
   const cardName = row.ckUrl
@@ -50,7 +56,7 @@ function rowMarkup(row, index) {
     <td class="rank">${index + 1}</td>
     <td><div class="card-cell">${image}<div><strong>${cardName}</strong>${row.cn ? `<small>${escapeHtml(row.cn)}</small>` : ""}<small>${escapeHtml(print)} ${row.edition ? `· ${escapeHtml(row.edition)}` : ""}</small></div></div></td>
     <td>${usd(row.previousUsd)}</td><td>${usd(row.currentUsd)}</td>
-    <td class="delta ${row.deltaUsd > 0 ? "up" : "down"}">${delta}<small>${state.basis === "percent" ? `${row.deltaUsd > 0 ? "+" : ""}${usd(row.deltaUsd)}` : pct(row.deltaPct)}</small></td>
+    <td class="delta ${favorable ? "up" : row.deltaUsd > 0 ? "up" : "down"}">${delta}<small>${state.basis === "percent" ? `${row.deltaUsd > 0 ? "+" : ""}${usd(row.deltaUsd)}` : pct(row.deltaPct)}</small></td>
   </tr>`;
 }
 
@@ -81,37 +87,36 @@ function renderSldCatalog() {
   $("#sldCount").textContent = `显示 ${shown.length.toLocaleString("zh-CN")} / ${rows.length.toLocaleString("zh-CN")} 条。默认按当前 CK 回收价从高到低排序。`;
 }
 
-function renderBoard(direction, target, countTarget) {
-  const rows = currentRows(direction);
+function renderBoard(source, direction, target, countTarget, emptyMessage) {
+  const rows = currentRows(source, direction);
   $(countTarget).textContent = `${rows.length} 张`;
   $(target).innerHTML = rows.length
-    ? rows.map(rowMarkup).join("")
-    : `<tr><td class="empty" colspan="5">暂无可比较的${direction === "winners" ? "上涨" : "下跌"}记录。首次采样后，价格发生变化才会进入榜单。</td></tr>`;
+    ? rows.map((row, index) => rowMarkup(row, index, true)).join("")
+    : `<tr><td class="empty" colspan="5">${emptyMessage}</td></tr>`;
 }
 
 function render() {
   if (!state.data) return;
   const meta = state.data.meta || {};
-  const period = state.data.periods?.[state.period] || {};
-  const setScope = state.setCode ? period.sets?.[state.setCode] : null;
-  const formatScope = state.format !== "all" ? period.formats?.[state.format] : null;
+  const cashScope = scopedPeriod("cash");
+  const retailScope = scopedPeriod("retail");
   $("#statusLine").textContent = `每小时采样 · 数据源：${meta.source || "Card Kingdom"} · 追踪开始于 ${formatTime(meta.trackedSince)}`;
   $("#sampleAt").textContent = formatTime(meta.generatedAt);
   $("#activeRows").textContent = Number(meta.activeRows || 0).toLocaleString("zh-CN");
-  const scopedAvailable = setScope?.available ?? formatScope?.available ?? period.available ?? 0;
-  $("#availableRows").textContent = Number(scopedAvailable).toLocaleString("zh-CN");
-  const baselineMissing = !scopedAvailable;
+  $("#cashUps").textContent = currentRows("cash", "winners").length.toLocaleString("zh-CN");
+  $("#retailDrops").textContent = currentRows("retail", "losers").length.toLocaleString("zh-CN");
+  const baselineMissing = !cashScope.available && !retailScope.available;
   $("#notice").hidden = !baselineMissing;
   const setName = selectedSet()?.name || "";
   const formatName = state.format !== "all" ? formatLabels[state.format] : "";
   const scopeLabel = setName || formatName;
-  $("#notice").textContent = baselineMissing ? `${scopeLabel ? `${scopeLabel} 的` : ""}${labels[state.period]}可比较基准仍在积累。页面已保存首次采样，后续采样发生价格变化时会自动进入榜单。` : "";
+  $("#notice").textContent = baselineMissing ? `${scopeLabel ? `${scopeLabel} 的` : ""}${labels[state.period]}可比较基准仍在积累。回收价和 CK 售价会分别在后续采样出现实际变化时进入榜单。` : "";
   const suffix = state.basis === "percent" ? "按变动比例" : "按美元变动";
   const scopeName = setName ? `${state.setCode.toUpperCase()} · ${setName}` : (formatName || labels[state.period]);
-  $("#winnerTitle").textContent = `${scopeName} 上涨榜 · ${suffix}`;
-  $("#loserTitle").textContent = `${scopeName} 下跌榜 · ${suffix}`;
-  renderBoard("winners", "#winners", "#winnerCount");
-  renderBoard("losers", "#losers", "#loserCount");
+  $("#winnerTitle").textContent = `${scopeName} · CK 回收价上涨 · ${suffix}`;
+  $("#loserTitle").textContent = `${scopeName} · CK 正常售价下跌 · ${suffix}`;
+  renderBoard("cash", "winners", "#winners", "#winnerCount", "暂无符合条件的 CK 回收价上涨记录。");
+  renderBoard("retail", "losers", "#losers", "#loserCount", "CK 售价降价基准已建立，后续采样出现实际降价时会进入榜单。");
   renderSldCatalog();
 }
 

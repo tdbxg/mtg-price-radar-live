@@ -64,19 +64,20 @@
     <section class="stats" aria-label="数据状态">
       <div><strong id="sampleAt">-</strong><span>最新采样</span></div>
       <div><strong id="activeRows">-</strong><span>当前收购单卡</span></div>
-      <div><strong id="availableRows">-</strong><span>可比较变动</span></div>
+      <div><strong id="cashUps">-</strong><span>回收价上涨候选</span></div>
+      <div><strong id="retailDrops">-</strong><span>CK 售价下跌候选</span></div>
     </section>
 
     <p class="notice" id="notice" hidden></p>
 
     <section class="boards">
       <article class="board">
-        <header><h2 id="winnerTitle">上涨榜</h2><span id="winnerCount">0 张</span></header>
+        <header><h2 id="winnerTitle">CK 回收价上涨</h2><span id="winnerCount">0 张</span></header>
         <div class="table-wrap"><table><thead><tr><th>#</th><th>牌名 / 精确版本</th><th>原回收价</th><th>现回收价</th><th>变动</th></tr></thead><tbody id="winners"></tbody></table></div>
       </article>
       <article class="board">
-        <header><h2 id="loserTitle">下跌榜</h2><span id="loserCount">0 张</span></header>
-        <div class="table-wrap"><table><thead><tr><th>#</th><th>牌名 / 精确版本</th><th>原回收价</th><th>现回收价</th><th>变动</th></tr></thead><tbody id="losers"></tbody></table></div>
+        <header><h2 id="loserTitle">CK 正常售价下跌</h2><span id="loserCount">0 张</span></header>
+        <div class="table-wrap"><table><thead><tr><th>#</th><th>牌名 / 精确版本</th><th>原 CK 售价</th><th>现 CK 售价</th><th>变动</th></tr></thead><tbody id="losers"></tbody></table></div>
       </article>
     </section>
 
@@ -89,7 +90,7 @@
       <footer id="sldCount"></footer>
     </section>
   </main>
-  <footer>价格来自 Card Kingdom 公开回收价接口。只记录收购中的单卡；首次采样建立基准后才会显示变动。</footer>
-  <script src="./movers.js?v=2"></script>
+  <footer>左侧只显示 CK 回收价上涨，右侧只显示 CK 正常售价下跌。价格来自 Card Kingdom 公开接口，首次采样建立基准后才会显示变动。</footer>
+  <script src="./movers.js?v=3"></script>
 </body>
 </html>
