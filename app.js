@@ -165,6 +165,7 @@ function bestCardmarketPrice(row) {
   if (market.eur !== null && market.eur !== undefined) return market.eur;
   if (market.eurFoil !== null && market.eurFoil !== undefined) return market.eurFoil;
   if (market.eurEtched !== null && market.eurEtched !== undefined) return market.eurEtched;
+  if (row.marketEur !== null && row.marketEur !== undefined) return row.marketEur;
   return null;
 }
 
@@ -602,8 +603,9 @@ function renderCard(row) {
         const qtyText = quantity === undefined || quantity === null ? "-" : `${Number(quantity).toLocaleString("zh-CN")} 张`;
         return `<tr><th>${label}<small>${reference}</small></th><td>${priceText}</td><td>${qtyText}</td></tr>`;
       }).join("");
-    const cardmarketLink = row.cardmarket?.cardmarketUrl
-      ? `<a href="${row.cardmarket.cardmarketUrl}" target="_blank" rel="noreferrer">Cardmarket/价格走势</a>`
+    const cardmarketUrl = row.cardmarket?.cardmarketUrl || row.cardmarketUrl || "";
+    const cardmarketLink = cardmarketUrl
+      ? `<a href="${cardmarketUrl}" target="_blank" rel="noreferrer">Cardmarket页面</a>`
       : "";
     details.innerHTML = `
       <div>CK版本：<strong>${row.edition || "-"}</strong></div>
@@ -618,7 +620,7 @@ function renderCard(row) {
       <div>状态：${row.activeBuying === false ? "暂不收购" : "当前收购"} ｜ 收购数量：${row.qtyBuying.toLocaleString("zh-CN")} ｜ 零售库存：${row.qtyRetail.toLocaleString("zh-CN")}</div>
       ${row.reserved ? `<div>保留牌表：<strong class="reserved-mark">RL</strong> ｜ 品相以 CK 实物判定为准</div>` : ""}
       <div class="condition-block"><strong>CK 品相零售价 / 库存</strong><table class="condition-table"><tbody>${conditionRows}</tbody></table><div class="condition-help">仅作国内常用分级参考：CK 的 EX/VG/G 以实际磨损判定；Damage 通常属于 BG（Below Good），没有独立报价。<a href="https://www.cardkingdom.com/purchasing/how_to_sell" target="_blank" rel="noreferrer">CK 官方品相示例图</a></div></div>
-      <div>CK正常售价：<strong>${ckRetailUsd ? moneyUsd(ckRetailUsd) : "-"}</strong>${ckRetailCny ? ` / ${moneyCny(ckRetailCny)}` : ""} ｜ 欧洲参考：<strong>${moneyEur(euPrice)}</strong>${euCny === null ? "" : ` / ${moneyCny(euCny)}`}</div>
+      <div>CK正常售价：<strong>${ckRetailUsd ? moneyUsd(ckRetailUsd) : "-"}</strong>${ckRetailCny ? ` / ${moneyCny(ckRetailCny)}` : ""} ｜ 欧洲参考（Scryfall EUR）：<strong>${moneyEur(euPrice)}</strong>${euCny === null ? "" : ` / ${moneyCny(euCny)}`}</div>
       <div>现金/售价：<strong>${pct(cashRetailRatio)}</strong> ｜ 积分/售价：<strong>${pct(creditRetailRatio)}</strong> ｜ CK现金-欧洲：<strong class="${spreadClass}">${spreadText}</strong></div>
     `;
     links.innerHTML = `
@@ -651,7 +653,7 @@ function renderCard(row) {
     <div class="price"><span>店铺积分估算</span><strong>${moneyUsd(row.creditUsd)}</strong><span>${moneyCny(row.creditCny)}</span></div>
     <div class="price retail"><span>CK正常售价</span><strong>${ckRetailUsd ? moneyUsd(ckRetailUsd) : "-"}</strong><span>${ckRetailCny ? moneyCny(ckRetailCny) : "见CK链接"}</span></div>
     <div class="price ratio"><span>回收/售价</span><strong>现金 ${pct(cashRetailRatio)}</strong><span>积分 ${pct(creditRetailRatio)}</span></div>
-    <div class="price market"><span>欧洲参考</span><strong>${moneyEur(bestCardmarketPrice(row))}</strong><span>${eurToCny(bestCardmarketPrice(row)) === null ? "未加载" : moneyCny(eurToCny(bestCardmarketPrice(row)))}</span></div>
+    <div class="price market"><span>欧洲参考（Scryfall EUR）</span><strong>${moneyEur(bestCardmarketPrice(row))}</strong><span>${eurToCny(bestCardmarketPrice(row)) === null ? "暂无参考价" : moneyCny(eurToCny(bestCardmarketPrice(row)))}</span></div>
     <div class="price market"><span>CK现金-欧洲</span><strong class="${spreadClass}">${spreadText}</strong><span>${row.cardmarket ? "参考价" : "无数据"}</span></div>
   `;
   return node;
@@ -696,7 +698,7 @@ const MOVER_SOURCE_LABELS = {
   ck: "CK回收价",
   ckretail: "CK正常售价",
   tcgplayer: "TCGplayer参考价",
-  cardmarket: "Cardmarket参考价",
+  cardmarket: "Scryfall EUR参考",
 };
 
 function moversRows() {
@@ -1215,7 +1217,7 @@ function updateMetaLine() {
   const meta = state.data.meta;
   const generatedCn = Number(meta.generatedCnFilled || 0);
   const generatedLine = generatedCn ? ` ｜ 补充中文 ${generatedCn.toLocaleString("zh-CN")} 张` : "";
-  const euLine = state.cardmarketLoaded ? ` ｜ 欧洲参考 ${Number(meta.cardmarketMatchedRows || 0).toLocaleString("zh-CN")} 条` : " ｜ 欧洲参考按需加载";
+  const euLine = ` ｜ Scryfall EUR参考 ${Number(meta.scryfallMarketMatchedEur || 0).toLocaleString("zh-CN")} 条`;
   const modeLine = meta.mode === "fast"
     ? ` ｜ 快速版 ${Number(meta.cards || 0).toLocaleString("zh-CN")} / 全量 ${Number(meta.fullCards || meta.cards || 0).toLocaleString("zh-CN")} 张`
     : " ｜ 全量版";
