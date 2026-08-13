@@ -8,11 +8,14 @@ every run while still allowing 1-hour, 24-hour, and 7-day comparisons.
 
 from __future__ import annotations
 
+import argparse
 import gzip
+import http.client
 import json
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
+import urllib.error
 import urllib.request
 
 
@@ -53,6 +56,26 @@ def fetch_json(url: str) -> dict[str, Any]:
     request = urllib.request.Request(url, headers={"Accept": "application/json", "User-Agent": USER_AGENT})
     with urllib.request.urlopen(request, timeout=120) as response:
         return json.loads(response.read().decode("utf-8"))
+
+
+def load_snapshot_pricelist() -> dict[str, list[dict[str, Any]]]:
+    """Rebuild the API-shaped rows from the freshly generated site snapshot."""
+    with gzip.open(ROOT / "data.json.gz", "rt", encoding="utf-8") as handle:
+        payload = json.load(handle)
+    return {
+        "data": [
+            {
+                "sku": row.get("sku"),
+                "name": row.get("ckName") or row.get("name") or "",
+                "price_buy": row.get("cashUsd"),
+                "price_retail": row.get("retailUsd"),
+                "qty_buying": row.get("qtyBuying"),
+                "qty_retail": row.get("qtyRetail"),
+            }
+            for row in payload.get("cards", [])
+            if row.get("sku")
+        ]
+    }
 
 
 def money(value: Any) -> float:
@@ -280,8 +303,21 @@ def build_sld_catalog(
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--snapshot", action="store_true", help="use the latest generated data.json.gz")
+    args = parser.parse_args()
     run_at = now_utc()
-    raw = fetch_json(SINGLES_URL)
+    source = "Latest generated Card Kingdom buylist snapshot"
+    if args.snapshot:
+        raw = load_snapshot_pricelist()
+    else:
+        source = "Card Kingdom public buylist"
+        try:
+            raw = fetch_json(SINGLES_URL)
+        except (urllib.error.URLError, TimeoutError, http.client.HTTPException, json.JSONDecodeError) as error:
+            raw = load_snapshot_pricelist()
+            source = "Latest generated Card Kingdom buylist snapshot"
+            print(f"Direct price feed unavailable ({type(error).__name__}); using data.json.gz", flush=True)
     current: dict[str, dict[str, Any]] = {}
     cash_active_rows = 0
     retail_active_rows = 0
@@ -331,7 +367,7 @@ def main() -> int:
         "meta": {
             "generatedAt": iso(run_at),
             "trackedSince": history["startedAt"],
-            "source": "Card Kingdom public buylist",
+            "source": source,
             "activeRows": cash_active_rows,
             "retailActiveRows": retail_active_rows,
             "changedSkus": len(changes),
