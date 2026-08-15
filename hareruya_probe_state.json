@@ -12701,6 +12701,318 @@
       "cashUsd": 24.0,
       "checkedAt": "2026-08-15T02:29:44+00:00",
       "matches": 9
+    },
+    "dauthislayer": {
+      "name": "Dauthi Slayer",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 3
+    },
+    "deathwish": {
+      "name": "Death Wish",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 2
+    },
+    "dictateoferebos": {
+      "name": "Dictate of Erebos",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 9
+    },
+    "electroduplicate": {
+      "name": "Electroduplicate",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 12
+    },
+    "envelop": {
+      "name": "Envelop",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 6
+    },
+    "facesofthepast": {
+      "name": "Faces of the Past",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 4
+    },
+    "felidarguardian": {
+      "name": "Felidar Guardian",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 7
+    },
+    "flareofduplication": {
+      "name": "Flare of Duplication",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 14
+    },
+    "garnetprincessofalexandria": {
+      "name": "Garnet, Princess of Alexandria",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 4
+    },
+    "geierreachsanitarium": {
+      "name": "Geier Reach Sanitarium",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 18
+    },
+    "hobgoblinbanditlord": {
+      "name": "Hobgoblin Bandit Lord",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 11
+    },
+    "heliodsuncrowned": {
+      "name": "Heliod, Sun-Crowned",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 25
+    },
+    "hopeestheim": {
+      "name": "Hope Estheim",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 7
+    },
+    "infernalgenesis": {
+      "name": "Infernal Genesis",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 3
+    },
+    "ishkanahgrafwidow": {
+      "name": "Ishkanah, Grafwidow",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 4
+    },
+    "islandfishjasconius": {
+      "name": "Island Fish Jasconius",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 4
+    },
+    "jenovaancientcalamity": {
+      "name": "Jenova, Ancient Calamity",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 8
+    },
+    "jetmedallion": {
+      "name": "Jet Medallion",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 21
+    },
+    "kalonianhydra": {
+      "name": "Kalonian Hydra",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 12
+    },
+    "kreshthebloodbraided": {
+      "name": "Kresh the Bloodbraided",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 4
+    },
+    "lusuwuadvisor": {
+      "name": "Lu Su, Wu Advisor",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 2
+    },
+    "meddlingkids": {
+      "name": "Meddling Kids",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 1
+    },
+    "mortuarymire": {
+      "name": "Mortuary Mire",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 5
+    },
+    "naturalaffinity": {
+      "name": "Natural Affinity",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 9
+    },
+    "norwoodpriestess": {
+      "name": "Norwood Priestess",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 4
+    },
+    "nestinggrounds": {
+      "name": "Nesting Grounds",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 9
+    },
+    "orcishoriflamme": {
+      "name": "Orcish Oriflamme",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 9
+    },
+    "psychicvenom": {
+      "name": "Psychic Venom",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 7
+    },
+    "quicksilveramulet": {
+      "name": "Quicksilver Amulet",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 12
+    },
+    "recklessfireweaver": {
+      "name": "Reckless Fireweaver",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 3
+    },
+    "samutvoiceofdissent": {
+      "name": "Samut, Voice of Dissent",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 7
+    },
+    "savraqueenofthegolgari": {
+      "name": "Savra, Queen of the Golgari",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 15
+    },
+    "sealofcleansing": {
+      "name": "Seal of Cleansing",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 8
+    },
+    "squirrelmob": {
+      "name": "Squirrel Mob",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 10
+    },
+    "slivdrazimonstrosity": {
+      "name": "Slivdrazi Monstrosity",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 2
+    },
+    "swiftfootboots": {
+      "name": "Swiftfoot Boots",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 60
+    },
+    "taintedisle": {
+      "name": "Tainted Isle",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 9
+    },
+    "talismanofcreativity": {
+      "name": "Talisman of Creativity",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 43
+    },
+    "talismanofprogress": {
+      "name": "Talisman of Progress",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 41
+    },
+    "tenaciouspup": {
+      "name": "Tenacious Pup",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 1
+    },
+    "tetheredgriffin": {
+      "name": "Tethered Griffin",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 2
+    },
+    "thetarrasque": {
+      "name": "The Tarrasque",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 16
+    },
+    "uktabiorangutan": {
+      "name": "Uktabi Orangutan",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 1
+    },
+    "tyvarthepummeler": {
+      "name": "Tyvar, the Pummeler",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 15
+    },
+    "denofthebugbear": {
+      "name": "Den of the Bugbear",
+      "cashUsd": 23.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 15
+    },
+    "abujafar": {
+      "name": "Abu Ja'far",
+      "cashUsd": 23.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 1
+    },
+    "mysticaltutor": {
+      "name": "Mystical Tutor",
+      "cashUsd": 23.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 28
+    },
+    "psychiccorrosion": {
+      "name": "Psychic Corrosion",
+      "cashUsd": 23.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 7
+    },
+    "riverboa": {
+      "name": "River Boa",
+      "cashUsd": 23.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 2
+    },
+    "spirit": {
+      "name": "Spirit",
+      "cashUsd": 23.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 60
+    },
+    "thecelestialtoymaker": {
+      "name": "The Celestial Toymaker",
+      "cashUsd": 23.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 2
+    },
+    "taoistmystic": {
+      "name": "Taoist Mystic",
+      "cashUsd": 23.0,
+      "checkedAt": "2026-08-15T13:48:41+00:00",
+      "matches": 2
     }
   },
   "unmatched": {
