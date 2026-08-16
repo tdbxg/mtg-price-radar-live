@@ -13013,6 +13013,318 @@
       "cashUsd": 23.0,
       "checkedAt": "2026-08-15T13:48:41+00:00",
       "matches": 2
+    },
+    "naturalize": {
+      "name": "Naturalize",
+      "cashUsd": 37.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 9
+    },
+    "approachofthesecondsun": {
+      "name": "Approach of the Second Sun",
+      "cashUsd": 25.0,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 22
+    },
+    "raugrintriome": {
+      "name": "Raugrin Triome",
+      "cashUsd": 25.0,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 14
+    },
+    "sheoldredsedict": {
+      "name": "Sheoldred's Edict",
+      "cashUsd": 25.0,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 14
+    },
+    "bloodchiefascension": {
+      "name": "Bloodchief Ascension",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 19
+    },
+    "distortinglens": {
+      "name": "Distorting Lens",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 4
+    },
+    "fortheorlingas": {
+      "name": "Forth Eorlingas!",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 6
+    },
+    "riteofthedragoncaller": {
+      "name": "Rite of the Dragoncaller",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 18
+    },
+    "sunder": {
+      "name": "Sunder",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 60
+    },
+    "prestonthevanisher": {
+      "name": "Preston, the Vanisher",
+      "cashUsd": 23.0,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 2
+    },
+    "woodedbastion": {
+      "name": "Wooded Bastion",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 10
+    },
+    "rakdossignet": {
+      "name": "Rakdos Signet",
+      "cashUsd": 23.0,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 41
+    },
+    "sonicscrewdriver": {
+      "name": "Sonic Screwdriver",
+      "cashUsd": 23.0,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 20
+    },
+    "tetravus": {
+      "name": "Tetravus",
+      "cashUsd": 23.0,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 3
+    },
+    "vologuidetomonsters": {
+      "name": "Volo, Guide to Monsters",
+      "cashUsd": 23.0,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 3
+    },
+    "tithe": {
+      "name": "Tithe",
+      "cashUsd": 23.0,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 60
+    },
+    "wastenot": {
+      "name": "Waste Not",
+      "cashUsd": 23.0,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 13
+    },
+    "whispersilkcloak": {
+      "name": "Whispersilk Cloak",
+      "cashUsd": 23.0,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 35
+    },
+    "altarofdementia": {
+      "name": "Altar of Dementia",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 19
+    },
+    "bearumbra": {
+      "name": "Bear Umbra",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 12
+    },
+    "choke": {
+      "name": "Choke",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 16
+    },
+    "farseek": {
+      "name": "Farseek",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 50
+    },
+    "floweringofthewhitetree": {
+      "name": "Flowering of the White Tree",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 17
+    },
+    "hillgiant": {
+      "name": "Hill Giant",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 8
+    },
+    "hedgemaze": {
+      "name": "Hedge Maze",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 14
+    },
+    "ivorymask": {
+      "name": "Ivory Mask",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 7
+    },
+    "jodahtheunifier": {
+      "name": "Jodah, the Unifier",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 16
+    },
+    "kagemarofirsttosuffer": {
+      "name": "Kagemaro, First to Suffer",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 4
+    },
+    "mortalcombat": {
+      "name": "Mortal Combat",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 8
+    },
+    "onceuponatime": {
+      "name": "Once Upon a Time",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 16
+    },
+    "prismaticomen": {
+      "name": "Prismatic Omen",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 8
+    },
+    "rydiasummonerofmist": {
+      "name": "Rydia, Summoner of Mist",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 3
+    },
+    "spectacularpileup": {
+      "name": "Spectacular Pileup",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 5
+    },
+    "stubborndenial": {
+      "name": "Stubborn Denial",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 4
+    },
+    "terramorphicexpanse": {
+      "name": "Terramorphic Expanse",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 10
+    },
+    "archfiendofdespair": {
+      "name": "Archfiend of Despair",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 10
+    },
+    "astralslide": {
+      "name": "Astral Slide",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 3
+    },
+    "atalyasamitemaster": {
+      "name": "Atalya, Samite Master",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 2
+    },
+    "avengerofzendikar": {
+      "name": "Avenger of Zendikar",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 23
+    },
+    "azamiladyofscrolls": {
+      "name": "Azami, Lady of Scrolls",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 8
+    },
+    "basandrabattleseraph": {
+      "name": "Basandra, Battle Seraph",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 8
+    },
+    "baskingrootwalla": {
+      "name": "Basking Rootwalla",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 3
+    },
+    "beseechthequeen": {
+      "name": "Beseech the Queen",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 9
+    },
+    "borealdruid": {
+      "name": "Boreal Druid",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 5
+    },
+    "cavalierofdawn": {
+      "name": "Cavalier of Dawn",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 16
+    },
+    "clockofomens": {
+      "name": "Clock of Omens",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 9
+    },
+    "copperleafangel": {
+      "name": "Copper-Leaf Angel",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 2
+    },
+    "copyenchantment": {
+      "name": "Copy Enchantment",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 12
+    },
+    "culturalexchange": {
+      "name": "Cultural Exchange",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 6
+    },
+    "dannypink": {
+      "name": "Danny Pink",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 12
+    },
+    "divinevisitation": {
+      "name": "Divine Visitation",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 22
+    },
+    "dominate": {
+      "name": "Dominate",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-16T02:37:55+00:00",
+      "matches": 2
     }
   },
   "unmatched": {
