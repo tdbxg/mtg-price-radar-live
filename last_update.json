@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-18T02:30:50+00:00",
-  "cardKingdomCreatedAt": "2026-08-17 19:09:26",
-  "sealedCreatedAt": "2026-08-17 19:09:32",
+  "generatedAt": "2026-08-18T10:14:01+00:00",
+  "cardKingdomCreatedAt": "2026-08-18 03:03:39",
+  "sealedCreatedAt": "2026-08-18 03:03:45",
   "usdCny": 6.753148,
   "fxUpdatedAt": "Tue, 18 Aug 2026 00:02:31 +0000",
   "cards": 150032,
@@ -16,7 +16,7 @@
   "cardImagesCached": 205,
   "cardImagesFetched": 0,
   "cardImagesMissing": 0,
-  "sealedImagesCached": 2103,
-  "sealedImagesFetched": 4,
+  "sealedImagesCached": 2107,
+  "sealedImagesFetched": 0,
   "sealedImagesMissing": 0
 }
