@@ -14717,6 +14717,252 @@
       "cashUsd": 20.0,
       "checkedAt": "2026-08-18T10:15:15+00:00",
       "matches": 3
+    },
+    "phantasmalimage": {
+      "name": "Phantasmal Image",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 16
+    },
+    "platinumemperion": {
+      "name": "Platinum Emperion",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 9
+    },
+    "polyraptor": {
+      "name": "Polyraptor",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 14
+    },
+    "priceofglory": {
+      "name": "Price of Glory",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 6
+    },
+    "proteusstaff": {
+      "name": "Proteus Staff",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 5
+    },
+    "rdssecretlair": {
+      "name": "R&D's Secret Lair",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 2
+    },
+    "radiate": {
+      "name": "Radiate",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 5
+    },
+    "redward": {
+      "name": "Red Ward",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 9
+    },
+    "reshapetheearth": {
+      "name": "Reshape the Earth",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 8
+    },
+    "redirectlightning": {
+      "name": "Redirect Lightning",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 10
+    },
+    "reshape": {
+      "name": "Reshape",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 23
+    },
+    "riftstoneportal": {
+      "name": "Riftstone Portal",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 3
+    },
+    "scythecatcub": {
+      "name": "Scythecat Cub",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 2
+    },
+    "secludedglen": {
+      "name": "Secluded Glen",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 5
+    },
+    "shuko": {
+      "name": "Shuko",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 5
+    },
+    "shapesharer": {
+      "name": "Shapesharer",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 5
+    },
+    "sinkhole": {
+      "name": "Sinkhole",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 14
+    },
+    "skitteringcicada": {
+      "name": "Skittering Cicada",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 6
+    },
+    "sliverhivelord": {
+      "name": "Sliver Hivelord",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 9
+    },
+    "sliver": {
+      "name": "Sliver",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 60
+    },
+    "smaugtheimpenetrable": {
+      "name": "Smaug the Impenetrable",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 3
+    },
+    "southernpaladin": {
+      "name": "Southern Paladin",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 2
+    },
+    "squirrelnest": {
+      "name": "Squirrel Nest",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 6
+    },
+    "surgicalextraction": {
+      "name": "Surgical Extraction",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 28
+    },
+    "surrakandgoreclaw": {
+      "name": "Surrak and Goreclaw",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 6
+    },
+    "swordofdungeonsdragons": {
+      "name": "Sword of Dungeons & Dragons",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 4
+    },
+    "taureanmauler": {
+      "name": "Taurean Mauler",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 20
+    },
+    "temursabertooth": {
+      "name": "Temur Sabertooth",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 11
+    },
+    "terraingenerator": {
+      "name": "Terrain Generator",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 19
+    },
+    "thewanderingrescuer": {
+      "name": "The Wandering Rescuer",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 17
+    },
+    "thereandbackagain": {
+      "name": "There and Back Again",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 5
+    },
+    "tunnel": {
+      "name": "Tunnel",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 41
+    },
+    "urzaspowerplant": {
+      "name": "Urza's Power Plant",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 33
+    },
+    "undergroundmortuary": {
+      "name": "Underground Mortuary",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 14
+    },
+    "unexpectedwindfall": {
+      "name": "Unexpected Windfall",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 17
+    },
+    "veilstoneamulet": {
+      "name": "Veilstone Amulet",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 4
+    },
+    "vensershapersavant": {
+      "name": "Venser, Shaper Savant",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 13
+    },
+    "vinedryad": {
+      "name": "Vine Dryad",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 3
+    },
+    "wakkadevotedguardian": {
+      "name": "Wakka, Devoted Guardian",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 9
+    },
+    "warroom": {
+      "name": "War Room",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 36
+    },
+    "whiteward": {
+      "name": "White Ward",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-18T14:02:42+00:00",
+      "matches": 7
     }
   },
   "unmatched": {
