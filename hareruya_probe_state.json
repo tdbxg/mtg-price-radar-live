@@ -14963,6 +14963,252 @@
       "cashUsd": 20.0,
       "checkedAt": "2026-08-18T14:02:42+00:00",
       "matches": 7
+    },
+    "pyreticritual": {
+      "name": "Pyretic Ritual",
+      "cashUsd": 42.5,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 13
+    },
+    "knucklebonewitch": {
+      "name": "Knucklebone Witch",
+      "cashUsd": 33.0,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 4
+    },
+    "nihilspellbomb": {
+      "name": "Nihil Spellbomb",
+      "cashUsd": 22.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 17
+    },
+    "ezurirenegadeleader": {
+      "name": "Ezuri, Renegade Leader",
+      "cashUsd": 21.0,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 10
+    },
+    "lavaspike": {
+      "name": "Lava Spike",
+      "cashUsd": 21.0,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 15
+    },
+    "mahaitsfeathersnight": {
+      "name": "Maha, Its Feathers Night",
+      "cashUsd": 21.0,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 14
+    },
+    "magusofthemoat": {
+      "name": "Magus of the Moat",
+      "cashUsd": 21.0,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 5
+    },
+    "wirewoodchanneler": {
+      "name": "Wirewood Channeler",
+      "cashUsd": 21.0,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 7
+    },
+    "abolish": {
+      "name": "Abolish",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 42
+    },
+    "helmofthehost": {
+      "name": "Helm of the Host",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 27
+    },
+    "splintertwin": {
+      "name": "Splinter Twin",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 9
+    },
+    "revtitheextractor": {
+      "name": "Rev, Tithe Extractor",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 2
+    },
+    "zursweirding": {
+      "name": "Zur's Weirding",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 6
+    },
+    "zodiacpig": {
+      "name": "Zodiac Pig",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 2
+    },
+    "anthroplasm": {
+      "name": "Anthroplasm",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 2
+    },
+    "backtobasics": {
+      "name": "Back to Basics",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 10
+    },
+    "callerofthehunt": {
+      "name": "Caller of the Hunt",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 2
+    },
+    "cemeterygatekeeper": {
+      "name": "Cemetery Gatekeeper",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 10
+    },
+    "eladamrikorvecdal": {
+      "name": "Eladamri, Korvecdal",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 16
+    },
+    "epharagodofthepolis": {
+      "name": "Ephara, God of the Polis",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 5
+    },
+    "fableofwolfandowl": {
+      "name": "Fable of Wolf and Owl",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 4
+    },
+    "fanaticofrhonas": {
+      "name": "Fanatic of Rhonas",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 18
+    },
+    "garrukwildspeaker": {
+      "name": "Garruk Wildspeaker",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 24
+    },
+    "giltleafpalace": {
+      "name": "Gilt-Leaf Palace",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 7
+    },
+    "heroofbladehold": {
+      "name": "Hero of Bladehold",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 10
+    },
+    "gisagloriousresurrector": {
+      "name": "Gisa, Glorious Resurrector",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 9
+    },
+    "lifeslegacy": {
+      "name": "Life's Legacy",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 6
+    },
+    "lightminefield": {
+      "name": "Lightmine Field",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 3
+    },
+    "maskedgorgon": {
+      "name": "Masked Gorgon",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 2
+    },
+    "melokuthecloudedmirror": {
+      "name": "Meloku the Clouded Mirror",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 4
+    },
+    "pandemonium": {
+      "name": "Pandemonium",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 12
+    },
+    "powermatrix": {
+      "name": "Power Matrix",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 5
+    },
+    "pyrostaticpillar": {
+      "name": "Pyrostatic Pillar",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 4
+    },
+    "reclaim": {
+      "name": "Reclaim",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 28
+    },
+    "restorationangel": {
+      "name": "Restoration Angel",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 17
+    },
+    "rhystheexiled": {
+      "name": "Rhys the Exiled",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 3
+    },
+    "salvationengine": {
+      "name": "Salvation Engine",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 16
+    },
+    "temurascendancy": {
+      "name": "Temur Ascendancy",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 14
+    },
+    "sabertoothnishoba": {
+      "name": "Sabertooth Nishoba",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 2
+    },
+    "theskullsporenexus": {
+      "name": "The Skullspore Nexus",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 14
+    },
+    "yorionskynomad": {
+      "name": "Yorion, Sky Nomad",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T02:34:38+00:00",
+      "matches": 14
     }
   },
   "unmatched": {
