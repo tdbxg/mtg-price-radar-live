@@ -15209,6 +15209,258 @@
       "cashUsd": 19.8,
       "checkedAt": "2026-08-19T02:34:38+00:00",
       "matches": 14
+    },
+    "carnophage": {
+      "name": "Carnophage",
+      "cashUsd": 22.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 1
+    },
+    "essencewarden": {
+      "name": "Essence Warden",
+      "cashUsd": 22.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 11
+    },
+    "secondsunrise": {
+      "name": "Second Sunrise",
+      "cashUsd": 21.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 5
+    },
+    "summonknightsofround": {
+      "name": "Summon: Knights of Round",
+      "cashUsd": 21.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 10
+    },
+    "starfieldofnyx": {
+      "name": "Starfield of Nyx",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 6
+    },
+    "invisibility": {
+      "name": "Invisibility",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 6
+    },
+    "jacqueslevert": {
+      "name": "Jacques le Vert",
+      "cashUsd": 19.5,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 1
+    },
+    "pathofancestry": {
+      "name": "Path of Ancestry",
+      "cashUsd": 19.5,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 10
+    },
+    "vaevictisasmadi": {
+      "name": "Vaevictis Asmadi",
+      "cashUsd": 19.5,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 8
+    },
+    "waywardswordtooth": {
+      "name": "Wayward Swordtooth",
+      "cashUsd": 19.5,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 20
+    },
+    "aleshawholaughsatfate": {
+      "name": "Alesha, Who Laughs at Fate",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 16
+    },
+    "alhammarretsarchive": {
+      "name": "Alhammarret's Archive",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 8
+    },
+    "ancestralmask": {
+      "name": "Ancestral Mask",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 11
+    },
+    "arahbothefirstfang": {
+      "name": "Arahbo, the First Fang",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 16
+    },
+    "archaeologicaldig": {
+      "name": "Archaeological Dig",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 2
+    },
+    "armadillocloak": {
+      "name": "Armadillo Cloak",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 13
+    },
+    "asforetold": {
+      "name": "As Foretold",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 29
+    },
+    "atomize": {
+      "name": "Atomize",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 12
+    },
+    "ashlingflamedancer": {
+      "name": "Ashling, Flame Dancer",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 16
+    },
+    "battlesquadron": {
+      "name": "Battle Squadron",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 2
+    },
+    "beastmasterascension": {
+      "name": "Beastmaster Ascension",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 23
+    },
+    "bloodcelebrant": {
+      "name": "Blood Celebrant",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 2
+    },
+    "bogwitch": {
+      "name": "Bog Witch",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 3
+    },
+    "bonehoarddracosaur": {
+      "name": "Bonehoard Dracosaur",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 14
+    },
+    "brimazkingoforeskos": {
+      "name": "Brimaz, King of Oreskos",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 9
+    },
+    "bottleofsuleiman": {
+      "name": "Bottle of Suleiman",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 3
+    },
+    "canopyvista": {
+      "name": "Canopy Vista",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 15
+    },
+    "chainlightning": {
+      "name": "Chain Lightning",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 14
+    },
+    "chanceforglory": {
+      "name": "Chance for Glory",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 6
+    },
+    "chandrafireartisan": {
+      "name": "Chandra, Fire Artisan",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 7
+    },
+    "charisma": {
+      "name": "Charisma",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 15
+    },
+    "charismabobblehead": {
+      "name": "Charisma Bobblehead",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 7
+    },
+    "commandbeacon": {
+      "name": "Command Beacon",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 27
+    },
+    "daredevilmanwithoutfear": {
+      "name": "Daredevil, Man Without Fear",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 7
+    },
+    "darksteelreactor": {
+      "name": "Darksteel Reactor",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 6
+    },
+    "decimate": {
+      "name": "Decimate",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 6
+    },
+    "divinityofpride": {
+      "name": "Divinity of Pride",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 6
+    },
+    "dranaliberatorofmalakir": {
+      "name": "Drana, Liberator of Malakir",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 12
+    },
+    "drivnodcarnagedominus": {
+      "name": "Drivnod, Carnage Dominus",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 16
+    },
+    "elegantparlor": {
+      "name": "Elegant Parlor",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 14
+    },
+    "elderdruid": {
+      "name": "Elder Druid",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 2
+    },
+    "embercleave": {
+      "name": "Embercleave",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-19T14:03:42+00:00",
+      "matches": 19
     }
   },
   "unmatched": {
