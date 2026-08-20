@@ -15935,6 +15935,228 @@
       "cashUsd": 19.0,
       "checkedAt": "2026-08-20T10:46:30+00:00",
       "matches": 3
+    },
+    "vitothornoftheduskrose": {
+      "name": "Vito, Thorn of the Dusk Rose",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 23
+    },
+    "warstoll": {
+      "name": "War's Toll",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 8
+    },
+    "warreninstigator": {
+      "name": "Warren Instigator",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 8
+    },
+    "welcomingvampire": {
+      "name": "Welcoming Vampire",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 23
+    },
+    "wellwisher": {
+      "name": "Wellwisher",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 10
+    },
+    "wordsofwind": {
+      "name": "Words of Wind",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 4
+    },
+    "xenagosgodofrevels": {
+      "name": "Xenagos, God of Revels",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 11
+    },
+    "zopandrelhungerdominus": {
+      "name": "Zopandrel, Hunger Dominus",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 17
+    },
+    "chandraawakenedinferno": {
+      "name": "Chandra, Awakened Inferno",
+      "cashUsd": 18.5,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 13
+    },
+    "heavyfog": {
+      "name": "Heavy Fog",
+      "cashUsd": 18.5,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 1
+    },
+    "jetmirnexusofrevels": {
+      "name": "Jetmir, Nexus of Revels",
+      "cashUsd": 18.5,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 17
+    },
+    "jovialevil": {
+      "name": "Jovial Evil",
+      "cashUsd": 18.5,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 1
+    },
+    "livonyasilone": {
+      "name": "Livonya Silone",
+      "cashUsd": 18.5,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 1
+    },
+    "palladiamors": {
+      "name": "Palladia-Mors",
+      "cashUsd": 18.5,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 7
+    },
+    "phenaxgodofdeception": {
+      "name": "Phenax, God of Deception",
+      "cashUsd": 18.5,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 6
+    },
+    "serrasemissary": {
+      "name": "Serra's Emissary",
+      "cashUsd": 18.5,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 11
+    },
+    "sorcererclass": {
+      "name": "Sorcerer Class",
+      "cashUsd": 18.5,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 6
+    },
+    "themeep": {
+      "name": "The Meep",
+      "cashUsd": 18.5,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 2
+    },
+    "thunderingfalls": {
+      "name": "Thundering Falls",
+      "cashUsd": 18.5,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 14
+    },
+    "typhoon": {
+      "name": "Typhoon",
+      "cashUsd": 18.5,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 19
+    },
+    "urzalordprotector": {
+      "name": "Urza, Lord Protector",
+      "cashUsd": 18.5,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 6
+    },
+    "vivienchampionofthewilds": {
+      "name": "Vivien, Champion of the Wilds",
+      "cashUsd": 18.5,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 9
+    },
+    "woodelemental": {
+      "name": "Wood Elemental",
+      "cashUsd": 18.5,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 5
+    },
+    "ancestraltribute": {
+      "name": "Ancestral Tribute",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 2
+    },
+    "cauldronhaze": {
+      "name": "Cauldron Haze",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 4
+    },
+    "commissarseverinaraine": {
+      "name": "Commissar Severina Raine",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 3
+    },
+    "cranialplating": {
+      "name": "Cranial Plating",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 5
+    },
+    "deflection": {
+      "name": "Deflection",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 6
+    },
+    "dragonshoard": {
+      "name": "Dragon's Hoard",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 5
+    },
+    "dreamhalls": {
+      "name": "Dream Halls",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 2
+    },
+    "eightandahalftails": {
+      "name": "Eight-and-a-Half-Tails",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 5
+    },
+    "eyeoframos": {
+      "name": "Eye of Ramos",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 3
+    },
+    "falseprophet": {
+      "name": "False Prophet",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 3
+    },
+    "gerrardcapashen": {
+      "name": "Gerrard Capashen",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 2
+    },
+    "globalruin": {
+      "name": "Global Ruin",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 2
+    },
+    "goreclawterrorofqalsisma": {
+      "name": "Goreclaw, Terror of Qal Sisma",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 30
+    },
+    "healingsalve": {
+      "name": "Healing Salve",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-20T14:06:20+00:00",
+      "matches": 8
     }
   },
   "unmatched": {
