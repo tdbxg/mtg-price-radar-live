@@ -15461,6 +15461,246 @@
       "cashUsd": 19.0,
       "checkedAt": "2026-08-19T14:03:42+00:00",
       "matches": 19
+    },
+    "sunweb": {
+      "name": "Sunweb",
+      "cashUsd": 21.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 4
+    },
+    "prairiestream": {
+      "name": "Prairie Stream",
+      "cashUsd": 20.5,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 10
+    },
+    "undyingmalice": {
+      "name": "Undying Malice",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 7
+    },
+    "tillerengine": {
+      "name": "Tiller Engine",
+      "cashUsd": 19.5,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 4
+    },
+    "troubleinpairs": {
+      "name": "Trouble in Pairs",
+      "cashUsd": 19.5,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 8
+    },
+    "batteredgolem": {
+      "name": "Battered Golem",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 3
+    },
+    "flamerift": {
+      "name": "Flame Rift",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 2
+    },
+    "goblingame": {
+      "name": "Goblin Game",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 3
+    },
+    "genjiglove": {
+      "name": "Genji Glove",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 6
+    },
+    "giltleafarchdruid": {
+      "name": "Gilt-Leaf Archdruid",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 5
+    },
+    "gravespawnsovereign": {
+      "name": "Gravespawn Sovereign",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 2
+    },
+    "goblintrashmaster": {
+      "name": "Goblin Trashmaster",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 12
+    },
+    "grandcrescendo": {
+      "name": "Grand Crescendo",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 8
+    },
+    "harrow": {
+      "name": "Harrow",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 12
+    },
+    "hollowone": {
+      "name": "Hollow One",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 15
+    },
+    "hornoframos": {
+      "name": "Horn of Ramos",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 2
+    },
+    "idolized": {
+      "name": "Idolized",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 12
+    },
+    "infernalkirin": {
+      "name": "Infernal Kirin",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 4
+    },
+    "ironroottreefolk": {
+      "name": "Ironroot Treefolk",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 7
+    },
+    "infestingradroach": {
+      "name": "Infesting Radroach",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 4
+    },
+    "ironmaiden": {
+      "name": "Iron Maiden",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 10
+    },
+    "knowledgeexploitation": {
+      "name": "Knowledge Exploitation",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 4
+    },
+    "korlashheirtoblackblade": {
+      "name": "Korlash, Heir to Blackblade",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 6
+    },
+    "krarksthumb": {
+      "name": "Krark's Thumb",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 7
+    },
+    "leoninshikari": {
+      "name": "Leonin Shikari",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 6
+    },
+    "leylineofsingularity": {
+      "name": "Leyline of Singularity",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 4
+    },
+    "maro": {
+      "name": "Maro",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 48
+    },
+    "mossfirevalley": {
+      "name": "Mossfire Valley",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 7
+    },
+    "mysticforge": {
+      "name": "Mystic Forge",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 58
+    },
+    "narcifablesinger": {
+      "name": "Narci, Fable Singer",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 6
+    },
+    "narsetjeskaiwaymaster": {
+      "name": "Narset, Jeskai Waymaster",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 4
+    },
+    "neoform": {
+      "name": "Neoform",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 3
+    },
+    "nezahalprimaltide": {
+      "name": "Nezahal, Primal Tide",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 14
+    },
+    "nivmizzetparun": {
+      "name": "Niv-Mizzet, Parun",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 27
+    },
+    "nostalgicdreams": {
+      "name": "Nostalgic Dreams",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 3
+    },
+    "notionthief": {
+      "name": "Notion Thief",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 15
+    },
+    "oubliette": {
+      "name": "Oubliette",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 6
+    },
+    "parallaxnexus": {
+      "name": "Parallax Nexus",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 3
+    },
+    "patronwizard": {
+      "name": "Patron Wizard",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 7
+    },
+    "pixiequeen": {
+      "name": "Pixie Queen",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-20T02:33:46+00:00",
+      "matches": 1
     }
   },
   "unmatched": {
