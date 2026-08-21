@@ -16367,6 +16367,216 @@
       "cashUsd": 17.5,
       "checkedAt": "2026-08-21T02:39:30+00:00",
       "matches": 9
+    },
+    "skithiryxtheblightdragon": {
+      "name": "Skithiryx, the Blight Dragon",
+      "cashUsd": 32.0,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 24
+    },
+    "archaeomancersmap": {
+      "name": "Archaeomancer's Map",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 15
+    },
+    "plaguespitter": {
+      "name": "Plague Spitter",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 8
+    },
+    "jaradgolgarilichlord": {
+      "name": "Jarad, Golgari Lich Lord",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 10
+    },
+    "hellscaretaker": {
+      "name": "Hell's Caretaker",
+      "cashUsd": 19.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 7
+    },
+    "cemeteryprowler": {
+      "name": "Cemetery Prowler",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 16
+    },
+    "archonofcruelty": {
+      "name": "Archon of Cruelty",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 14
+    },
+    "arcboundreclaimer": {
+      "name": "Arcbound Reclaimer",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 4
+    },
+    "ashesofthefallen": {
+      "name": "Ashes of the Fallen",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 4
+    },
+    "avatarofgrowth": {
+      "name": "Avatar of Growth",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 1
+    },
+    "avatarofhope": {
+      "name": "Avatar of Hope",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 5
+    },
+    "barrenmoor": {
+      "name": "Barren Moor",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 3
+    },
+    "belakorthedarkmaster": {
+      "name": "Be'lakor, the Dark Master",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 3
+    },
+    "biggerontheinside": {
+      "name": "Bigger on the Inside",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 6
+    },
+    "blinkmothurn": {
+      "name": "Blinkmoth Urn",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 5
+    },
+    "brallinskysharkrider": {
+      "name": "Brallin, Skyshark Rider",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 5
+    },
+    "borneuponawind": {
+      "name": "Borne Upon a Wind",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 13
+    },
+    "briariptiderogue": {
+      "name": "Bria, Riptide Rogue",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 2
+    },
+    "cloudcover": {
+      "name": "Cloud Cover",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 2
+    },
+    "chancelloroftheannex": {
+      "name": "Chancellor of the Annex",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 5
+    },
+    "coinofmastery": {
+      "name": "Coin of Mastery",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 4
+    },
+    "constantmists": {
+      "name": "Constant Mists",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 5
+    },
+    "crystallinesliver": {
+      "name": "Crystalline Sliver",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 7
+    },
+    "darksteelcitadel": {
+      "name": "Darksteel Citadel",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 29
+    },
+    "deathward": {
+      "name": "Death Ward",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 7
+    },
+    "diabolictutor": {
+      "name": "Diabolic Tutor",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 30
+    },
+    "dimirsignet": {
+      "name": "Dimir Signet",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 39
+    },
+    "disallow": {
+      "name": "Disallow",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 10
+    },
+    "diviningwitch": {
+      "name": "Divining Witch",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 2
+    },
+    "doordie": {
+      "name": "Do or Die",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 3
+    },
+    "dreambornmuse": {
+      "name": "Dreamborn Muse",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 12
+    },
+    "domrianarchofbolas": {
+      "name": "Domri, Anarch of Bolas",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 11
+    },
+    "easternpaladin": {
+      "name": "Eastern Paladin",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 4
+    },
+    "endlesshorizons": {
+      "name": "Endless Horizons",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 4
+    },
+    "erietteofthecharmedapple": {
+      "name": "Eriette of the Charmed Apple",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T14:03:52+00:00",
+      "matches": 11
     }
   },
   "unmatched": {
