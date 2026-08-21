@@ -16157,6 +16157,216 @@
       "cashUsd": 18.0,
       "checkedAt": "2026-08-20T14:06:20+00:00",
       "matches": 8
+    },
+    "thelonelymountain": {
+      "name": "The Lonely Mountain",
+      "cashUsd": 22.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 12
+    },
+    "crystallinegiant": {
+      "name": "Crystalline Giant",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 5
+    },
+    "lathielthebounteousdawn": {
+      "name": "Lathiel, the Bounteous Dawn",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 5
+    },
+    "adarkarvalkyrie": {
+      "name": "Adarkar Valkyrie",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 5
+    },
+    "gix": {
+      "name": "Gix",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 56
+    },
+    "kardurdoomscourgekardurdoomscourge": {
+      "name": "Kardur, Doomscourge // Kardur, Doomscourge",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 2
+    },
+    "liubeilordofshu": {
+      "name": "Liu Bei, Lord of Shu",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 2
+    },
+    "masterofthefeast": {
+      "name": "Master of the Feast",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 5
+    },
+    "wolverinebestthereis": {
+      "name": "Wolverine, Best There Is",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 6
+    },
+    "chiefofthewilds": {
+      "name": "Chief of the Wilds",
+      "cashUsd": 18.5,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 2
+    },
+    "nebuchadnezzar": {
+      "name": "Nebuchadnezzar",
+      "cashUsd": 18.5,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 1
+    },
+    "inktreadernephilim": {
+      "name": "Ink-Treader Nephilim",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 3
+    },
+    "invigorate": {
+      "name": "Invigorate",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 4
+    },
+    "kongmingscontraptions": {
+      "name": "Kongming's Contraptions",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 2
+    },
+    "krarkclanshaman": {
+      "name": "Krark-Clan Shaman",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 4
+    },
+    "malignus": {
+      "name": "Malignus",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 5
+    },
+    "moltendisaster": {
+      "name": "Molten Disaster",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 2
+    },
+    "noxiousghoul": {
+      "name": "Noxious Ghoul",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 6
+    },
+    "rejuvenatingsprings": {
+      "name": "Rejuvenating Springs",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 25
+    },
+    "okk": {
+      "name": "Okk",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 32
+    },
+    "sinisterconcierge": {
+      "name": "Sinister Concierge",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 6
+    },
+    "spellblast": {
+      "name": "Spell Blast",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 7
+    },
+    "spoilsofthevault": {
+      "name": "Spoils of the Vault",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 8
+    },
+    "vampiricdragon": {
+      "name": "Vampiric Dragon",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 2
+    },
+    "uktabiwildcats": {
+      "name": "Uktabi Wildcats",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 2
+    },
+    "timeofneed": {
+      "name": "Time of Need",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 8
+    },
+    "whirlpoolwarrior": {
+      "name": "Whirlpool Warrior",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 3
+    },
+    "wallofwood": {
+      "name": "Wall of Wood",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 8
+    },
+    "washaway": {
+      "name": "Wash Away",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 4
+    },
+    "yidarowanderingmonster": {
+      "name": "Yidaro, Wandering Monster",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 7
+    },
+    "arealmreborn": {
+      "name": "A Realm Reborn",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 6
+    },
+    "abeyance": {
+      "name": "Abeyance",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 5
+    },
+    "absolutevirtue": {
+      "name": "Absolute Virtue",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 9
+    },
+    "ancientgreenwarden": {
+      "name": "Ancient Greenwarden",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 20
+    },
+    "andrilnarsilreforged": {
+      "name": "Andúril, Narsil Reforged",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-21T02:39:30+00:00",
+      "matches": 9
     }
   },
   "unmatched": {
