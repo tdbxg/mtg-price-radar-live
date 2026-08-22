@@ -16781,6 +16781,216 @@
       "cashUsd": 17.5,
       "checkedAt": "2026-08-22T02:31:13+00:00",
       "matches": 11
+    },
+    "vedalkenaethermage": {
+      "name": "Vedalken Aethermage",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 2
+    },
+    "thunderclap": {
+      "name": "Thunderclap",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 8
+    },
+    "klauthunrivaledancient": {
+      "name": "Klauth, Unrivaled Ancient",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 7
+    },
+    "mindslicer": {
+      "name": "Mindslicer",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 6
+    },
+    "mossdiamond": {
+      "name": "Moss Diamond",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 2
+    },
+    "nehebtheeternal": {
+      "name": "Neheb, the Eternal",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 20
+    },
+    "myrmatrix": {
+      "name": "Myr Matrix",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 4
+    },
+    "nematagroveguardian": {
+      "name": "Nemata, Grove Guardian",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 2
+    },
+    "nickfuryagentofshield": {
+      "name": "Nick Fury, Agent of S.H.I.E.L.D.",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 8
+    },
+    "oliviacrimsonbride": {
+      "name": "Olivia, Crimson Bride",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 18
+    },
+    "omnathlocusoftheroil": {
+      "name": "Omnath, Locus of the Roil",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 8
+    },
+    "overlaidterrain": {
+      "name": "Overlaid Terrain",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 2
+    },
+    "pendelhaven": {
+      "name": "Pendelhaven",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 12
+    },
+    "pheliaexuberantshepherd": {
+      "name": "Phelia, Exuberant Shepherd",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 13
+    },
+    "phyrexianplaguelord": {
+      "name": "Phyrexian Plaguelord",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 6
+    },
+    "primalrage": {
+      "name": "Primal Rage",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 6
+    },
+    "ramsesoverdark": {
+      "name": "Ramses Overdark",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 1
+    },
+    "ramsesassassinlord": {
+      "name": "Ramses, Assassin Lord",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 5
+    },
+    "repeal": {
+      "name": "Repeal",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 5
+    },
+    "riptidegearhulk": {
+      "name": "Riptide Gearhulk",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 18
+    },
+    "rohgahhofkherkeep": {
+      "name": "Rohgahh of Kher Keep",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 1
+    },
+    "ryuseithefallingstar": {
+      "name": "Ryusei, the Falling Star",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 8
+    },
+    "sabsunenluxaembodied": {
+      "name": "Sab-Sunen, Luxa Embodied",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 18
+    },
+    "sakashimasstudent": {
+      "name": "Sakashima's Student",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 8
+    },
+    "saprazzanheir": {
+      "name": "Saprazzan Heir",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 3
+    },
+    "scarecrone": {
+      "name": "Scarecrone",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 6
+    },
+    "seahunter": {
+      "name": "Seahunter",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 4
+    },
+    "serumpowder": {
+      "name": "Serum Powder",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 9
+    },
+    "sevinnesreclamation": {
+      "name": "Sevinne's Reclamation",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 28
+    },
+    "shamanofforgottenways": {
+      "name": "Shaman of Forgotten Ways",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 3
+    },
+    "shatterstorm": {
+      "name": "Shatterstorm",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 6
+    },
+    "shock": {
+      "name": "Shock",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 22
+    },
+    "soothsaying": {
+      "name": "Soothsaying",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 2
+    },
+    "sparkmage": {
+      "name": "Spark Mage",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 5
+    },
+    "spectrallynx": {
+      "name": "Spectral Lynx",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T13:49:23+00:00",
+      "matches": 2
     }
   },
   "unmatched": {
