@@ -16577,6 +16577,210 @@
       "cashUsd": 17.5,
       "checkedAt": "2026-08-21T14:03:52+00:00",
       "matches": 11
+    },
+    "plaguebearer": {
+      "name": "Plaguebearer",
+      "cashUsd": 21.0,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 2
+    },
+    "notofthisworld": {
+      "name": "Not of This World",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 7
+    },
+    "traininggrounds": {
+      "name": "Training Grounds",
+      "cashUsd": 19.8,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 30
+    },
+    "oranriefthevastwood": {
+      "name": "Oran-Rief, the Vastwood",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 3
+    },
+    "throughthebreach": {
+      "name": "Through the Breach",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 20
+    },
+    "garrukapexpredator": {
+      "name": "Garruk, Apex Predator",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 5
+    },
+    "familiarground": {
+      "name": "Familiar Ground",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 2
+    },
+    "fatedfirepower": {
+      "name": "Fated Firepower",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 14
+    },
+    "bloodfiredwarf": {
+      "name": "Bloodfire Dwarf",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 2
+    },
+    "flaringpain": {
+      "name": "Flaring Pain",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 5
+    },
+    "fighterclass": {
+      "name": "Fighter Class",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 11
+    },
+    "flayerofloyalties": {
+      "name": "Flayer of Loyalties",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 6
+    },
+    "freedfromthereal": {
+      "name": "Freed from the Real",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 10
+    },
+    "glowrider": {
+      "name": "Glowrider",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 5
+    },
+    "gloomlakeverge": {
+      "name": "Gloomlake Verge",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 14
+    },
+    "godeternalkefnet": {
+      "name": "God-Eternal Kefnet",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 6
+    },
+    "harabazdruid": {
+      "name": "Harabaz Druid",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 5
+    },
+    "heatshimmer": {
+      "name": "Heat Shimmer",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 14
+    },
+    "hedroncrab": {
+      "name": "Hedron Crab",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 9
+    },
+    "hydroblast": {
+      "name": "Hydroblast",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 15
+    },
+    "ignoblehierarch": {
+      "name": "Ignoble Hierarch",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 27
+    },
+    "imotekhthestormlord": {
+      "name": "Imotekh the Stormlord",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 3
+    },
+    "innocentblood": {
+      "name": "Innocent Blood",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 6
+    },
+    "kayaghostassassin": {
+      "name": "Kaya, Ghost Assassin",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 7
+    },
+    "keldonfirebombers": {
+      "name": "Keldon Firebombers",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 3
+    },
+    "legionextruder": {
+      "name": "Legion Extruder",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 16
+    },
+    "lifeblood": {
+      "name": "Lifeblood",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 4
+    },
+    "lordofthevoid": {
+      "name": "Lord of the Void",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 17
+    },
+    "lostjitte": {
+      "name": "Lost Jitte",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 16
+    },
+    "magatraitortomortals": {
+      "name": "Maga, Traitor to Mortals",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 4
+    },
+    "magnivore": {
+      "name": "Magnivore",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 5
+    },
+    "merfolkofthepearltrident": {
+      "name": "Merfolk of the Pearl Trident",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 10
+    },
+    "mesmericorb": {
+      "name": "Mesmeric Orb",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 19
+    },
+    "meteorcrater": {
+      "name": "Meteor Crater",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-22T02:31:13+00:00",
+      "matches": 11
     }
   },
   "unmatched": {
