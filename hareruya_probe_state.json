@@ -17183,6 +17183,204 @@
       "cashUsd": 17.5,
       "checkedAt": "2026-08-23T02:39:58+00:00",
       "matches": 3
+    },
+    "ledgershredder": {
+      "name": "Ledger Shredder",
+      "cashUsd": 34.0,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 18
+    },
+    "triumphofthehordes": {
+      "name": "Triumph of the Hordes",
+      "cashUsd": 34.0,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 15
+    },
+    "mogmooglewarrior": {
+      "name": "Mog, Moogle Warrior",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 7
+    },
+    "desperateritual": {
+      "name": "Desperate Ritual",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 14
+    },
+    "pearlmedallion": {
+      "name": "Pearl Medallion",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 19
+    },
+    "xyristhewrithingstorm": {
+      "name": "Xyris, the Writhing Storm",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 8
+    },
+    "yellowscarvesgeneral": {
+      "name": "Yellow Scarves General",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 2
+    },
+    "abyssalhorror": {
+      "name": "Abyssal Horror",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 2
+    },
+    "baneslayerangel": {
+      "name": "Baneslayer Angel",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 22
+    },
+    "blinkmothnexus": {
+      "name": "Blinkmoth Nexus",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 20
+    },
+    "auntieshovel": {
+      "name": "Auntie's Hovel",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 6
+    },
+    "bloodfountain": {
+      "name": "Blood Fountain",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 4
+    },
+    "cabalstronghold": {
+      "name": "Cabal Stronghold",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 10
+    },
+    "chandranalaar": {
+      "name": "Chandra Nalaar",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 13
+    },
+    "corpsejackmenace": {
+      "name": "Corpsejack Menace",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 10
+    },
+    "decayingtimeloop": {
+      "name": "Decaying Time Loop",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 6
+    },
+    "druidscall": {
+      "name": "Druid's Call",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 2
+    },
+    "ezuriclawofprogress": {
+      "name": "Ezuri, Claw of Progress",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 14
+    },
+    "ethersworncanonist": {
+      "name": "Ethersworn Canonist",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 13
+    },
+    "flash": {
+      "name": "Flash",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 60
+    },
+    "forgottencave": {
+      "name": "Forgotten Cave",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 2
+    },
+    "gimlioftheglitteringcaves": {
+      "name": "Gimli of the Glittering Caves",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 6
+    },
+    "gratuitousviolence": {
+      "name": "Gratuitous Violence",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 12
+    },
+    "iridescentangel": {
+      "name": "Iridescent Angel",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 5
+    },
+    "kassandraeaglebearer": {
+      "name": "Kassandra, Eagle Bearer",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 12
+    },
+    "krosanbeast": {
+      "name": "Krosan Beast",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 5
+    },
+    "lotusring": {
+      "name": "Lotus Ring",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 17
+    },
+    "myrenforcer": {
+      "name": "Myr Enforcer",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 11
+    },
+    "oracleofmuldaya": {
+      "name": "Oracle of Mul Daya",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 19
+    },
+    "palacejailer": {
+      "name": "Palace Jailer",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 4
+    },
+    "portrazer": {
+      "name": "Port Razer",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 14
+    },
+    "shipwreckmarsh": {
+      "name": "Shipwreck Marsh",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 32
+    },
+    "sickeningdreams": {
+      "name": "Sickening Dreams",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-23T13:51:04+00:00",
+      "matches": 5
     }
   },
   "unmatched": {
