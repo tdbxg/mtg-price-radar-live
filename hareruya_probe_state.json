@@ -17579,6 +17579,192 @@
       "cashUsd": 16.5,
       "checkedAt": "2026-08-24T02:40:35+00:00",
       "matches": 19
+    },
+    "murkfiendliege": {
+      "name": "Murkfiend Liege",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 10
+    },
+    "nefariouslich": {
+      "name": "Nefarious Lich",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 3
+    },
+    "greelmindraker": {
+      "name": "Greel, Mind Raker",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 2
+    },
+    "halfdane": {
+      "name": "Halfdane",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 1
+    },
+    "hazeofrage": {
+      "name": "Haze of Rage",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 6
+    },
+    "intetthedreamer": {
+      "name": "Intet, the Dreamer",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 3
+    },
+    "jolraelempressofbeasts": {
+      "name": "Jolrael, Empress of Beasts",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 4
+    },
+    "latullakeldonoverseer": {
+      "name": "Latulla, Keldon Overseer",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 2
+    },
+    "legacyweapon": {
+      "name": "Legacy Weapon",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 5
+    },
+    "letterbomb": {
+      "name": "Letter Bomb",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 2
+    },
+    "liability": {
+      "name": "Liability",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 2
+    },
+    "leylineaxe": {
+      "name": "Leyline Axe",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 19
+    },
+    "littlegirl": {
+      "name": "Little Girl",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 2
+    },
+    "llawancephalidempress": {
+      "name": "Llawan, Cephalid Empress",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 4
+    },
+    "luminarchascension": {
+      "name": "Luminarch Ascension",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 8
+    },
+    "magnusthered": {
+      "name": "Magnus the Red",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 3
+    },
+    "mazeofith": {
+      "name": "Maze of Ith",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 23
+    },
+    "meekattack": {
+      "name": "Meek Attack",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 16
+    },
+    "mastertransmuter": {
+      "name": "Master Transmuter",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 12
+    },
+    "moxtantalite": {
+      "name": "Mox Tantalite",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 5
+    },
+    "mirrisguile": {
+      "name": "Mirri's Guile",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 5
+    },
+    "mrhousepresidentandceo": {
+      "name": "Mr. House, President and CEO",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 9
+    },
+    "murktideregent": {
+      "name": "Murktide Regent",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 19
+    },
+    "myojinofseeingwinds": {
+      "name": "Myojin of Seeing Winds",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 4
+    },
+    "narsetenlightenedexile": {
+      "name": "Narset, Enlightened Exile",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 18
+    },
+    "natureswill": {
+      "name": "Nature's Will",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 14
+    },
+    "omnathlocusofmana": {
+      "name": "Omnath, Locus of Mana",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 15
+    },
+    "paralyze": {
+      "name": "Paralyze",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 7
+    },
+    "phyrexiantyranny": {
+      "name": "Phyrexian Tyranny",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 4
+    },
+    "primordialhydra": {
+      "name": "Primordial Hydra",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 15
+    },
+    "rakdosthedefiler": {
+      "name": "Rakdos the Defiler",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-24T14:08:46+00:00",
+      "matches": 5
     }
   },
   "unmatched": {
