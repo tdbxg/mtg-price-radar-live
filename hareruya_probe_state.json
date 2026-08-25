@@ -17765,6 +17765,192 @@
       "cashUsd": 16.5,
       "checkedAt": "2026-08-24T14:08:46+00:00",
       "matches": 5
+    },
+    "wallofbrambles": {
+      "name": "Wall of Brambles",
+      "cashUsd": 29.0,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 7
+    },
+    "greenward": {
+      "name": "Green Ward",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 38
+    },
+    "noctisprinceoflucis": {
+      "name": "Noctis, Prince of Lucis",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 9
+    },
+    "inspiringvantage": {
+      "name": "Inspiring Vantage",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 26
+    },
+    "planarnexus": {
+      "name": "Planar Nexus",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 5
+    },
+    "raisethepalisade": {
+      "name": "Raise the Palisade",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 18
+    },
+    "screechingscorchbeast": {
+      "name": "Screeching Scorchbeast",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 9
+    },
+    "zaxaratheexemplary": {
+      "name": "Zaxara, the Exemplary",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 7
+    },
+    "feldonscane": {
+      "name": "Feldon's Cane",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 5
+    },
+    "wordsofwilding": {
+      "name": "Words of Wilding",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 4
+    },
+    "destructiveflow": {
+      "name": "Destructive Flow",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 2
+    },
+    "razakeththefoulblooded": {
+      "name": "Razaketh, the Foulblooded",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 15
+    },
+    "reset": {
+      "name": "Reset",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 7
+    },
+    "regalforce": {
+      "name": "Regal Force",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 14
+    },
+    "shanodindryads": {
+      "name": "Shanodin Dryads",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 9
+    },
+    "skizzik": {
+      "name": "Skizzik",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 2
+    },
+    "sphereofsafety": {
+      "name": "Sphere of Safety",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 18
+    },
+    "starstorm": {
+      "name": "Starstorm",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 2
+    },
+    "suturepriest": {
+      "name": "Suture Priest",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 7
+    },
+    "theearthcrystal": {
+      "name": "The Earth Crystal",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 10
+    },
+    "thewretched": {
+      "name": "The Wretched",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 8
+    },
+    "timeelemental": {
+      "name": "Time Elemental",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 3
+    },
+    "tophgreatestearthbender": {
+      "name": "Toph, Greatest Earthbender",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 3
+    },
+    "undeadgladiator": {
+      "name": "Undead Gladiator",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 5
+    },
+    "urzasmine": {
+      "name": "Urza's Mine",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 32
+    },
+    "vaultofthearchangel": {
+      "name": "Vault of the Archangel",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 4
+    },
+    "vraskaswarmseminence": {
+      "name": "Vraska, Swarm's Eminence",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 5
+    },
+    "westernpaladin": {
+      "name": "Western Paladin",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 4
+    },
+    "werebear": {
+      "name": "Werebear",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 2
+    },
+    "zulashurlichlord": {
+      "name": "Zul Ashur, Lich Lord",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 11
+    },
+    "applejack": {
+      "name": "Applejack",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T02:34:31+00:00",
+      "matches": 2
     }
   },
   "unmatched": {
