@@ -17951,6 +17951,192 @@
       "cashUsd": 16.0,
       "checkedAt": "2026-08-25T02:34:31+00:00",
       "matches": 2
+    },
+    "secludedcourtyard": {
+      "name": "Secluded Courtyard",
+      "cashUsd": 22.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 9
+    },
+    "glimpseofnature": {
+      "name": "Glimpse of Nature",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 9
+    },
+    "nomadsenkor": {
+      "name": "Nomads en-Kor",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 1
+    },
+    "scionofoona": {
+      "name": "Scion of Oona",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 8
+    },
+    "pucasmischief": {
+      "name": "Puca's Mischief",
+      "cashUsd": 19.5,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 5
+    },
+    "emrylurkeroftheloch": {
+      "name": "Emry, Lurker of the Loch",
+      "cashUsd": 19.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 31
+    },
+    "dawnstruce": {
+      "name": "Dawn's Truce",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 14
+    },
+    "necrodominance": {
+      "name": "Necrodominance",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 10
+    },
+    "raultroubleshooter": {
+      "name": "Raul, Trouble Shooter",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 4
+    },
+    "crestedsunmare": {
+      "name": "Crested Sunmare",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 9
+    },
+    "dihadabinderofwills": {
+      "name": "Dihada, Binder of Wills",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 4
+    },
+    "devastation": {
+      "name": "Devastation",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 43
+    },
+    "freyalisellanowarsfury": {
+      "name": "Freyalise, Llanowar's Fury",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 13
+    },
+    "glisteningoil": {
+      "name": "Glistening Oil",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 4
+    },
+    "headlessrider": {
+      "name": "Headless Rider",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 16
+    },
+    "inventorymanagement": {
+      "name": "Inventory Management",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 12
+    },
+    "ivorytower": {
+      "name": "Ivory Tower",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 16
+    },
+    "krriksonofyawgmoth": {
+      "name": "K'rrik, Son of Yawgmoth",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 9
+    },
+    "kambalconsulofallocation": {
+      "name": "Kambal, Consul of Allocation",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 10
+    },
+    "leylinebinding": {
+      "name": "Leyline Binding",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 23
+    },
+    "nerfwar": {
+      "name": "Nerf War",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 1
+    },
+    "peregrinedrake": {
+      "name": "Peregrine Drake",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 4
+    },
+    "priceofprogress": {
+      "name": "Price of Progress",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 11
+    },
+    "relentlessdead": {
+      "name": "Relentless Dead",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 7
+    },
+    "spirebluffcanal": {
+      "name": "Spirebluff Canal",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 22
+    },
+    "selenia": {
+      "name": "Selenia",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 3
+    },
+    "swordofforgeandfrontier": {
+      "name": "Sword of Forge and Frontier",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 13
+    },
+    "talismanofhierarchy": {
+      "name": "Talisman of Hierarchy",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 36
+    },
+    "thelordoftheeagles": {
+      "name": "The Lord of the Eagles",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 6
+    },
+    "uncivilunrest": {
+      "name": "Uncivil Unrest",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 6
+    },
+    "zodiacrat": {
+      "name": "Zodiac Rat",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-25T14:11:15+00:00",
+      "matches": 2
     }
   },
   "unmatched": {
