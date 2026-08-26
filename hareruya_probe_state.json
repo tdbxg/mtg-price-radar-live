@@ -18137,6 +18137,180 @@
       "cashUsd": 16.0,
       "checkedAt": "2026-08-25T14:11:15+00:00",
       "matches": 2
+    },
+    "knacksawclique": {
+      "name": "Knacksaw Clique",
+      "cashUsd": 25.0,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 3
+    },
+    "grafdiggerscage": {
+      "name": "Grafdigger's Cage",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 22
+    },
+    "greatgoblinfoulhearted": {
+      "name": "Great Goblin, Foul-Hearted",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 2
+    },
+    "generouspatron": {
+      "name": "Generous Patron",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 9
+    },
+    "spiritedcompanion": {
+      "name": "Spirited Companion",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 5
+    },
+    "doublingcubedoublingcube": {
+      "name": "Doubling Cube // Doubling Cube",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 2
+    },
+    "magusluceakane": {
+      "name": "Magus Lucea Kane",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 3
+    },
+    "questforrenewal": {
+      "name": "Quest for Renewal",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 4
+    },
+    "sapphiremedallion": {
+      "name": "Sapphire Medallion",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 20
+    },
+    "cathedralofserra": {
+      "name": "Cathedral of Serra",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 1
+    },
+    "charismaticconqueror": {
+      "name": "Charismatic Conqueror",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 4
+    },
+    "mayhemdevil": {
+      "name": "Mayhem Devil",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 9
+    },
+    "appasteadfastguardian": {
+      "name": "Appa, Steadfast Guardian",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 10
+    },
+    "avatarkyoshiearthbender": {
+      "name": "Avatar Kyoshi, Earthbender",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 8
+    },
+    "biomancersfamiliar": {
+      "name": "Biomancer's Familiar",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 5
+    },
+    "boroscharm": {
+      "name": "Boros Charm",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 34
+    },
+    "casallurkwoodpathfindercasalpathbreakerowlbear": {
+      "name": "Casal, Lurkwood Pathfinder // Casal, Pathbreaker Owlbear",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 1
+    },
+    "descentintoavernus": {
+      "name": "Descent into Avernus",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 12
+    },
+    "flumph": {
+      "name": "Flumph",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 8
+    },
+    "jaceunravelerofsecrets": {
+      "name": "Jace, Unraveler of Secrets",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 12
+    },
+    "karazikartheeyetyrant": {
+      "name": "Karazikar, the Eye Tyrant",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 6
+    },
+    "knucklestheechidna": {
+      "name": "Knuckles the Echidna",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 2
+    },
+    "necromancy": {
+      "name": "Necromancy",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 5
+    },
+    "nestingdovehawk": {
+      "name": "Nesting Dovehawk",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 4
+    },
+    "northstar": {
+      "name": "North Star",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 1
+    },
+    "saheelirai": {
+      "name": "Saheeli Rai",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 6
+    },
+    "stormforceofnature": {
+      "name": "Storm, Force of Nature",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 5
+    },
+    "surlybadgersaur": {
+      "name": "Surly Badgersaur",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 2
+    },
+    "tazeem": {
+      "name": "Tazeem",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-26T02:42:16+00:00",
+      "matches": 3
     }
   },
   "unmatched": {
