@@ -54,7 +54,10 @@ def parse_iso(value: str) -> datetime:
 
 def fetch_json(url: str) -> dict[str, Any]:
     request = urllib.request.Request(url, headers={"Accept": "application/json", "User-Agent": USER_AGENT})
-    with urllib.request.urlopen(request, timeout=120) as response:
+    # CK's public feed is reachable directly. Ignore macOS/system proxy settings
+    # so local VPN proxy nodes are not used for the large catalog download.
+    opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+    with opener.open(request, timeout=120) as response:
         return json.loads(response.read().decode("utf-8"))
 
 
@@ -257,13 +260,27 @@ def update_price_changes(
 ) -> None:
     for sku, value in current.items():
         before = previous.get(sku)
+        new_price = money(value.get(field))
         if not before:
+            # A returning SKU has an observation gap. Do not compare its new
+            # price with a stale point from before CK stopped listing it.
+            if sku in changes and new_price > 0:
+                changes[sku] = [[iso(run_at), new_price]]
             continue
         old_price = money(before.get(field))
-        new_price = money(value.get(field))
-        if old_price <= 0 or new_price <= 0 or old_price == new_price:
+        if old_price <= 0:
+            if sku in changes and new_price > 0:
+                changes[sku] = [[iso(run_at), new_price]]
+            continue
+        if new_price <= 0:
             continue
         points = changes.setdefault(sku, [])
+        # Older updater versions could leave the series ending at a stale
+        # price. Anchor the last confirmed snapshot before calculating deltas.
+        if points and money(points[-1][1]) != old_price and prior_at:
+            points.append([prior_at, old_price])
+        if old_price == new_price:
+            continue
         if not points and prior_at:
             points.append([prior_at, old_price])
         if not points or points[-1][0] != iso(run_at):

@@ -26,6 +26,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Test price history logic
+        run: python -m unittest discover -s tests -v
+
       - name: Sample Card Kingdom buylist changes
         run: python scripts/update_live_movers.py
 
