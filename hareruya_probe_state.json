@@ -18485,6 +18485,180 @@
       "cashUsd": 15.0,
       "checkedAt": "2026-08-26T14:10:37+00:00",
       "matches": 3
+    },
+    "sealoffire": {
+      "name": "Seal of Fire",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 5
+    },
+    "narcomoeba": {
+      "name": "Narcomoeba",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 13
+    },
+    "goblinwardrums": {
+      "name": "Goblin War Drums",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 3
+    },
+    "joragatreespeaker": {
+      "name": "Joraga Treespeaker",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 6
+    },
+    "lanternofinsight": {
+      "name": "Lantern of Insight",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 6
+    },
+    "castleardenvale": {
+      "name": "Castle Ardenvale",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 18
+    },
+    "lazotepquarry": {
+      "name": "Lazotep Quarry",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 6
+    },
+    "pongify": {
+      "name": "Pongify",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 27
+    },
+    "gandalfshadowsfoe": {
+      "name": "Gandalf, Shadow's Foe",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 2
+    },
+    "vedalkenorrery": {
+      "name": "Vedalken Orrery",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 19
+    },
+    "esikaschariot": {
+      "name": "Esika's Chariot",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 17
+    },
+    "aragornkingofgondor": {
+      "name": "Aragorn, King of Gondor",
+      "cashUsd": 15.2,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 6
+    },
+    "archdruidscharm": {
+      "name": "Archdruid's Charm",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 14
+    },
+    "balthierandfran": {
+      "name": "Balthier and Fran",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 8
+    },
+    "barretavalancheleader": {
+      "name": "Barret, Avalanche Leader",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 4
+    },
+    "blazemireverge": {
+      "name": "Blazemire Verge",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 14
+    },
+    "boghumbugs": {
+      "name": "Bog Humbugs",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 1
+    },
+    "boromirwardenofthetower": {
+      "name": "Boromir, Warden of the Tower",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 17
+    },
+    "calamitygallopinginferno": {
+      "name": "Calamity, Galloping Inferno",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 4
+    },
+    "captainamericafirstavenger": {
+      "name": "Captain America, First Avenger",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 6
+    },
+    "chainersedict": {
+      "name": "Chainer's Edict",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 6
+    },
+    "chandraflamecaller": {
+      "name": "Chandra, Flamecaller",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 6
+    },
+    "chaosdefiler": {
+      "name": "Chaos Defiler",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 3
+    },
+    "chasmskulker": {
+      "name": "Chasm Skulker",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 8
+    },
+    "circleofprotectionwhite": {
+      "name": "Circle of Protection: White",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 12
+    },
+    "citadelofpain": {
+      "name": "Citadel of Pain",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 3
+    },
+    "cleartheland": {
+      "name": "Clear the Land",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 2
+    },
+    "coerciveportal": {
+      "name": "Coercive Portal",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 8
+    },
+    "cognivore": {
+      "name": "Cognivore",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-27T11:15:32+00:00",
+      "matches": 2
     }
   },
   "unmatched": {
