@@ -19151,6 +19151,168 @@
       "cashUsd": 15.0,
       "checkedAt": "2026-08-28T19:19:14+00:00",
       "matches": 2
+    },
+    "bringerofthebluedawn": {
+      "name": "Bringer of the Blue Dawn",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 4
+    },
+    "carpetofflowers": {
+      "name": "Carpet of Flowers",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 23
+    },
+    "sauronlordoftherings": {
+      "name": "Sauron, Lord of the Rings",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 4
+    },
+    "selvalaexplorerreturned": {
+      "name": "Selvala, Explorer Returned",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 4
+    },
+    "seshirotheanointed": {
+      "name": "Seshiro the Anointed",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 7
+    },
+    "shelldockisle": {
+      "name": "Shelldock Isle",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 9
+    },
+    "shivanwurm": {
+      "name": "Shivan Wurm",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 4
+    },
+    "sidisiundeadvizier": {
+      "name": "Sidisi, Undead Vizier",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 11
+    },
+    "sigiltracer": {
+      "name": "Sigil Tracer",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 4
+    },
+    "silverseraph": {
+      "name": "Silver Seraph",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 2
+    },
+    "sisterhospitaller": {
+      "name": "Sister Hospitaller",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 3
+    },
+    "soulcatchersaerie": {
+      "name": "Soulcatchers' Aerie",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 5
+    },
+    "sphinxofthesecondsun": {
+      "name": "Sphinx of the Second Sun",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 12
+    },
+    "spiritloop": {
+      "name": "Spirit Loop",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 4
+    },
+    "spontaneousgeneration": {
+      "name": "Spontaneous Generation",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 4
+    },
+    "standardbearer": {
+      "name": "Standard Bearer",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 7
+    },
+    "stuffydoll": {
+      "name": "Stuffy Doll",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 14
+    },
+    "tarnationvista": {
+      "name": "Tarnation Vista",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 17
+    },
+    "teferimasteroftime": {
+      "name": "Teferi, Master of Time",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 42
+    },
+    "tectonicinstability": {
+      "name": "Tectonic Instability",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 3
+    },
+    "telekineticbonds": {
+      "name": "Telekinetic Bonds",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 2
+    },
+    "templebell": {
+      "name": "Temple Bell",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 12
+    },
+    "temporalmanipulation": {
+      "name": "Temporal Manipulation",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 17
+    },
+    "temporalmastery": {
+      "name": "Temporal Mastery",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 17
+    },
+    "teysaorzhovscion": {
+      "name": "Teysa, Orzhov Scion",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 15
+    },
+    "thedestinedwhitemage": {
+      "name": "The Destined White Mage",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 4
+    },
+    "thedominionbracelet": {
+      "name": "The Dominion Bracelet",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-28T23:06:40+00:00",
+      "matches": 9
     }
   },
   "unmatched": {
