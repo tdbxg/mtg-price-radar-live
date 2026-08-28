@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CK 回收价实时变动 | MTG 价格雷达</title>
-  <link rel="stylesheet" href="./styles.css?v=1">
+  <link rel="stylesheet" href="./styles.css?v=2">
 </head>
 <body>
   <header class="site-header">
@@ -58,8 +58,16 @@
           <button data-finish="foil" type="button">只看闪卡</button>
         </div>
       </div>
-      <button class="refresh" id="refreshButton" type="button">刷新显示</button>
+      <div class="refresh-actions">
+        <button class="refresh" id="refreshButton" type="button" aria-live="polite">
+          <span class="refresh-icon" aria-hidden="true">↻</span>
+          <span id="refreshLabel">刷新最新数据</span>
+        </button>
+        <a class="sample-link" href="https://github.com/tdbxg/mtg-price-radar-live/actions/workflows/update-live-movers.yml" target="_blank" rel="noreferrer" title="打开 GitHub 更新任务，登录后运行工作流">启动后台采样</a>
+      </div>
     </section>
+
+    <p class="refresh-feedback" id="refreshFeedback" role="status" aria-live="polite" hidden></p>
 
     <section class="stats" aria-label="数据状态">
       <div><strong id="sampleAt">-</strong><span>最新采样</span></div>
@@ -91,6 +99,6 @@
     </section>
   </main>
   <footer>左侧只显示 CK 回收价上涨，右侧只显示 CK 正常售价下跌。价格来自 Card Kingdom 公开接口，首次采样建立基准后才会显示变动。</footer>
-  <script src="./movers.js?v=3"></script>
+  <script src="./movers.js?v=4"></script>
 </body>
 </html>

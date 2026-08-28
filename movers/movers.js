@@ -1,4 +1,4 @@
-const state = { data: null, period: "hour", basis: "dollar", format: "all", setCode: "", finish: "all", sldQuery: "" };
+const state = { data: null, period: "hour", basis: "dollar", format: "all", setCode: "", finish: "all", sldQuery: "", loading: false };
 
 const $ = (selector) => document.querySelector(selector);
 const labels = { hour: "1 小时", day: "24 小时", week: "7 天" };
@@ -120,12 +120,49 @@ function render() {
   renderSldCatalog();
 }
 
-async function load() {
-  const response = await fetch(`./live.json?v=${Date.now()}`, { cache: "no-store" });
-  if (!response.ok) throw new Error(`HTTP ${response.status}`);
-  state.data = await response.json();
-  populateSetSelect();
-  render();
+function setRefreshState(loading) {
+  state.loading = loading;
+  const button = $("#refreshButton");
+  button.disabled = loading;
+  button.setAttribute("aria-busy", String(loading));
+  button.classList.toggle("is-loading", loading);
+  $("#refreshLabel").textContent = loading ? "正在刷新" : "刷新最新数据";
+}
+
+function showRefreshFeedback(message, type = "success") {
+  const feedback = $("#refreshFeedback");
+  feedback.hidden = false;
+  feedback.className = `refresh-feedback ${type}`;
+  feedback.textContent = message;
+}
+
+async function load({ manual = false } = {}) {
+  if (state.loading) return;
+  const previousSample = state.data?.meta?.generatedAt || "";
+  setRefreshState(true);
+  if (manual) showRefreshFeedback("正在获取最新发布的价格数据…", "loading");
+  try {
+    const response = await fetch(`./live.json?v=${Date.now()}`, { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const nextData = await response.json();
+    if (!nextData?.meta?.generatedAt) throw new Error("数据缺少采样时间");
+    state.data = nextData;
+    populateSetSelect();
+    render();
+    if (manual) {
+      const sample = formatTime(nextData.meta.generatedAt);
+      const checked = new Date().toLocaleTimeString("zh-CN", { hour12: false });
+      const message = previousSample && previousSample === nextData.meta.generatedAt
+        ? `已检查，当前已是最新数据 · 采样 ${sample} · 检查 ${checked}`
+        : `已更新到最新数据 · 采样 ${sample} · 检查 ${checked}`;
+      showRefreshFeedback(message);
+    }
+  } catch (error) {
+    if (!state.data) $("#statusLine").textContent = `数据加载失败：${error.message}`;
+    showRefreshFeedback(`刷新失败，已保留当前榜单：${error.message}`, "error");
+  } finally {
+    setRefreshState(false);
+  }
 }
 
 document.querySelectorAll("[data-period]").forEach((button) => button.addEventListener("click", () => {
@@ -146,5 +183,5 @@ document.querySelectorAll("[data-finish]").forEach((button) => button.addEventLi
 $("#formatSelect").addEventListener("change", (event) => { state.format = event.target.value; render(); });
 $("#setSelect").addEventListener("change", (event) => { state.setCode = event.target.value; render(); });
 $("#sldSearch").addEventListener("input", (event) => { state.sldQuery = event.target.value; renderSldCatalog(); });
-$("#refreshButton").addEventListener("click", () => load().catch((error) => { $("#statusLine").textContent = `刷新失败：${error.message}`; }));
-load().catch((error) => { $("#statusLine").textContent = `数据加载失败：${error.message}`; });
+$("#refreshButton").addEventListener("click", () => load({ manual: true }));
+load();
