@@ -14,6 +14,18 @@ SPEC.loader.exec_module(MOVERS)
 
 
 class PriceHistoryTests(unittest.TestCase):
+    def test_three_day_period_uses_72_hour_baseline(self):
+        run_at = datetime(2026, 8, 27, 4, tzinfo=timezone.utc)
+        changes = {
+            "sku": [
+                [MOVERS.iso(run_at - timedelta(hours=96)), 10.0],
+                [MOVERS.iso(run_at - timedelta(hours=48)), 15.0],
+            ]
+        }
+
+        self.assertEqual(MOVERS.PERIODS["threeDay"], 72)
+        self.assertEqual(MOVERS.baseline_at(changes["sku"], run_at - timedelta(hours=72)), 10.0)
+
     def test_stale_tail_is_anchored_at_last_confirmed_snapshot(self):
         run_at = datetime(2026, 8, 27, 4, tzinfo=timezone.utc)
         prior_at = MOVERS.iso(run_at - timedelta(hours=3))

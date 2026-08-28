@@ -1,7 +1,7 @@
 const state = { data: null, period: "hour", basis: "dollar", format: "all", setCode: "", finish: "all", sldQuery: "", loading: false };
 
 const $ = (selector) => document.querySelector(selector);
-const labels = { hour: "1 小时", day: "24 小时", week: "7 天" };
+const labels = { hour: "1 小时", day: "24 小时", threeDay: "72 小时", week: "7 天" };
 const formatLabels = { standard: "标准", pioneer: "先驱", modern: "摩登", legacy: "薪传", special: "特选" };
 const usd = (value) => `$${Number(value || 0).toFixed(2)}`;
 const pct = (value) => `${value > 0 ? "+" : ""}${Number(value || 0).toFixed(1)}%`;

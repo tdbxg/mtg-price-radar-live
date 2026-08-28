@@ -44,7 +44,7 @@ jobs:
           assert history.get("currentAt") and history.get("current")
           assert live.get("meta", {}).get("activeRows", 0) > 50000
           assert len(live.get("meta", {}).get("setCatalog", [])) > 300
-          assert set(live.get("periods", {})) == {"hour", "day", "week"}
+          assert set(live.get("periods", {})) == {"hour", "day", "threeDay", "week"}
           assert all(isinstance(period.get("sets"), dict) for period in live["periods"].values())
           assert all(set(period.get("formats", {})) == {"standard", "pioneer", "modern", "legacy", "special"} for period in live["periods"].values())
           assert all({"available", "sets", "formats", "winners", "losers"} <= set(period.get("retail", {})) for period in live["periods"].values())

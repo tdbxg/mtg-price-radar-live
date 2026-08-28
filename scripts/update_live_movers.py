@@ -3,7 +3,7 @@
 
 The history deliberately keeps only the current SKU price index plus points for
 SKUs whose cash buy price changed.  It avoids duplicating the full CK catalog on
-every run while still allowing 1-hour, 24-hour, and 7-day comparisons.
+every run while still allowing 1-hour, 24-hour, 72-hour, and 7-day comparisons.
 """
 
 from __future__ import annotations
@@ -25,7 +25,7 @@ HISTORY_PATH = ROOT / "movers" / "live_history.json.gz"
 LIVE_PATH = ROOT / "movers" / "live.json"
 FORMAT_INDEX_PATH = ROOT / "movers" / "scryfall_format_index.json.gz"
 USER_AGENT = "mtg-price-radar-live-movers/1.0"
-PERIODS = {"hour": 1, "day": 24, "week": 24 * 7}
+PERIODS = {"hour": 1, "day": 24, "threeDay": 72, "week": 24 * 7}
 HISTORY_WINDOW = timedelta(days=8)
 TOP_ROWS = 250
 SET_TOP_ROWS = 80
