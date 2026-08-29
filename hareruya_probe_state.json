@@ -19313,6 +19313,156 @@
       "cashUsd": 15.0,
       "checkedAt": "2026-08-28T23:06:40+00:00",
       "matches": 9
+    },
+    "momentousfall": {
+      "name": "Momentous Fall",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 7
+    },
+    "guidedpassage": {
+      "name": "Guided Passage",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 3
+    },
+    "vexingshusher": {
+      "name": "Vexing Shusher",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 9
+    },
+    "urborg": {
+      "name": "Urborg",
+      "cashUsd": 16.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 54
+    },
+    "danceofthedead": {
+      "name": "Dance of the Dead",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 2
+    },
+    "goblinbomb": {
+      "name": "Goblin Bomb",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 33
+    },
+    "thesixthdoctor": {
+      "name": "The Sixth Doctor",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 9
+    },
+    "thewardoctor": {
+      "name": "The War Doctor",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 7
+    },
+    "thespiansstage": {
+      "name": "Thespian's Stage",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 37
+    },
+    "tidalkraken": {
+      "name": "Tidal Kraken",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 8
+    },
+    "turbulentdreams": {
+      "name": "Turbulent Dreams",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 2
+    },
+    "ultimaoriginofoblivion": {
+      "name": "Ultima, Origin of Oblivion",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 9
+    },
+    "underrealmlich": {
+      "name": "Underrealm Lich",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 11
+    },
+    "vats": {
+      "name": "V.A.T.S.",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 12
+    },
+    "vampirenocturnus": {
+      "name": "Vampire Nocturnus",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 11
+    },
+    "vexingradgull": {
+      "name": "Vexing Radgull",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 6
+    },
+    "vitalizingwind": {
+      "name": "Vitalizing Wind",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 3
+    },
+    "warmammoth": {
+      "name": "War Mammoth",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 13
+    },
+    "washout": {
+      "name": "Wash Out",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 3
+    },
+    "wastewoodverge": {
+      "name": "Wastewood Verge",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 16
+    },
+    "worldatwar": {
+      "name": "World at War",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 8
+    },
+    "worldspinewurm": {
+      "name": "Worldspine Wurm",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 10
+    },
+    "wrathoftheskies": {
+      "name": "Wrath of the Skies",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 14
+    },
+    "zelldincht": {
+      "name": "Zell Dincht",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 4
+    },
+    "zzzyxassabyss": {
+      "name": "Zzzyxas's Abyss",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T07:56:11+00:00",
+      "matches": 1
     }
   },
   "unmatched": {
