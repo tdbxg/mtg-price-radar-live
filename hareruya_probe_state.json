@@ -19463,6 +19463,150 @@
       "cashUsd": 15.0,
       "checkedAt": "2026-08-29T07:56:11+00:00",
       "matches": 1
+    },
+    "waveofreckoning": {
+      "name": "Wave of Reckoning",
+      "cashUsd": 27.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 7
+    },
+    "ratcolony": {
+      "name": "Rat Colony",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 10
+    },
+    "expeditionmap": {
+      "name": "Expedition Map",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 29
+    },
+    "forceofdespair": {
+      "name": "Force of Despair",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 8
+    },
+    "gravestorm": {
+      "name": "Gravestorm",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 3
+    },
+    "witherbloomthebalancer": {
+      "name": "Witherbloom, the Balancer",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 11
+    },
+    "archaeomancer": {
+      "name": "Archaeomancer",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 31
+    },
+    "campsitecuisine": {
+      "name": "Campsite Cuisine",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 4
+    },
+    "colossushammer": {
+      "name": "Colossus Hammer",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 22
+    },
+    "cityonfire": {
+      "name": "City on Fire",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 16
+    },
+    "hammerofbogardan": {
+      "name": "Hammer of Bogardan",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 6
+    },
+    "lairofthehydra": {
+      "name": "Lair of the Hydra",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 10
+    },
+    "hexmagic": {
+      "name": "Hex Magic",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 4
+    },
+    "jumbocactuar": {
+      "name": "Jumbo Cactuar",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 10
+    },
+    "magdabrazenoutlaw": {
+      "name": "Magda, Brazen Outlaw",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 17
+    },
+    "overwhelmingsplendor": {
+      "name": "Overwhelming Splendor",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 6
+    },
+    "shivandevastator": {
+      "name": "Shivan Devastator",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 12
+    },
+    "slimefootandsquee": {
+      "name": "Slimefoot and Squee",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 6
+    },
+    "theworldtree": {
+      "name": "The World Tree",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 31
+    },
+    "talismanofcuriosity": {
+      "name": "Talisman of Curiosity",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 28
+    },
+    "titaniavoiceofgaea": {
+      "name": "Titania, Voice of Gaea",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 6
+    },
+    "voracioushydra": {
+      "name": "Voracious Hydra",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 9
+    },
+    "zethiarcaneblademaster": {
+      "name": "Zethi, Arcane Blademaster",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 1
+    },
+    "circleofprotectiongreen": {
+      "name": "Circle of Protection: Green",
+      "cashUsd": 14.4,
+      "checkedAt": "2026-08-29T17:14:47+00:00",
+      "matches": 9
     }
   },
   "unmatched": {
