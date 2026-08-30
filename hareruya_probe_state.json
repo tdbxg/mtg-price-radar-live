@@ -19751,6 +19751,144 @@
       "cashUsd": 14.0,
       "checkedAt": "2026-08-30T06:47:57+00:00",
       "matches": 14
+    },
+    "urzasworkshop": {
+      "name": "Urza's Workshop",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 8
+    },
+    "crusadingknight": {
+      "name": "Crusading Knight",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 2
+    },
+    "crypticgateway": {
+      "name": "Cryptic Gateway",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 4
+    },
+    "deathbegetslife": {
+      "name": "Death Begets Life",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 5
+    },
+    "delusionsofmediocrity": {
+      "name": "Delusions of Mediocrity",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 4
+    },
+    "deserttwister": {
+      "name": "Desert Twister",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 4
+    },
+    "dragonlordatarka": {
+      "name": "Dragonlord Atarka",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 8
+    },
+    "dragonlorddromoka": {
+      "name": "Dragonlord Dromoka",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 21
+    },
+    "dread": {
+      "name": "Dread",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 60
+    },
+    "eladamri": {
+      "name": "Eladamri",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 42
+    },
+    "eldraziconscription": {
+      "name": "Eldrazi Conscription",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 16
+    },
+    "elvenchorus": {
+      "name": "Elven Chorus",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 17
+    },
+    "elvishpromenade": {
+      "name": "Elvish Promenade",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 9
+    },
+    "embargo": {
+      "name": "Embargo",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 2
+    },
+    "ensnaredbythemara": {
+      "name": "Ensnared by the Mara",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 12
+    },
+    "entangler": {
+      "name": "Entangler",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 4
+    },
+    "epicstruggle": {
+      "name": "Epic Struggle",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 4
+    },
+    "feldonofthethirdpath": {
+      "name": "Feldon of the Third Path",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 5
+    },
+    "erebosgodofthedead": {
+      "name": "Erebos, God of the Dead",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 5
+    },
+    "eyeofvecna": {
+      "name": "Eye of Vecna",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 5
+    },
+    "fishinggear": {
+      "name": "Fishing Gear",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 4
+    },
+    "flickerwisp": {
+      "name": "Flickerwisp",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 7
+    },
+    "floodfarmverge": {
+      "name": "Floodfarm Verge",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-30T17:40:25+00:00",
+      "matches": 14
     }
   },
   "unmatched": {
