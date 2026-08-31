@@ -19889,6 +19889,144 @@
       "cashUsd": 14.0,
       "checkedAt": "2026-08-30T17:40:25+00:00",
       "matches": 14
+    },
+    "lulusternguardian": {
+      "name": "Lulu, Stern Guardian",
+      "cashUsd": 75.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 7
+    },
+    "wallofair": {
+      "name": "Wall of Air",
+      "cashUsd": 25.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 9
+    },
+    "celestialprism": {
+      "name": "Celestial Prism",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 7
+    },
+    "karma": {
+      "name": "Karma",
+      "cashUsd": 21.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 9
+    },
+    "kondalordofeiganjo": {
+      "name": "Konda, Lord of Eiganjo",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 3
+    },
+    "sporocyst": {
+      "name": "Sporocyst",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 3
+    },
+    "wellrested": {
+      "name": "Well Rested",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 6
+    },
+    "cateransummons": {
+      "name": "Cateran Summons",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 2
+    },
+    "cleverconcealment": {
+      "name": "Clever Concealment",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 14
+    },
+    "inallaarchmageritualist": {
+      "name": "Inalla, Archmage Ritualist",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 7
+    },
+    "reprieve": {
+      "name": "Reprieve",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 22
+    },
+    "shadowheartdarkjusticiar": {
+      "name": "Shadowheart, Dark Justiciar",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 5
+    },
+    "galadhrimbrigade": {
+      "name": "Galadhrim Brigade",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 3
+    },
+    "brionstoutarm": {
+      "name": "Brion Stoutarm",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 5
+    },
+    "elendatheduskrose": {
+      "name": "Elenda, the Dusk Rose",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 20
+    },
+    "generalsenforcer": {
+      "name": "General's Enforcer",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 4
+    },
+    "gibberingdescent": {
+      "name": "Gibbering Descent",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 4
+    },
+    "gisasfavoriteshovel": {
+      "name": "Gisa's Favorite Shovel",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 1
+    },
+    "glinthawk": {
+      "name": "Glint Hawk",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 4
+    },
+    "giselabladeofgoldnight": {
+      "name": "Gisela, Blade of Goldnight",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 27
+    },
+    "gogomysteriousmime": {
+      "name": "Gogo, Mysterious Mime",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 8
+    },
+    "golgarigravetroll": {
+      "name": "Golgari Grave-Troll",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 21
+    },
+    "golostirelesspilgrim": {
+      "name": "Golos, Tireless Pilgrim",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T07:06:31+00:00",
+      "matches": 8
     }
   },
   "unmatched": {
