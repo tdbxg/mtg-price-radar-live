@@ -20027,6 +20027,138 @@
       "cashUsd": 14.0,
       "checkedAt": "2026-08-31T07:06:31+00:00",
       "matches": 8
+    },
+    "snowcoveredforest": {
+      "name": "Snow-Covered Forest",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 12
+    },
+    "falsecure": {
+      "name": "False Cure",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 4
+    },
+    "professionalfacebreaker": {
+      "name": "Professional Face-Breaker",
+      "cashUsd": 15.5,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 25
+    },
+    "argentumarmor": {
+      "name": "Argentum Armor",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 11
+    },
+    "earthbendingstudent": {
+      "name": "Earthbending Student",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 2
+    },
+    "snowcoveredplains": {
+      "name": "Snow-Covered Plains",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 12
+    },
+    "blackwidowsuperspy": {
+      "name": "Black Widow, Super Spy",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 13
+    },
+    "grothamaalldevouring": {
+      "name": "Grothama, All-Devouring",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 3
+    },
+    "hallofheliodsgenerosity": {
+      "name": "Hall of Heliod's Generosity",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 12
+    },
+    "hallofstormgiants": {
+      "name": "Hall of Storm Giants",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 13
+    },
+    "hypnox": {
+      "name": "Hypnox",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 3
+    },
+    "huntingcheetah": {
+      "name": "Hunting Cheetah",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 2
+    },
+    "illustriouswanderglyph": {
+      "name": "Illustrious Wanderglyph",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 8
+    },
+    "industrialadvancement": {
+      "name": "Industrial Advancement",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 6
+    },
+    "imaryllelfhameelite": {
+      "name": "Imaryll, Elfhame Elite",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 2
+    },
+    "intelligencebobblehead": {
+      "name": "Intelligence Bobblehead",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 6
+    },
+    "isamaruhoundofkonda": {
+      "name": "Isamaru, Hound of Konda",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 4
+    },
+    "jadarghoulcallerofnephalia": {
+      "name": "Jadar, Ghoulcaller of Nephalia",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 14
+    },
+    "jaheirafriendoftheforest": {
+      "name": "Jaheira, Friend of the Forest",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 12
+    },
+    "jhoiraoftheghitu": {
+      "name": "Jhoira of the Ghitu",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 6
+    },
+    "joineradept": {
+      "name": "Joiner Adept",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 8
+    },
+    "karrthustyrantofjund": {
+      "name": "Karrthus, Tyrant of Jund",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-08-31T19:33:37+00:00",
+      "matches": 10
     }
   },
   "unmatched": {
