@@ -20159,6 +20159,150 @@
       "cashUsd": 14.0,
       "checkedAt": "2026-08-31T19:33:37+00:00",
       "matches": 10
+    },
+    "ricochettrap": {
+      "name": "Ricochet Trap",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 2
+    },
+    "myojinofinfiniterage": {
+      "name": "Myojin of Infinite Rage",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 4
+    },
+    "nantukovigilante": {
+      "name": "Nantuko Vigilante",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 3
+    },
+    "samitehealer": {
+      "name": "Samite Healer",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 8
+    },
+    "fumikothelowblood": {
+      "name": "Fumiko the Lowblood",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 2
+    },
+    "biophagus": {
+      "name": "Biophagus",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 3
+    },
+    "kondasbanner": {
+      "name": "Konda's Banner",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 4
+    },
+    "kiragreatglassspinner": {
+      "name": "Kira, Great Glass-Spinner",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 9
+    },
+    "krosancloudscraper": {
+      "name": "Krosan Cloudscraper",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 4
+    },
+    "kruphixgodofhorizons": {
+      "name": "Kruphix, God of Horizons",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 6
+    },
+    "lazavdimirmastermind": {
+      "name": "Lazav, Dimir Mastermind",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 3
+    },
+    "leylineofanticipation": {
+      "name": "Leyline of Anticipation",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 19
+    },
+    "manabond": {
+      "name": "Manabond",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 4
+    },
+    "liesaforgottenarchangel": {
+      "name": "Liesa, Forgotten Archangel",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 10
+    },
+    "markofsakiko": {
+      "name": "Mark of Sakiko",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 4
+    },
+    "marwynthenurturer": {
+      "name": "Marwyn, the Nurturer",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 12
+    },
+    "masterhealer": {
+      "name": "Master Healer",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 6
+    },
+    "mercadiasdownfall": {
+      "name": "Mercadia's Downfall",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 2
+    },
+    "mulldrifter": {
+      "name": "Mulldrifter",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 15
+    },
+    "mishraartificerprodigy": {
+      "name": "Mishra, Artificer Prodigy",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 3
+    },
+    "multaniyavimayasavatar": {
+      "name": "Multani, Yavimaya's Avatar",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 6
+    },
+    "myojinofnightsreach": {
+      "name": "Myojin of Night's Reach",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 5
+    },
+    "myrretriever": {
+      "name": "Myr Retriever",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 15
+    },
+    "nantukoshrine": {
+      "name": "Nantuko Shrine",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T06:18:33+00:00",
+      "matches": 2
     }
   },
   "unmatched": {
