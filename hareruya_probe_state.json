@@ -20447,6 +20447,150 @@
       "cashUsd": 14.0,
       "checkedAt": "2026-09-01T07:26:38+00:00",
       "matches": 34
+    },
+    "streetwraith": {
+      "name": "Street Wraith",
+      "cashUsd": 42.5,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 19
+    },
+    "swordofkaldra": {
+      "name": "Sword of Kaldra",
+      "cashUsd": 20.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 5
+    },
+    "shepherdofrot": {
+      "name": "Shepherd of Rot",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 3
+    },
+    "soldier": {
+      "name": "Soldier",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 59
+    },
+    "slyspy": {
+      "name": "Sly Spy",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 6
+    },
+    "sorinlordofinnistrad": {
+      "name": "Sorin, Lord of Innistrad",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 6
+    },
+    "spinedsliver": {
+      "name": "Spined Sliver",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 4
+    },
+    "spinerockknoll": {
+      "name": "Spinerock Knoll",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 4
+    },
+    "springheartnantuko": {
+      "name": "Springheart Nantuko",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 14
+    },
+    "steelshapersgift": {
+      "name": "Steelshaper's Gift",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 22
+    },
+    "stiltzkinmooglemerchant": {
+      "name": "Stiltzkin, Moogle Merchant",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 11
+    },
+    "survivorsencampment": {
+      "name": "Survivors' Encampment",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 5
+    },
+    "thassagodofthesea": {
+      "name": "Thassa, God of the Sea",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 7
+    },
+    "tezzeretmasterofthebridge": {
+      "name": "Tezzeret, Master of the Bridge",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 4
+    },
+    "thegoldenthrone": {
+      "name": "The Golden Throne",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 3
+    },
+    "tibaltstrickery": {
+      "name": "Tibalt's Trickery",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 16
+    },
+    "torbranthaneofredfell": {
+      "name": "Torbran, Thane of Red Fell",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 18
+    },
+    "tranquilthicket": {
+      "name": "Tranquil Thicket",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 4
+    },
+    "ulalekfusedatrocity": {
+      "name": "Ulalek, Fused Atrocity",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 4
+    },
+    "unearth": {
+      "name": "Unearth",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 12
+    },
+    "vivienreid": {
+      "name": "Vivien Reid",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 16
+    },
+    "voltaicconstruct": {
+      "name": "Voltaic Construct",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 4
+    },
+    "walkingarchive": {
+      "name": "Walking Archive",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 5
+    },
+    "whitelotustile": {
+      "name": "White Lotus Tile",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-01T17:22:58+00:00",
+      "matches": 10
     }
   },
   "unmatched": {
