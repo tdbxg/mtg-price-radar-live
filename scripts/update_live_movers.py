@@ -260,7 +260,7 @@ def build_sustained_watchlist(
 
     return sorted(
         rows,
-        key=lambda row: (row["streakCount"], row["deltaPct"], row["deltaUsd"]),
+        key=lambda row: (row["deltaUsd"], row["deltaPct"], row["streakCount"]),
         reverse=True,
     )[:WATCH_TOP_ROWS]
 

@@ -111,6 +111,30 @@ class SustainedWatchlistTests(unittest.TestCase):
 
         self.assertEqual(MOVERS.build_sustained_watchlist(self.current, changes, self.card_index, self.run_at), [])
 
+    def test_candidates_prioritize_total_dollar_gain(self):
+        current = {
+            "large": {"price": 40.0, "qty": 1, "name": "Large Gain"},
+            "small": {"price": 0.5, "qty": 1, "name": "Small Gain"},
+        }
+        changes = {
+            "large": [
+                [MOVERS.iso(self.run_at - timedelta(hours=3)), 20.0],
+                [MOVERS.iso(self.run_at - timedelta(hours=2)), 30.0],
+                [MOVERS.iso(self.run_at - timedelta(hours=1)), 40.0],
+            ],
+            "small": [
+                [MOVERS.iso(self.run_at - timedelta(hours=5)), 0.01],
+                [MOVERS.iso(self.run_at - timedelta(hours=4)), 0.02],
+                [MOVERS.iso(self.run_at - timedelta(hours=3)), 0.05],
+                [MOVERS.iso(self.run_at - timedelta(hours=2)), 0.10],
+                [MOVERS.iso(self.run_at - timedelta(hours=1)), 0.50],
+            ],
+        }
+
+        rows = MOVERS.build_sustained_watchlist(current, changes, {}, self.run_at)
+
+        self.assertEqual([row["sku"] for row in rows], ["large", "small"])
+
 
 if __name__ == "__main__":
     unittest.main()
