@@ -20591,6 +20591,144 @@
       "cashUsd": 14.0,
       "checkedAt": "2026-09-01T17:22:58+00:00",
       "matches": 10
+    },
+    "rocksteadymutantmarauder": {
+      "name": "Rocksteady, Mutant Marauder",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 4
+    },
+    "orderofwhiteclay": {
+      "name": "Order of Whiteclay",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 2
+    },
+    "dirtcowlwurm": {
+      "name": "Dirtcowl Wurm",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 2
+    },
+    "glarbcalamitysaugur": {
+      "name": "Glarb, Calamity's Augur",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 13
+    },
+    "eggnoggersstache": {
+      "name": "Eggnogger's 'Stache",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 1
+    },
+    "massacrewurm": {
+      "name": "Massacre Wurm",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 27
+    },
+    "wrapinvigor": {
+      "name": "Wrap in Vigor",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 5
+    },
+    "windbriskraptor": {
+      "name": "Windbrisk Raptor",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 3
+    },
+    "zaskskitteringswarmlord": {
+      "name": "Zask, Skittering Swarmlord",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 2
+    },
+    "zodiacox": {
+      "name": "Zodiac Ox",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 2
+    },
+    "baralchiefofcompliance": {
+      "name": "Baral, Chief of Compliance",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 25
+    },
+    "biotransference": {
+      "name": "Biotransference",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 3
+    },
+    "boneshredder": {
+      "name": "Bone Shredder",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 3
+    },
+    "brotherhoodoutcast": {
+      "name": "Brotherhood Outcast",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 5
+    },
+    "brunalightofalabaster": {
+      "name": "Bruna, Light of Alabaster",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 5
+    },
+    "citanulflute": {
+      "name": "Citanul Flute",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 4
+    },
+    "desert": {
+      "name": "Desert",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 60
+    },
+    "etherealarmor": {
+      "name": "Ethereal Armor",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 8
+    },
+    "forcedfruition": {
+      "name": "Forced Fruition",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 8
+    },
+    "guiltfeeder": {
+      "name": "Guiltfeeder",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 4
+    },
+    "hairstrungkoto": {
+      "name": "Hair-Strung Koto",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 3
+    },
+    "hourofrevelation": {
+      "name": "Hour of Revelation",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 10
+    },
+    "jump": {
+      "name": "Jump",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T05:55:39+00:00",
+      "matches": 53
     }
   },
   "unmatched": {
