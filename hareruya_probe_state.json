@@ -20729,6 +20729,132 @@
       "cashUsd": 13.8,
       "checkedAt": "2026-09-02T05:55:39+00:00",
       "matches": 53
+    },
+    "mutinousmassacre": {
+      "name": "Mutinous Massacre",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 5
+    },
+    "kaaliazenithseeker": {
+      "name": "Kaalia, Zenith Seeker",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 10
+    },
+    "manacache": {
+      "name": "Mana Cache",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 2
+    },
+    "nightmarelash": {
+      "name": "Nightmare Lash",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 4
+    },
+    "praetorscounsel": {
+      "name": "Praetor's Counsel",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 8
+    },
+    "prizedamalgam": {
+      "name": "Prized Amalgam",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 9
+    },
+    "raisethepast": {
+      "name": "Raise the Past",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 19
+    },
+    "rampagingyaoguai": {
+      "name": "Rampaging Yao Guai",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 12
+    },
+    "repayinkind": {
+      "name": "Repay in Kind",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 4
+    },
+    "shamanstrance": {
+      "name": "Shaman's Trance",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 2
+    },
+    "skyshroudranger": {
+      "name": "Skyshroud Ranger",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 2
+    },
+    "torgalafinehound": {
+      "name": "Torgal, A Fine Hound",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 3
+    },
+    "transmutationfont": {
+      "name": "Transmutation Font",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 17
+    },
+    "vanillecheerfullcie": {
+      "name": "Vanille, Cheerful l'Cie",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 4
+    },
+    "weakness": {
+      "name": "Weakness",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 6
+    },
+    "yawgmothsagenda": {
+      "name": "Yawgmoth's Agenda",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 2
+    },
+    "weatheredsentinels": {
+      "name": "Weathered Sentinels",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 8
+    },
+    "ajanimentorofheroes": {
+      "name": "Ajani, Mentor of Heroes",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 7
+    },
+    "alelaartfulprovocateur": {
+      "name": "Alela, Artful Provocateur",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 5
+    },
+    "beholdthesinistersix": {
+      "name": "Behold the Sinister Six!",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 11
+    },
+    "dawnsiresunstardreadnought": {
+      "name": "Dawnsire, Sunstar Dreadnought",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-02T17:14:21+00:00",
+      "matches": 14
     }
   },
   "unmatched": {
