@@ -60,5 +60,57 @@ class PriceHistoryTests(unittest.TestCase):
         self.assertEqual(changes["sku"], [[MOVERS.iso(run_at), 35.0]])
 
 
+class SustainedWatchlistTests(unittest.TestCase):
+    def setUp(self):
+        self.run_at = datetime(2026, 9, 2, 4, tzinfo=timezone.utc)
+        self.current = {"sku": {"price": 14.0, "qty": 3, "name": "Rising Card"}}
+        self.card_index = {"sku": {"name": "Rising Card", "scryfallSet": "sld", "collectorNumber": "123"}}
+
+    def test_two_consecutive_rises_are_automatically_watched(self):
+        changes = {
+            "sku": [
+                [MOVERS.iso(self.run_at - timedelta(hours=24)), 10.0],
+                [MOVERS.iso(self.run_at - timedelta(hours=12)), 12.0],
+                [MOVERS.iso(self.run_at - timedelta(hours=1)), 14.0],
+            ]
+        }
+
+        rows = MOVERS.build_sustained_watchlist(self.current, changes, self.card_index, self.run_at)
+
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["streakCount"], 2)
+        self.assertEqual(rows[0]["streakStartUsd"], 10.0)
+        self.assertEqual(rows[0]["currentUsd"], 14.0)
+
+    def test_one_rise_is_not_enough(self):
+        changes = {"sku": [[MOVERS.iso(self.run_at - timedelta(hours=2)), 12.0], [MOVERS.iso(self.run_at - timedelta(hours=1)), 14.0]]}
+
+        self.assertEqual(MOVERS.build_sustained_watchlist(self.current, changes, self.card_index, self.run_at), [])
+
+    def test_latest_drop_breaks_the_rising_streak(self):
+        current = {"sku": {"price": 13.0, "qty": 3, "name": "Rising Card"}}
+        changes = {
+            "sku": [
+                [MOVERS.iso(self.run_at - timedelta(hours=4)), 10.0],
+                [MOVERS.iso(self.run_at - timedelta(hours=3)), 12.0],
+                [MOVERS.iso(self.run_at - timedelta(hours=2)), 14.0],
+                [MOVERS.iso(self.run_at - timedelta(hours=1)), 13.0],
+            ]
+        }
+
+        self.assertEqual(MOVERS.build_sustained_watchlist(current, changes, self.card_index, self.run_at), [])
+
+    def test_stale_rises_are_not_automatically_watched(self):
+        changes = {
+            "sku": [
+                [MOVERS.iso(self.run_at - timedelta(hours=80)), 10.0],
+                [MOVERS.iso(self.run_at - timedelta(hours=76)), 12.0],
+                [MOVERS.iso(self.run_at - timedelta(hours=73)), 14.0],
+            ]
+        }
+
+        self.assertEqual(MOVERS.build_sustained_watchlist(self.current, changes, self.card_index, self.run_at), [])
+
+
 if __name__ == "__main__":
     unittest.main()

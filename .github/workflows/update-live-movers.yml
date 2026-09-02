@@ -49,6 +49,9 @@ jobs:
           assert all(set(period.get("formats", {})) == {"standard", "pioneer", "modern", "legacy", "special"} for period in live["periods"].values())
           assert all({"available", "sets", "formats", "winners", "losers"} <= set(period.get("retail", {})) for period in live["periods"].values())
           assert len(live.get("catalogs", {}).get("sld", [])) > 3000
+          assert set(live.get("watchlist", {})) == {"auto", "rule"}
+          assert live["watchlist"]["rule"] == {"windowHours": 72, "minConsecutiveRises": 2, "maxRows": 100}
+          assert all(row.get("streakCount", 0) >= 2 for row in live["watchlist"]["auto"])
           print(live["meta"])
           PY
 

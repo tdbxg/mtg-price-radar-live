@@ -27,6 +27,9 @@ FORMAT_INDEX_PATH = ROOT / "movers" / "scryfall_format_index.json.gz"
 USER_AGENT = "mtg-price-radar-live-movers/1.0"
 PERIODS = {"hour": 1, "day": 24, "threeDay": 72, "week": 24 * 7}
 HISTORY_WINDOW = timedelta(days=8)
+WATCH_WINDOW_HOURS = 72
+WATCH_MIN_CONSECUTIVE_RISES = 2
+WATCH_TOP_ROWS = 100
 TOP_ROWS = 250
 SET_TOP_ROWS = 80
 FORMAT_TOP_ROWS = 120
@@ -216,6 +219,52 @@ def compact_row(
     }
 
 
+def build_sustained_watchlist(
+    current: dict[str, dict[str, Any]], changes: dict[str, list[list[Any]]], card_index: dict[str, dict[str, Any]], run_at: datetime
+) -> list[dict[str, Any]]:
+    """Find active prints whose latest cash-price moves are consecutive rises."""
+    cutoff = run_at - timedelta(hours=WATCH_WINDOW_HOURS)
+    rows: list[dict[str, Any]] = []
+    for sku, value in current.items():
+        current_price = money(value.get("price"))
+        points = changes.get(sku, [])
+        if current_price <= 0 or quantity(value.get("qty")) <= 0 or len(points) < WATCH_MIN_CONSECUTIVE_RISES + 1:
+            continue
+        if money(points[-1][1]) != current_price:
+            continue
+
+        rise_count = 0
+        for index in range(len(points) - 1, 0, -1):
+            if parse_iso(points[index][0]) < cutoff:
+                break
+            before = money(points[index - 1][1])
+            after = money(points[index][1])
+            if before <= 0 or after <= before:
+                break
+            rise_count += 1
+
+        if rise_count < WATCH_MIN_CONSECUTIVE_RISES:
+            continue
+        start_index = len(points) - rise_count - 1
+        start_price = money(points[start_index][1])
+        row = compact_row(sku, value, start_price, card_index.get(sku, {}))
+        row.update({
+            "source": "auto",
+            "streakCount": rise_count,
+            "streakStartedAt": points[start_index][0],
+            "firstRiseAt": points[start_index + 1][0],
+            "lastRiseAt": points[-1][0],
+            "streakStartUsd": start_price,
+        })
+        rows.append(row)
+
+    return sorted(
+        rows,
+        key=lambda row: (row["streakCount"], row["deltaPct"], row["deltaUsd"]),
+        reverse=True,
+    )[:WATCH_TOP_ROWS]
+
+
 def build_period(
     current: dict[str, dict[str, Any]], changes: dict[str, list[list[Any]]], card_index: dict[str, dict[str, Any]], target: datetime,
     value_field: str = "price", qty_field: str = "qty",
@@ -380,6 +429,7 @@ def main() -> int:
     for meta in card_index.values():
         card_id = str(meta.get("scryfallId") or "")
         meta["formatBucket"] = format_index["buckets"].get(card_id) or fallback_format_bucket(meta)
+    auto_watchlist = build_sustained_watchlist(current, changes, card_index, run_at)
     live = {
         "meta": {
             "generatedAt": iso(run_at),
@@ -389,6 +439,7 @@ def main() -> int:
             "retailActiveRows": retail_active_rows,
             "changedSkus": len(changes),
             "retailChangedSkus": len(retail_changes),
+            "autoWatchRows": len(auto_watchlist),
             "formatLegalitiesCached": len(format_index["buckets"]),
             "formatClassification": "exact legality cache when available; otherwise printing set environment",
             "storage": "current SKU index plus changed price points",
@@ -404,10 +455,18 @@ def main() -> int:
         "catalogs": {
             "sld": build_sld_catalog(current, changes, card_index, run_at - timedelta(hours=1)),
         },
+        "watchlist": {
+            "auto": auto_watchlist,
+            "rule": {
+                "windowHours": WATCH_WINDOW_HOURS,
+                "minConsecutiveRises": WATCH_MIN_CONSECUTIVE_RISES,
+                "maxRows": WATCH_TOP_ROWS,
+            },
+        },
     }
     with open(LIVE_PATH, "w", encoding="utf-8") as handle:
         json.dump(live, handle, ensure_ascii=False, separators=(",", ":"))
-    print(json.dumps({"generatedAt": live["meta"]["generatedAt"], "cashActiveRows": cash_active_rows, "retailActiveRows": retail_active_rows, "changedSkus": len(changes), "retailChangedSkus": len(retail_changes)}, ensure_ascii=False))
+    print(json.dumps({"generatedAt": live["meta"]["generatedAt"], "cashActiveRows": cash_active_rows, "retailActiveRows": retail_active_rows, "changedSkus": len(changes), "retailChangedSkus": len(retail_changes), "autoWatchRows": len(auto_watchlist)}, ensure_ascii=False))
     return 0
 
 

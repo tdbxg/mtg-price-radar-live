@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
   <title>CK 回收价实时变动 | MTG 价格雷达</title>
-  <link rel="stylesheet" href="./styles.css?v=2">
+  <link rel="stylesheet" href="./styles.css?v=3">
 </head>
 <body>
   <header class="site-header">
@@ -82,12 +83,28 @@
     <section class="boards">
       <article class="board">
         <header><h2 id="winnerTitle">CK 回收价上涨</h2><span id="winnerCount">0 张</span></header>
-        <div class="table-wrap"><table><thead><tr><th>#</th><th>牌名 / 精确版本</th><th>原回收价</th><th>现回收价</th><th>变动</th></tr></thead><tbody id="winners"></tbody></table></div>
+        <div class="table-wrap"><table><thead><tr><th>#</th><th>牌名 / 精确版本</th><th>原回收价</th><th>现回收价</th><th>变动</th><th class="watch-column"><span class="sr-only">关注</span>☆</th></tr></thead><tbody id="winners"></tbody></table></div>
       </article>
       <article class="board">
         <header><h2 id="loserTitle">CK 正常售价下跌</h2><span id="loserCount">0 张</span></header>
-        <div class="table-wrap"><table><thead><tr><th>#</th><th>牌名 / 精确版本</th><th>原 CK 售价</th><th>现 CK 售价</th><th>变动</th></tr></thead><tbody id="losers"></tbody></table></div>
+        <div class="table-wrap"><table><thead><tr><th>#</th><th>牌名 / 精确版本</th><th>原 CK 售价</th><th>现 CK 售价</th><th>变动</th><th class="watch-column"><span class="sr-only">关注</span>☆</th></tr></thead><tbody id="losers"></tbody></table></div>
       </article>
+    </section>
+
+    <section class="catalog watchlist" id="watchlist">
+      <header>
+        <div><h2>关注榜单</h2><p id="watchRule">自动关注：72 小时内连续上涨至少 2 次</p></div>
+        <div class="watch-tools">
+          <div class="segments" aria-label="关注来源筛选">
+            <button class="active" data-watch-filter="all" type="button">全部</button>
+            <button data-watch-filter="auto" type="button">自动</button>
+            <button data-watch-filter="manual" type="button">手动</button>
+          </div>
+          <input id="watchSearch" type="search" placeholder="搜索关注中的牌">
+        </div>
+      </header>
+      <div class="table-wrap"><table><thead><tr><th>牌名 / 精确版本</th><th>来源</th><th>关注起点</th><th>当前价格</th><th>累计变动</th><th>最近记录</th><th class="watch-column"><span class="sr-only">删除</span>×</th></tr></thead><tbody id="watchRows"></tbody></table></div>
+      <footer id="watchCount" aria-live="polite">0 张</footer>
     </section>
 
     <section class="catalog" id="sldCatalog" hidden>
@@ -95,11 +112,11 @@
         <div><h2>SLD 完整当前收购目录</h2><p>每次采样均收录正在收购的 Secret Lair 单卡，不限于发生价格变动的牌。</p></div>
         <input id="sldSearch" type="search" placeholder="搜索英文、中文、SKU、编号、皮肤">
       </header>
-      <div class="table-wrap"><table><thead><tr><th>牌名 / 精确版本</th><th>皮肤 / 副标题</th><th>发售</th><th>收购数</th><th>当前回收价</th><th>1 小时变动</th></tr></thead><tbody id="sldRows"></tbody></table></div>
+      <div class="table-wrap"><table><thead><tr><th>牌名 / 精确版本</th><th>皮肤 / 副标题</th><th>发售</th><th>收购数</th><th>当前回收价</th><th>1 小时变动</th><th class="watch-column"><span class="sr-only">关注</span>☆</th></tr></thead><tbody id="sldRows"></tbody></table></div>
       <footer id="sldCount"></footer>
     </section>
   </main>
   <footer>左侧只显示 CK 回收价上涨，右侧只显示 CK 正常售价下跌。价格来自 Card Kingdom 公开接口，首次采样建立基准后才会显示变动。</footer>
-  <script src="./movers.js?v=5"></script>
+  <script src="./movers.js?v=6"></script>
 </body>
 </html>
