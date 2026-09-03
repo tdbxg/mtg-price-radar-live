@@ -20855,6 +20855,138 @@
       "cashUsd": 13.5,
       "checkedAt": "2026-09-02T17:14:21+00:00",
       "matches": 14
+    },
+    "rithsgrove": {
+      "name": "Rith's Grove",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 2
+    },
+    "skitteringskirge": {
+      "name": "Skittering Skirge",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 1
+    },
+    "sigardafontofblessings": {
+      "name": "Sigarda, Font of Blessings",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 20
+    },
+    "relicofprogenitus": {
+      "name": "Relic of Progenitus",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 16
+    },
+    "falsedefeat": {
+      "name": "False Defeat",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 2
+    },
+    "emptycityruse": {
+      "name": "Empty City Ruse",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 4
+    },
+    "memoryerosion": {
+      "name": "Memory Erosion",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 8
+    },
+    "benniebrackszoologist": {
+      "name": "Bennie Bracks, Zoologist",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 10
+    },
+    "brightstoneritual": {
+      "name": "Brightstone Ritual",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 5
+    },
+    "pariahsshield": {
+      "name": "Pariah's Shield",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 8
+    },
+    "courtofgarenbrig": {
+      "name": "Court of Garenbrig",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 8
+    },
+    "dragonskullsummit": {
+      "name": "Dragonskull Summit",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 38
+    },
+    "iymrithdesertdoom": {
+      "name": "Iymrith, Desert Doom",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 13
+    },
+    "komacosmosserpent": {
+      "name": "Koma, Cosmos Serpent",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 22
+    },
+    "kumenatyrantoforazca": {
+      "name": "Kumena, Tyrant of Orazca",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 6
+    },
+    "lordxanderthecollector": {
+      "name": "Lord Xander, the Collector",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 8
+    },
+    "manavortex": {
+      "name": "Mana Vortex",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 1
+    },
+    "misleadingsignpost": {
+      "name": "Misleading Signpost",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 4
+    },
+    "mycoloth": {
+      "name": "Mycoloth",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 13
+    },
+    "neyithofthedirehunt": {
+      "name": "Neyith of the Dire Hunt",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 1
+    },
+    "orzhovsignet": {
+      "name": "Orzhov Signet",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 51
+    },
+    "piratedcopy": {
+      "name": "Pirated Copy",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T05:55:43+00:00",
+      "matches": 4
     }
   },
   "unmatched": {
