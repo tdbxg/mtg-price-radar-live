@@ -20987,6 +20987,126 @@
       "cashUsd": 13.5,
       "checkedAt": "2026-09-03T05:55:43+00:00",
       "matches": 4
+    },
+    "empressgalina": {
+      "name": "Empress Galina",
+      "cashUsd": 40.0,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 7
+    },
+    "tandemlookout": {
+      "name": "Tandem Lookout",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 11
+    },
+    "ramunapruins": {
+      "name": "Ramunap Ruins",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 6
+    },
+    "shadrixsilverquill": {
+      "name": "Shadrix Silverquill",
+      "cashUsd": 15.2,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 11
+    },
+    "angelstrumpet": {
+      "name": "Angel's Trumpet",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 3
+    },
+    "karlovoftheghostcouncil": {
+      "name": "Karlov of the Ghost Council",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 16
+    },
+    "planetariumofwanshitong": {
+      "name": "Planetarium of Wan Shi Tong",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 10
+    },
+    "plaguecrafter": {
+      "name": "Plaguecrafter",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 7
+    },
+    "ringofimmortals": {
+      "name": "Ring of Immortals",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 1
+    },
+    "secretrendezvous": {
+      "name": "Secret Rendezvous",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 18
+    },
+    "sowingmycospawn": {
+      "name": "Sowing Mycospawn",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 12
+    },
+    "spoilsofvictory": {
+      "name": "Spoils of Victory",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 3
+    },
+    "tashathewitchqueen": {
+      "name": "Tasha, the Witch Queen",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 10
+    },
+    "threadsofdisloyalty": {
+      "name": "Threads of Disloyalty",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 3
+    },
+    "vilisbrokerofblood": {
+      "name": "Vilis, Broker of Blood",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 16
+    },
+    "witchsclinic": {
+      "name": "Witch's Clinic",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 6
+    },
+    "hornofgreed": {
+      "name": "Horn of Greed",
+      "cashUsd": 13.2,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 12
+    },
+    "teferismoat": {
+      "name": "Teferi's Moat",
+      "cashUsd": 13.2,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 4
+    },
+    "amzuswarmshunger": {
+      "name": "Amzu, Swarm's Hunger",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 1
+    },
+    "astraldragon": {
+      "name": "Astral Dragon",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-03T17:06:13+00:00",
+      "matches": 4
     }
   },
   "unmatched": {
