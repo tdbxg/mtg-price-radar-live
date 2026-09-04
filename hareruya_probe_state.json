@@ -21107,6 +21107,114 @@
       "cashUsd": 13.0,
       "checkedAt": "2026-09-03T17:06:13+00:00",
       "matches": 4
+    },
+    "ubamask": {
+      "name": "Uba Mask",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 4
+    },
+    "elvishharbinger": {
+      "name": "Elvish Harbinger",
+      "cashUsd": 16.8,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 9
+    },
+    "coastaltower": {
+      "name": "Coastal Tower",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 10
+    },
+    "heartlesshidetsugu": {
+      "name": "Heartless Hidetsugu",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 13
+    },
+    "godobanditwarlord": {
+      "name": "Godo, Bandit Warlord",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 18
+    },
+    "imperiousperfect": {
+      "name": "Imperious Perfect",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 22
+    },
+    "sarcomancy": {
+      "name": "Sarcomancy",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 2
+    },
+    "bartelruneaxe": {
+      "name": "Bartel Runeaxe",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 1
+    },
+    "bothersomequasit": {
+      "name": "Bothersome Quasit",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 4
+    },
+    "carrionants": {
+      "name": "Carrion Ants",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 1
+    },
+    "catharscrusade": {
+      "name": "Cathars' Crusade",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 21
+    },
+    "cyclone": {
+      "name": "Cyclone",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 6
+    },
+    "darksteelplate": {
+      "name": "Darksteel Plate",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 18
+    },
+    "dionuselvisharchdruid": {
+      "name": "Dionus, Elvish Archdruid",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 2
+    },
+    "mishraclaimedbygix": {
+      "name": "Mishra, Claimed by Gix",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 6
+    },
+    "novapentacle": {
+      "name": "Nova Pentacle",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 1
+    },
+    "phyrexiancrusader": {
+      "name": "Phyrexian Crusader",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 7
+    },
+    "poisonarrow": {
+      "name": "Poison Arrow",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-04T06:00:58+00:00",
+      "matches": 2
     }
   },
   "unmatched": {
