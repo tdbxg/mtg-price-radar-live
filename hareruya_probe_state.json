@@ -21215,6 +21215,114 @@
       "cashUsd": 13.0,
       "checkedAt": "2026-09-04T06:00:58+00:00",
       "matches": 2
+    },
+    "vensersjournal": {
+      "name": "Venser's Journal",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 7
+    },
+    "molteninfluence": {
+      "name": "Molten Influence",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 4
+    },
+    "revelation": {
+      "name": "Revelation",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 59
+    },
+    "spawningkraken": {
+      "name": "Spawning Kraken",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 4
+    },
+    "spikefeeder": {
+      "name": "Spike Feeder",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 11
+    },
+    "tezzeretartificemaster": {
+      "name": "Tezzeret, Artifice Master",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 9
+    },
+    "vonashunger": {
+      "name": "Vona's Hunger",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 10
+    },
+    "xantcha": {
+      "name": "Xantcha",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 11
+    },
+    "akromaangeloffury": {
+      "name": "Akroma, Angel of Fury",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 9
+    },
+    "alexizephyrmage": {
+      "name": "Alexi, Zephyr Mage",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 2
+    },
+    "aurification": {
+      "name": "Aurification",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 4
+    },
+    "authorityoftheconsuls": {
+      "name": "Authority of the Consuls",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 25
+    },
+    "autumnsveil": {
+      "name": "Autumn's Veil",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 5
+    },
+    "avenbrigadier": {
+      "name": "Aven Brigadier",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 2
+    },
+    "beaconofcreation": {
+      "name": "Beacon of Creation",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 4
+    },
+    "beholdthebeyond": {
+      "name": "Behold the Beyond",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 5
+    },
+    "bellowingfiend": {
+      "name": "Bellowing Fiend",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 2
+    },
+    "bilbosring": {
+      "name": "Bilbo's Ring",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-04T16:55:28+00:00",
+      "matches": 11
     }
   },
   "unmatched": {
