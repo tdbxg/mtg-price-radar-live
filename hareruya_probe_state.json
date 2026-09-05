@@ -21323,6 +21323,102 @@
       "cashUsd": 12.5,
       "checkedAt": "2026-09-04T16:55:28+00:00",
       "matches": 11
+    },
+    "declarationofnaught": {
+      "name": "Declaration of Naught",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-09-05T05:51:56+00:00",
+      "matches": 4
+    },
+    "fieryislet": {
+      "name": "Fiery Islet",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-05T05:51:56+00:00",
+      "matches": 20
+    },
+    "snowcoveredswamp": {
+      "name": "Snow-Covered Swamp",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-05T05:51:56+00:00",
+      "matches": 12
+    },
+    "abrade": {
+      "name": "Abrade",
+      "cashUsd": 13.2,
+      "checkedAt": "2026-09-05T05:51:56+00:00",
+      "matches": 23
+    },
+    "deafeningsilence": {
+      "name": "Deafening Silence",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-05T05:51:56+00:00",
+      "matches": 9
+    },
+    "nyleagodofthehunt": {
+      "name": "Nylea, God of the Hunt",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-05T05:51:56+00:00",
+      "matches": 6
+    },
+    "raucoustheater": {
+      "name": "Raucous Theater",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-05T05:51:56+00:00",
+      "matches": 14
+    },
+    "reyhanlastoftheabzan": {
+      "name": "Reyhan, Last of the Abzan",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-05T05:51:56+00:00",
+      "matches": 5
+    },
+    "scuteswarm": {
+      "name": "Scute Swarm",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-05T05:51:56+00:00",
+      "matches": 26
+    },
+    "toothclawandtail": {
+      "name": "Tooth, Claw, and Tail",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-05T05:51:56+00:00",
+      "matches": 1
+    },
+    "breachthemultiverse": {
+      "name": "Breach the Multiverse",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T05:51:56+00:00",
+      "matches": 14
+    },
+    "burningsands": {
+      "name": "Burning Sands",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T05:51:56+00:00",
+      "matches": 3
+    },
+    "cathedralacolyte": {
+      "name": "Cathedral Acolyte",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T05:51:56+00:00",
+      "matches": 6
+    },
+    "celestialarmor": {
+      "name": "Celestial Armor",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T05:51:56+00:00",
+      "matches": 8
+    },
+    "circleofprotectionblue": {
+      "name": "Circle of Protection: Blue",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T05:51:56+00:00",
+      "matches": 11
+    },
+    "cloudkey": {
+      "name": "Cloud Key",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T05:51:56+00:00",
+      "matches": 19
     }
   },
   "unmatched": {
