@@ -21419,6 +21419,96 @@
       "cashUsd": 12.5,
       "checkedAt": "2026-09-05T05:51:56+00:00",
       "matches": 19
+    },
+    "gerrardsverdict": {
+      "name": "Gerrard's Verdict",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-09-05T16:09:30+00:00",
+      "matches": 6
+    },
+    "kalastriahighborn": {
+      "name": "Kalastria Highborn",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-09-05T16:09:30+00:00",
+      "matches": 4
+    },
+    "cometstorm": {
+      "name": "Comet Storm",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T16:09:30+00:00",
+      "matches": 14
+    },
+    "breakthrough": {
+      "name": "Breakthrough",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T16:09:30+00:00",
+      "matches": 4
+    },
+    "councilsjudgment": {
+      "name": "Council's Judgment",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T16:09:30+00:00",
+      "matches": 8
+    },
+    "cultivate": {
+      "name": "Cultivate",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T16:09:30+00:00",
+      "matches": 30
+    },
+    "dampingengine": {
+      "name": "Damping Engine",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T16:09:30+00:00",
+      "matches": 2
+    },
+    "deathcapglade": {
+      "name": "Deathcap Glade",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T16:09:30+00:00",
+      "matches": 29
+    },
+    "denryklineditorinchief": {
+      "name": "Denry Klin, Editor in Chief",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T16:09:30+00:00",
+      "matches": 6
+    },
+    "elektradaughterofthehand": {
+      "name": "Elektra, Daughter of the Hand",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T16:09:30+00:00",
+      "matches": 8
+    },
+    "elitearchers": {
+      "name": "Elite Archers",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T16:09:30+00:00",
+      "matches": 4
+    },
+    "endlessranksofthedead": {
+      "name": "Endless Ranks of the Dead",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T16:09:30+00:00",
+      "matches": 9
+    },
+    "enduringideal": {
+      "name": "Enduring Ideal",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T16:09:30+00:00",
+      "matches": 5
+    },
+    "energyflux": {
+      "name": "Energy Flux",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T16:09:30+00:00",
+      "matches": 6
+    },
+    "ensnare": {
+      "name": "Ensnare",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-05T16:09:30+00:00",
+      "matches": 14
     }
   },
   "unmatched": {
