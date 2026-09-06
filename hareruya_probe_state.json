@@ -21599,6 +21599,96 @@
       "cashUsd": 12.5,
       "checkedAt": "2026-09-06T06:03:33+00:00",
       "matches": 9
+    },
+    "gigglingskitterspike": {
+      "name": "Giggling Skitterspike",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-06T16:21:59+00:00",
+      "matches": 4
+    },
+    "goblinchainwhirler": {
+      "name": "Goblin Chainwhirler",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-06T16:21:59+00:00",
+      "matches": 7
+    },
+    "gravetitan": {
+      "name": "Grave Titan",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-06T16:21:59+00:00",
+      "matches": 26
+    },
+    "gristthehungertide": {
+      "name": "Grist, the Hunger Tide",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-06T16:21:59+00:00",
+      "matches": 21
+    },
+    "halimardepths": {
+      "name": "Halimar Depths",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-06T16:21:59+00:00",
+      "matches": 3
+    },
+    "hexparasite": {
+      "name": "Hex Parasite",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-06T16:21:59+00:00",
+      "matches": 4
+    },
+    "harbingerofnight": {
+      "name": "Harbinger of Night",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-06T16:21:59+00:00",
+      "matches": 2
+    },
+    "ichormoongauntlet": {
+      "name": "Ichormoon Gauntlet",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-06T16:21:59+00:00",
+      "matches": 11
+    },
+    "improvisationcapstone": {
+      "name": "Improvisation Capstone",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-06T16:21:59+00:00",
+      "matches": 12
+    },
+    "ingarrukswake": {
+      "name": "In Garruk's Wake",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-06T16:21:59+00:00",
+      "matches": 17
+    },
+    "jacesarchivist": {
+      "name": "Jace's Archivist",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-06T16:21:59+00:00",
+      "matches": 11
+    },
+    "kayasghostform": {
+      "name": "Kaya's Ghostform",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-06T16:21:59+00:00",
+      "matches": 3
+    },
+    "jacethelivingguildpact": {
+      "name": "Jace, the Living Guildpact",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-06T16:21:59+00:00",
+      "matches": 3
+    },
+    "keldonnecropolis": {
+      "name": "Keldon Necropolis",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-06T16:21:59+00:00",
+      "matches": 2
+    },
+    "khalnihydra": {
+      "name": "Khalni Hydra",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-06T16:21:59+00:00",
+      "matches": 5
     }
   },
   "unmatched": {
