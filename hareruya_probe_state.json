@@ -21689,6 +21689,102 @@
       "cashUsd": 12.5,
       "checkedAt": "2026-09-06T16:21:59+00:00",
       "matches": 5
+    },
+    "freyacrescent": {
+      "name": "Freya Crescent",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-09-07T06:11:56+00:00",
+      "matches": 2
+    },
+    "rathsedge": {
+      "name": "Rath's Edge",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-09-07T06:11:56+00:00",
+      "matches": 2
+    },
+    "scrapheap": {
+      "name": "Scrapheap",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-07T06:11:56+00:00",
+      "matches": 5
+    },
+    "sephirothfallenhero": {
+      "name": "Sephiroth, Fallen Hero",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-07T06:11:56+00:00",
+      "matches": 7
+    },
+    "tirelesstracker": {
+      "name": "Tireless Tracker",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-07T06:11:56+00:00",
+      "matches": 31
+    },
+    "elspethknighterrantemblem": {
+      "name": "Elspeth, Knight-Errant Emblem",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-07T06:11:56+00:00",
+      "matches": 3
+    },
+    "visionsofbeyond": {
+      "name": "Visions of Beyond",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-07T06:11:56+00:00",
+      "matches": 14
+    },
+    "bloodforthebloodgod": {
+      "name": "Blood for the Blood God!",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T06:11:56+00:00",
+      "matches": 3
+    },
+    "championoflambholt": {
+      "name": "Champion of Lambholt",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T06:11:56+00:00",
+      "matches": 20
+    },
+    "galadhrimambush": {
+      "name": "Galadhrim Ambush",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T06:11:56+00:00",
+      "matches": 6
+    },
+    "inthedarknessbindthem": {
+      "name": "In the Darkness Bind Them",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T06:11:56+00:00",
+      "matches": 4
+    },
+    "kinsbailecavalier": {
+      "name": "Kinsbaile Cavalier",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T06:11:56+00:00",
+      "matches": 9
+    },
+    "lavarunner": {
+      "name": "Lava Runner",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T06:11:56+00:00",
+      "matches": 5
+    },
+    "lavabornmuse": {
+      "name": "Lavaborn Muse",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T06:11:56+00:00",
+      "matches": 3
+    },
+    "levelup": {
+      "name": "Level Up",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T06:11:56+00:00",
+      "matches": 4
+    },
+    "lightfromwithin": {
+      "name": "Light from Within",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T06:11:56+00:00",
+      "matches": 3
     }
   },
   "unmatched": {
