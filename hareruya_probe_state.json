@@ -21785,6 +21785,102 @@
       "cashUsd": 12.5,
       "checkedAt": "2026-09-07T06:11:56+00:00",
       "matches": 3
+    },
+    "uthdentroll": {
+      "name": "Uthden Troll",
+      "cashUsd": 22.5,
+      "checkedAt": "2026-09-07T18:18:58+00:00",
+      "matches": 8
+    },
+    "dragonsapproach": {
+      "name": "Dragon's Approach",
+      "cashUsd": 17.5,
+      "checkedAt": "2026-09-07T18:18:58+00:00",
+      "matches": 6
+    },
+    "windingway": {
+      "name": "Winding Way",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-07T18:18:58+00:00",
+      "matches": 6
+    },
+    "dinosaursonaspaceship": {
+      "name": "Dinosaurs on a Spaceship",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-07T18:18:58+00:00",
+      "matches": 12
+    },
+    "masterwarcraft": {
+      "name": "Master Warcraft",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T18:18:58+00:00",
+      "matches": 4
+    },
+    "mizzixsmastery": {
+      "name": "Mizzix's Mastery",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T18:18:58+00:00",
+      "matches": 28
+    },
+    "mockingbird": {
+      "name": "Mockingbird",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T18:18:58+00:00",
+      "matches": 14
+    },
+    "mysteriousstranger": {
+      "name": "Mysterious Stranger",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T18:18:58+00:00",
+      "matches": 6
+    },
+    "necrogenmists": {
+      "name": "Necrogen Mists",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T18:18:58+00:00",
+      "matches": 6
+    },
+    "opulentpalace": {
+      "name": "Opulent Palace",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T18:18:58+00:00",
+      "matches": 4
+    },
+    "overabundance": {
+      "name": "Overabundance",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T18:18:58+00:00",
+      "matches": 4
+    },
+    "pangosaur": {
+      "name": "Pangosaur",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T18:18:58+00:00",
+      "matches": 2
+    },
+    "peerintotheabyss": {
+      "name": "Peer into the Abyss",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T18:18:58+00:00",
+      "matches": 18
+    },
+    "prohibit": {
+      "name": "Prohibit",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T18:18:58+00:00",
+      "matches": 2
+    },
+    "propheticbolt": {
+      "name": "Prophetic Bolt",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T18:18:58+00:00",
+      "matches": 2
+    },
+    "putridgoblin": {
+      "name": "Putrid Goblin",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-07T18:18:58+00:00",
+      "matches": 3
     }
   },
   "unmatched": {
