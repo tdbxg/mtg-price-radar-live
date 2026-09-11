@@ -22463,6 +22463,72 @@
       "cashUsd": 12.0,
       "checkedAt": "2026-09-11T06:07:43+00:00",
       "matches": 36
+    },
+    "deathorglory": {
+      "name": "Death or Glory",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-11T17:04:56+00:00",
+      "matches": 2
+    },
+    "marvinmurderousmimic": {
+      "name": "Marvin, Murderous Mimic",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-11T17:04:56+00:00",
+      "matches": 14
+    },
+    "tidusblitzballstar": {
+      "name": "Tidus, Blitzball Star",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-11T17:04:56+00:00",
+      "matches": 2
+    },
+    "shalaivoiceofplenty": {
+      "name": "Shalai, Voice of Plenty",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-09-11T17:04:56+00:00",
+      "matches": 13
+    },
+    "zacamaprimalcalamity": {
+      "name": "Zacama, Primal Calamity",
+      "cashUsd": 13.0,
+      "checkedAt": "2026-09-11T17:04:56+00:00",
+      "matches": 21
+    },
+    "sedgemoorwitch": {
+      "name": "Sedgemoor Witch",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-11T17:04:56+00:00",
+      "matches": 11
+    },
+    "burninginquiry": {
+      "name": "Burning Inquiry",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-11T17:04:56+00:00",
+      "matches": 6
+    },
+    "cadricsoulkindler": {
+      "name": "Cadric, Soul Kindler",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-11T17:04:56+00:00",
+      "matches": 4
+    },
+    "dralnuscrusade": {
+      "name": "Dralnu's Crusade",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-11T17:04:56+00:00",
+      "matches": 2
+    },
+    "elhajjj": {
+      "name": "El-Hajjâj",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-11T17:04:56+00:00",
+      "matches": 3
+    },
+    "edeapossessedsorceress": {
+      "name": "Edea, Possessed Sorceress",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-11T17:04:56+00:00",
+      "matches": 4
     }
   },
   "unmatched": {
