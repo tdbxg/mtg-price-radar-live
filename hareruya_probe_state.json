@@ -22763,6 +22763,84 @@
       "cashUsd": 12.0,
       "checkedAt": "2026-09-13T06:18:43+00:00",
       "matches": 12
+    },
+    "sungrassprairie": {
+      "name": "Sungrass Prairie",
+      "cashUsd": 15.2,
+      "checkedAt": "2026-09-13T17:00:38+00:00",
+      "matches": 7
+    },
+    "faerieharbinger": {
+      "name": "Faerie Harbinger",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-13T17:00:38+00:00",
+      "matches": 4
+    },
+    "inspiringoverseer": {
+      "name": "Inspiring Overseer",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-13T17:00:38+00:00",
+      "matches": 1
+    },
+    "kambalprofiteeringmayor": {
+      "name": "Kambal, Profiteering Mayor",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-13T17:00:38+00:00",
+      "matches": 13
+    },
+    "koglathetitanape": {
+      "name": "Kogla, the Titan Ape",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-13T17:00:38+00:00",
+      "matches": 13
+    },
+    "ladycaleria": {
+      "name": "Lady Caleria",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-13T17:00:38+00:00",
+      "matches": 1
+    },
+    "lastminutechopping": {
+      "name": "Last-Minute Chopping",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-13T17:00:38+00:00",
+      "matches": 1
+    },
+    "lathlissdragonqueen": {
+      "name": "Lathliss, Dragon Queen",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-13T17:00:38+00:00",
+      "matches": 17
+    },
+    "limdlsvault": {
+      "name": "Lim-Dûl's Vault",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-13T17:00:38+00:00",
+      "matches": 6
+    },
+    "mnemonicdeluge": {
+      "name": "Mnemonic Deluge",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-13T17:00:38+00:00",
+      "matches": 8
+    },
+    "nexos": {
+      "name": "Nexos",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-13T17:00:38+00:00",
+      "matches": 3
+    },
+    "nexusofbecoming": {
+      "name": "Nexus of Becoming",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-13T17:00:38+00:00",
+      "matches": 16
+    },
+    "orochileafcaller": {
+      "name": "Orochi Leafcaller",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-13T17:00:38+00:00",
+      "matches": 2
     }
   },
   "unmatched": {
