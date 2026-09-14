@@ -22913,6 +22913,78 @@
       "cashUsd": 12.0,
       "checkedAt": "2026-09-14T06:26:32+00:00",
       "matches": 18
+    },
+    "shuriwakandaninventor": {
+      "name": "Shuri, Wakandan Inventor",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-09-14T18:44:28+00:00",
+      "matches": 1
+    },
+    "marchofsouls": {
+      "name": "March of Souls",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-14T18:44:28+00:00",
+      "matches": 2
+    },
+    "ruinousultimatum": {
+      "name": "Ruinous Ultimatum",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-14T18:44:28+00:00",
+      "matches": 24
+    },
+    "sakuratribeelder": {
+      "name": "Sakura-Tribe Elder",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-14T18:44:28+00:00",
+      "matches": 18
+    },
+    "sozinscomet": {
+      "name": "Sozin's Comet",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-14T18:44:28+00:00",
+      "matches": 13
+    },
+    "sphereoflaw": {
+      "name": "Sphere of Law",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-14T18:44:28+00:00",
+      "matches": 4
+    },
+    "spitefulsliver": {
+      "name": "Spiteful Sliver",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-14T18:44:28+00:00",
+      "matches": 4
+    },
+    "stonetonguebasilisk": {
+      "name": "Stone-Tongue Basilisk",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-14T18:44:28+00:00",
+      "matches": 3
+    },
+    "stoneseederhierophant": {
+      "name": "Stone-Seeder Hierophant",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-14T18:44:28+00:00",
+      "matches": 2
+    },
+    "sunkencitadel": {
+      "name": "Sunken Citadel",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-14T18:44:28+00:00",
+      "matches": 26
+    },
+    "swordsmanssteel": {
+      "name": "Swordsman's Steel",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-14T18:44:28+00:00",
+      "matches": 4
+    },
+    "taintedadversary": {
+      "name": "Tainted Adversary",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-14T18:44:28+00:00",
+      "matches": 9
     }
   },
   "unmatched": {
