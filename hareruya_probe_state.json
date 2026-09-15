@@ -22985,6 +22985,72 @@
       "cashUsd": 12.0,
       "checkedAt": "2026-09-14T18:44:28+00:00",
       "matches": 9
+    },
+    "jacecunningcastaway": {
+      "name": "Jace, Cunning Castaway",
+      "cashUsd": 14.5,
+      "checkedAt": "2026-09-15T06:14:21+00:00",
+      "matches": 5
+    },
+    "reforgethesoul": {
+      "name": "Reforge the Soul",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-15T06:14:21+00:00",
+      "matches": 11
+    },
+    "bloodartist": {
+      "name": "Blood Artist",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-15T06:14:21+00:00",
+      "matches": 42
+    },
+    "nerivheartofthestorm": {
+      "name": "Neriv, Heart of the Storm",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-15T06:14:21+00:00",
+      "matches": 16
+    },
+    "spiritualasylum": {
+      "name": "Spiritual Asylum",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-15T06:14:21+00:00",
+      "matches": 2
+    },
+    "whipoferebos": {
+      "name": "Whip of Erebos",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-15T06:14:21+00:00",
+      "matches": 10
+    },
+    "kindreddominance": {
+      "name": "Kindred Dominance",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-15T06:14:21+00:00",
+      "matches": 18
+    },
+    "thespeeddemon": {
+      "name": "The Speed Demon",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-15T06:14:21+00:00",
+      "matches": 18
+    },
+    "treeoftales": {
+      "name": "Tree of Tales",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-15T06:14:21+00:00",
+      "matches": 9
+    },
+    "vadrokapexofthunder": {
+      "name": "Vadrok, Apex of Thunder",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-15T06:14:21+00:00",
+      "matches": 7
+    },
+    "vexingpuzzlebox": {
+      "name": "Vexing Puzzlebox",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-15T06:14:21+00:00",
+      "matches": 10
     }
   },
   "unmatched": {
