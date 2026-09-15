@@ -23051,6 +23051,66 @@
       "cashUsd": 12.0,
       "checkedAt": "2026-09-15T06:14:21+00:00",
       "matches": 10
+    },
+    "kozilekscommand": {
+      "name": "Kozilek's Command",
+      "cashUsd": 65.0,
+      "checkedAt": "2026-09-15T17:43:52+00:00",
+      "matches": 10
+    },
+    "spelltitheenforcer": {
+      "name": "Spelltithe Enforcer",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-15T17:43:52+00:00",
+      "matches": 5
+    },
+    "walktheaeons": {
+      "name": "Walk the Aeons",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-15T17:43:52+00:00",
+      "matches": 8
+    },
+    "wolverineriders": {
+      "name": "Wolverine Riders",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-15T17:43:52+00:00",
+      "matches": 4
+    },
+    "zendikarresurgent": {
+      "name": "Zendikar Resurgent",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-15T17:43:52+00:00",
+      "matches": 9
+    },
+    "zuranorb": {
+      "name": "Zuran Orb",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-15T17:43:52+00:00",
+      "matches": 19
+    },
+    "aesityrantofgyrestrait": {
+      "name": "Aesi, Tyrant of Gyre Strait",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-15T17:43:52+00:00",
+      "matches": 7
+    },
+    "anzragthequakemole": {
+      "name": "Anzrag, the Quake-Mole",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-15T17:43:52+00:00",
+      "matches": 15
+    },
+    "artificerclass": {
+      "name": "Artificer Class",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-15T17:43:52+00:00",
+      "matches": 2
+    },
+    "atarkaworldrender": {
+      "name": "Atarka, World Render",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-15T17:43:52+00:00",
+      "matches": 15
     }
   },
   "unmatched": {
