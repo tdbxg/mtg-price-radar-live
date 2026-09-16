@@ -23171,6 +23171,60 @@
       "cashUsd": 11.5,
       "checkedAt": "2026-09-16T06:09:17+00:00",
       "matches": 2
+    },
+    "simicgrowthchamber": {
+      "name": "Simic Growth Chamber",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-16T17:41:12+00:00",
+      "matches": 7
+    },
+    "minesofmoria": {
+      "name": "Mines of Moria",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-16T17:41:12+00:00",
+      "matches": 8
+    },
+    "witchkingskyscourge": {
+      "name": "Witch-king, Sky Scourge",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-16T17:41:12+00:00",
+      "matches": 3
+    },
+    "castleembereth": {
+      "name": "Castle Embereth",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-16T17:41:12+00:00",
+      "matches": 4
+    },
+    "cateranslaver": {
+      "name": "Cateran Slaver",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-16T17:41:12+00:00",
+      "matches": 2
+    },
+    "chandraablaze": {
+      "name": "Chandra Ablaze",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-16T17:41:12+00:00",
+      "matches": 3
+    },
+    "corrupt": {
+      "name": "Corrupt",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-16T17:41:12+00:00",
+      "matches": 45
+    },
+    "coldsteelheart": {
+      "name": "Coldsteel Heart",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-16T17:41:12+00:00",
+      "matches": 12
+    },
+    "cosmicspiderman": {
+      "name": "Cosmic Spider-Man",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-16T17:41:12+00:00",
+      "matches": 10
     }
   },
   "unmatched": {
