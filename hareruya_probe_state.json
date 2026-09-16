@@ -23111,6 +23111,66 @@
       "cashUsd": 11.5,
       "checkedAt": "2026-09-15T17:43:52+00:00",
       "matches": 15
+    },
+    "sharedanimosity": {
+      "name": "Shared Animosity",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-09-16T06:09:17+00:00",
+      "matches": 14
+    },
+    "cephalidfacetaker": {
+      "name": "Cephalid Facetaker",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-16T06:09:17+00:00",
+      "matches": 6
+    },
+    "clowncar": {
+      "name": "Clown Car",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-16T06:09:17+00:00",
+      "matches": 3
+    },
+    "hammerofnazahn": {
+      "name": "Hammer of Nazahn",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-16T06:09:17+00:00",
+      "matches": 19
+    },
+    "onewithnature": {
+      "name": "One with Nature",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-16T06:09:17+00:00",
+      "matches": 5
+    },
+    "tashashideouslaughter": {
+      "name": "Tasha's Hideous Laughter",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-16T06:09:17+00:00",
+      "matches": 18
+    },
+    "themberchaud": {
+      "name": "Themberchaud",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-16T06:09:17+00:00",
+      "matches": 3
+    },
+    "boldwyrheavyweights": {
+      "name": "Boldwyr Heavyweights",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-16T06:09:17+00:00",
+      "matches": 3
+    },
+    "brassman": {
+      "name": "Brass Man",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-16T06:09:17+00:00",
+      "matches": 2
+    },
+    "calmingverse": {
+      "name": "Calming Verse",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-16T06:09:17+00:00",
+      "matches": 2
     }
   },
   "unmatched": {
