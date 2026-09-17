@@ -23225,6 +23225,60 @@
       "cashUsd": 11.5,
       "checkedAt": "2026-09-16T17:41:12+00:00",
       "matches": 10
+    },
+    "medomaitheageless": {
+      "name": "Medomai the Ageless",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-09-17T06:13:26+00:00",
+      "matches": 3
+    },
+    "streamoflife": {
+      "name": "Stream of Life",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-09-17T06:13:26+00:00",
+      "matches": 10
+    },
+    "darettiingeniousiconoclast": {
+      "name": "Daretti, Ingenious Iconoclast",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-17T06:13:26+00:00",
+      "matches": 7
+    },
+    "ebondeathdracolich": {
+      "name": "Ebondeath, Dracolich",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-17T06:13:26+00:00",
+      "matches": 16
+    },
+    "questingbeast": {
+      "name": "Questing Beast",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-17T06:13:26+00:00",
+      "matches": 17
+    },
+    "unboundflourishing": {
+      "name": "Unbound Flourishing",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-17T06:13:26+00:00",
+      "matches": 8
+    },
+    "crystalvein": {
+      "name": "Crystal Vein",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-17T06:13:26+00:00",
+      "matches": 10
+    },
+    "darkslickshores": {
+      "name": "Darkslick Shores",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-17T06:13:26+00:00",
+      "matches": 24
+    },
+    "daybreakcoronet": {
+      "name": "Daybreak Coronet",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-17T06:13:26+00:00",
+      "matches": 14
     }
   },
   "unmatched": {
