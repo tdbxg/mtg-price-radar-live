@@ -23387,6 +23387,60 @@
       "cashUsd": 11.5,
       "checkedAt": "2026-09-18T06:02:12+00:00",
       "matches": 16
+    },
+    "elvishvanguard": {
+      "name": "Elvish Vanguard",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-18T17:08:41+00:00",
+      "matches": 6
+    },
+    "enterthedungeon": {
+      "name": "Enter the Dungeon",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-18T17:08:41+00:00",
+      "matches": 1
+    },
+    "evolutionaryleap": {
+      "name": "Evolutionary Leap",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-18T17:08:41+00:00",
+      "matches": 4
+    },
+    "evolvingwilds": {
+      "name": "Evolving Wilds",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-18T17:08:41+00:00",
+      "matches": 12
+    },
+    "fanaticaldevotion": {
+      "name": "Fanatical Devotion",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-18T17:08:41+00:00",
+      "matches": 2
+    },
+    "ferventcharge": {
+      "name": "Fervent Charge",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-18T17:08:41+00:00",
+      "matches": 3
+    },
+    "frozenaether": {
+      "name": "Frozen Aether",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-18T17:08:41+00:00",
+      "matches": 2
+    },
+    "gandalfofthesecretfire": {
+      "name": "Gandalf of the Secret Fire",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-18T17:08:41+00:00",
+      "matches": 3
+    },
+    "garbageelemental": {
+      "name": "Garbage Elemental",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-18T17:08:41+00:00",
+      "matches": 6
     }
   },
   "unmatched": {
