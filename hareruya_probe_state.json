@@ -23333,6 +23333,60 @@
       "cashUsd": 11.5,
       "checkedAt": "2026-09-17T17:41:18+00:00",
       "matches": 12
+    },
+    "trueconviction": {
+      "name": "True Conviction",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-18T06:02:12+00:00",
+      "matches": 12
+    },
+    "sphinxofforgottenlore": {
+      "name": "Sphinx of Forgotten Lore",
+      "cashUsd": 13.8,
+      "checkedAt": "2026-09-18T06:02:12+00:00",
+      "matches": 7
+    },
+    "elugetheshorelesssea": {
+      "name": "Eluge, the Shoreless Sea",
+      "cashUsd": 12.5,
+      "checkedAt": "2026-09-18T06:02:12+00:00",
+      "matches": 14
+    },
+    "laboratorymaniac": {
+      "name": "Laboratory Maniac",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-18T06:02:12+00:00",
+      "matches": 15
+    },
+    "teferiwhoslowsthesunset": {
+      "name": "Teferi, Who Slows the Sunset",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-18T06:02:12+00:00",
+      "matches": 11
+    },
+    "ambitionscost": {
+      "name": "Ambition's Cost",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-18T06:02:12+00:00",
+      "matches": 3
+    },
+    "bigscore": {
+      "name": "Big Score",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-18T06:02:12+00:00",
+      "matches": 32
+    },
+    "deathbaron": {
+      "name": "Death Baron",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-18T06:02:12+00:00",
+      "matches": 22
+    },
+    "eldergargaroth": {
+      "name": "Elder Gargaroth",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-18T06:02:12+00:00",
+      "matches": 16
     }
   },
   "unmatched": {
