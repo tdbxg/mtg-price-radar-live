@@ -23501,6 +23501,66 @@
       "cashUsd": 11.5,
       "checkedAt": "2026-09-19T06:00:52+00:00",
       "matches": 3
+    },
+    "mistbindclique": {
+      "name": "Mistbind Clique",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-19T16:35:28+00:00",
+      "matches": 9
+    },
+    "bilbounexpectedadventurer": {
+      "name": "Bilbo, Unexpected Adventurer",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-19T16:35:28+00:00",
+      "matches": 2
+    },
+    "sigardahostofherons": {
+      "name": "Sigarda, Host of Herons",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-19T16:35:28+00:00",
+      "matches": 13
+    },
+    "godsire": {
+      "name": "Godsire",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-19T16:35:28+00:00",
+      "matches": 4
+    },
+    "halofountain": {
+      "name": "Halo Fountain",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-19T16:35:28+00:00",
+      "matches": 16
+    },
+    "hauntedridge": {
+      "name": "Haunted Ridge",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-19T16:35:28+00:00",
+      "matches": 32
+    },
+    "heraldofleshrac": {
+      "name": "Herald of Leshrac",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-19T16:35:28+00:00",
+      "matches": 5
+    },
+    "hornetqueen": {
+      "name": "Hornet Queen",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-19T16:35:28+00:00",
+      "matches": 6
+    },
+    "hellcarverdemon": {
+      "name": "Hellcarver Demon",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-19T16:35:28+00:00",
+      "matches": 4
+    },
+    "hullbreach": {
+      "name": "Hull Breach",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-19T16:35:28+00:00",
+      "matches": 14
     }
   },
   "unmatched": {
