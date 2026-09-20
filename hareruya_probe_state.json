@@ -23615,6 +23615,48 @@
       "cashUsd": 11.5,
       "checkedAt": "2026-09-20T06:25:16+00:00",
       "matches": 2
+    },
+    "grimhireling": {
+      "name": "Grim Hireling",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-20T16:54:42+00:00",
+      "matches": 9
+    },
+    "kjeldoranroyalguard": {
+      "name": "Kjeldoran Royal Guard",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-20T16:54:42+00:00",
+      "matches": 3
+    },
+    "knightofthewhiteorchid": {
+      "name": "Knight of the White Orchid",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-20T16:54:42+00:00",
+      "matches": 19
+    },
+    "lilianathenecromancer": {
+      "name": "Liliana, the Necromancer",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-20T16:54:42+00:00",
+      "matches": 2
+    },
+    "luxunscholargeneral": {
+      "name": "Lu Xun, Scholar General",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-20T16:54:42+00:00",
+      "matches": 2
+    },
+    "marbletitan": {
+      "name": "Marble Titan",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-20T16:54:42+00:00",
+      "matches": 4
+    },
+    "merrowreejerey": {
+      "name": "Merrow Reejerey",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-20T16:54:42+00:00",
+      "matches": 3
     }
   },
   "unmatched": {
