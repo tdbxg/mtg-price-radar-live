@@ -23843,6 +23843,42 @@
       "cashUsd": 11.5,
       "checkedAt": "2026-09-23T17:54:27+00:00",
       "matches": 14
+    },
+    "orbofdragonkind": {
+      "name": "Orb of Dragonkind",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-24T06:15:44+00:00",
+      "matches": 16
+    },
+    "jinxedchoker": {
+      "name": "Jinxed Choker",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-24T06:15:44+00:00",
+      "matches": 3
+    },
+    "talrandskysummoner": {
+      "name": "Talrand, Sky Summoner",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-24T06:15:44+00:00",
+      "matches": 5
+    },
+    "contaminantgrafter": {
+      "name": "Contaminant Grafter",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-24T06:15:44+00:00",
+      "matches": 4
+    },
+    "nornsannex": {
+      "name": "Norn's Annex",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-24T06:15:44+00:00",
+      "matches": 10
+    },
+    "sandalsofabdallah": {
+      "name": "Sandals of Abdallah",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-24T06:15:44+00:00",
+      "matches": 1
     }
   },
   "unmatched": {
