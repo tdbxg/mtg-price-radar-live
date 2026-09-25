@@ -23975,6 +23975,30 @@
       "cashUsd": 11.5,
       "checkedAt": "2026-09-25T06:13:16+00:00",
       "matches": 6
+    },
+    "lifematrix": {
+      "name": "Life Matrix",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-25T18:00:44+00:00",
+      "matches": 1
+    },
+    "masterapothecary": {
+      "name": "Master Apothecary",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-25T18:00:44+00:00",
+      "matches": 2
+    },
+    "sliponthering": {
+      "name": "Slip On the Ring",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-25T18:00:44+00:00",
+      "matches": 3
+    },
+    "silklashspider": {
+      "name": "Silklash Spider",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-25T18:00:44+00:00",
+      "matches": 5
     }
   },
   "unmatched": {
