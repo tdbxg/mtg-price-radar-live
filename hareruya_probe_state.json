@@ -24023,6 +24023,36 @@
       "cashUsd": 11.5,
       "checkedAt": "2026-09-26T06:13:27+00:00",
       "matches": 18
+    },
+    "primalvigor": {
+      "name": "Primal Vigor",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-26T17:18:05+00:00",
+      "matches": 16
+    },
+    "spheregrid": {
+      "name": "Sphere Grid",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-26T17:18:05+00:00",
+      "matches": 8
+    },
+    "splendidreclamation": {
+      "name": "Splendid Reclamation",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-26T17:18:05+00:00",
+      "matches": 17
+    },
+    "stormcarvedcoast": {
+      "name": "Stormcarved Coast",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-26T17:18:05+00:00",
+      "matches": 44
+    },
+    "sublimearchangel": {
+      "name": "Sublime Archangel",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-26T17:18:05+00:00",
+      "matches": 10
     }
   },
   "unmatched": {
