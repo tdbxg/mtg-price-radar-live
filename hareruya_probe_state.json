@@ -24185,6 +24185,48 @@
       "cashUsd": 12.0,
       "checkedAt": "2026-09-28T07:03:47+00:00",
       "matches": 8
+    },
+    "kwiavigorbloom": {
+      "name": "Kwia Vigorbloom",
+      "cashUsd": 180.0,
+      "checkedAt": "2026-09-28T20:10:59+00:00",
+      "matches": 8
+    },
+    "emrakultheexigentdoom": {
+      "name": "Emrakul, the Exigent Doom",
+      "cashUsd": 200.0,
+      "checkedAt": "2026-09-28T20:10:59+00:00",
+      "matches": 4
+    },
+    "enlightenedconfidant": {
+      "name": "Enlightened Confidant",
+      "cashUsd": 90.0,
+      "checkedAt": "2026-09-28T20:10:59+00:00",
+      "matches": 6
+    },
+    "darklightphoenix": {
+      "name": "Darklight Phoenix",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-28T20:10:59+00:00",
+      "matches": 6
+    },
+    "shabraztheskyshark": {
+      "name": "Shabraz, the Skyshark",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-28T20:10:59+00:00",
+      "matches": 5
+    },
+    "viridianrevel": {
+      "name": "Viridian Revel",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-28T20:10:59+00:00",
+      "matches": 3
+    },
+    "bear": {
+      "name": "Bear",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-09-28T20:10:59+00:00",
+      "matches": 60
     }
   },
   "unmatched": {
