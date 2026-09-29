@@ -24227,6 +24227,42 @@
       "cashUsd": 11.5,
       "checkedAt": "2026-09-28T20:10:59+00:00",
       "matches": 60
+    },
+    "ajaniunrelenting": {
+      "name": "Ajani Unrelenting",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-09-29T07:01:44+00:00",
+      "matches": 8
+    },
+    "avatarofburgeoningechoes": {
+      "name": "Avatar of Burgeoning Echoes",
+      "cashUsd": 14.0,
+      "checkedAt": "2026-09-29T07:01:44+00:00",
+      "matches": 8
+    },
+    "agilitybobblehead": {
+      "name": "Agility Bobblehead",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-29T07:01:44+00:00",
+      "matches": 7
+    },
+    "craterclawcolossus": {
+      "name": "Craterclaw Colossus",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-29T07:01:44+00:00",
+      "matches": 6
+    },
+    "returntothelightrealms": {
+      "name": "Return to the Light Realms",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-29T07:01:44+00:00",
+      "matches": 6
+    },
+    "treebeardgracioushost": {
+      "name": "Treebeard, Gracious Host",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-09-29T07:01:44+00:00",
+      "matches": 6
     }
   },
   "unmatched": {
