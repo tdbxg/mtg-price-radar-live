@@ -24677,6 +24677,30 @@
       "cashUsd": 11.5,
       "checkedAt": "2026-10-03T06:39:32+00:00",
       "matches": 16
+    },
+    "twinflame": {
+      "name": "Twinflame",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-10-03T17:27:17+00:00",
+      "matches": 33
+    },
+    "zilorthastrengthincarnate": {
+      "name": "Zilortha, Strength Incarnate",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-10-03T17:27:17+00:00",
+      "matches": 5
+    },
+    "food": {
+      "name": "Food",
+      "cashUsd": 11.0,
+      "checkedAt": "2026-10-03T17:27:17+00:00",
+      "matches": 39
+    },
+    "fyndhornelves": {
+      "name": "Fyndhorn Elves",
+      "cashUsd": 11.0,
+      "checkedAt": "2026-10-03T17:27:17+00:00",
+      "matches": 17
     }
   },
   "unmatched": {
