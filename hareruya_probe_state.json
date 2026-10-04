@@ -24701,6 +24701,30 @@
       "cashUsd": 11.0,
       "checkedAt": "2026-10-03T17:27:17+00:00",
       "matches": 17
+    },
+    "homunculushorde": {
+      "name": "Homunculus Horde",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-10-04T07:02:07+00:00",
+      "matches": 8
+    },
+    "corporealprojection": {
+      "name": "Corporeal Projection",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-10-04T07:02:07+00:00",
+      "matches": 1
+    },
+    "necklaceofgirion": {
+      "name": "Necklace of Girion",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-10-04T07:02:07+00:00",
+      "matches": 3
+    },
+    "thebalrogofmoria": {
+      "name": "The Balrog of Moria",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-10-04T07:02:07+00:00",
+      "matches": 6
     }
   },
   "unmatched": {
