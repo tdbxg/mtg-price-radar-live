@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-12T07:27:11+00:00",
-  "cardKingdomCreatedAt": "2026-10-12 00:04:19",
-  "sealedCreatedAt": "2026-10-12 00:04:25",
+  "generatedAt": "2026-10-12T21:46:59+00:00",
+  "cardKingdomCreatedAt": "2026-10-12 14:08:17",
+  "sealedCreatedAt": "2026-10-12 14:08:24",
   "usdCny": 6.700304,
   "fxUpdatedAt": "Mon, 12 Oct 2026 00:02:32 +0000",
-  "cards": 152264,
-  "sealed": 2153,
-  "missingCn": 247,
+  "cards": 152270,
+  "sealed": 2159,
+  "missingCn": 248,
   "missingImage": 0,
   "updateMode": "github-actions-static",
   "scryfallMarketSource": "Last successful Scryfall public USD/EUR snapshot",
@@ -17,6 +17,6 @@
   "cardImagesFetched": 0,
   "cardImagesMissing": 0,
   "sealedImagesCached": 2153,
-  "sealedImagesFetched": 0,
+  "sealedImagesFetched": 6,
   "sealedImagesMissing": 0
 }

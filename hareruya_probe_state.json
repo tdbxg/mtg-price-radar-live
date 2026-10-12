@@ -25349,6 +25349,54 @@
       "cashUsd": 10.5,
       "checkedAt": "2026-10-12T07:28:40+00:00",
       "matches": 12
+    },
+    "jacereawakened": {
+      "name": "Jace Reawakened",
+      "cashUsd": 33.0,
+      "checkedAt": "2026-10-12T21:48:30+00:00",
+      "matches": 15
+    },
+    "summoningstation": {
+      "name": "Summoning Station",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-10-12T21:48:30+00:00",
+      "matches": 4
+    },
+    "haakonstromgaldscourge": {
+      "name": "Haakon, Stromgald Scourge",
+      "cashUsd": 11.5,
+      "checkedAt": "2026-10-12T21:48:30+00:00",
+      "matches": 5
+    },
+    "bloodlust": {
+      "name": "Blood Lust",
+      "cashUsd": 11.0,
+      "checkedAt": "2026-10-12T21:48:30+00:00",
+      "matches": 3
+    },
+    "hazoretgodseeker": {
+      "name": "Hazoret, Godseeker",
+      "cashUsd": 10.8,
+      "checkedAt": "2026-10-12T21:48:30+00:00",
+      "matches": 8
+    },
+    "teferiheroofdominariaemblem": {
+      "name": "Teferi, Hero of Dominaria Emblem",
+      "cashUsd": 11.0,
+      "checkedAt": "2026-10-12T21:48:30+00:00",
+      "matches": 1
+    },
+    "thoughtlash": {
+      "name": "Thought Lash",
+      "cashUsd": 10.5,
+      "checkedAt": "2026-10-12T21:48:30+00:00",
+      "matches": 1
+    },
+    "wandoforcus": {
+      "name": "Wand of Orcus",
+      "cashUsd": 10.5,
+      "checkedAt": "2026-10-12T21:48:30+00:00",
+      "matches": 4
     }
   },
   "unmatched": {
