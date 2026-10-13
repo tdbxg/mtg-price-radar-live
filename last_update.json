@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-13T07:48:20+00:00",
-  "cardKingdomCreatedAt": "2026-10-13 00:06:00",
-  "sealedCreatedAt": "2026-10-13 00:06:06",
+  "generatedAt": "2026-10-13T19:54:18+00:00",
+  "cardKingdomCreatedAt": "2026-10-13 12:07:55",
+  "sealedCreatedAt": "2026-10-13 12:08:01",
   "usdCny": 6.70582,
   "fxUpdatedAt": "Mon, 12 Oct 2026 23:57:31 +0000",
   "cards": 152270,
-  "sealed": 2159,
+  "sealed": 2163,
   "missingCn": 248,
   "missingImage": 0,
   "updateMode": "github-actions-static",
@@ -17,6 +17,6 @@
   "cardImagesFetched": 0,
   "cardImagesMissing": 0,
   "sealedImagesCached": 2159,
-  "sealedImagesFetched": 0,
+  "sealedImagesFetched": 4,
   "sealedImagesMissing": 0
 }

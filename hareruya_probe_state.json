@@ -25445,6 +25445,48 @@
       "cashUsd": 10.25,
       "checkedAt": "2026-10-13T07:49:48+00:00",
       "matches": 4
+    },
+    "kiorabehemothbeckoner": {
+      "name": "Kiora, Behemoth Beckoner",
+      "cashUsd": 10.25,
+      "checkedAt": "2026-10-13T19:55:41+00:00",
+      "matches": 11
+    },
+    "minotaur": {
+      "name": "Minotaur",
+      "cashUsd": 10.25,
+      "checkedAt": "2026-10-13T19:55:41+00:00",
+      "matches": 25
+    },
+    "negate": {
+      "name": "Negate",
+      "cashUsd": 10.25,
+      "checkedAt": "2026-10-13T19:55:41+00:00",
+      "matches": 27
+    },
+    "personaltutor": {
+      "name": "Personal Tutor",
+      "cashUsd": 10.25,
+      "checkedAt": "2026-10-13T19:55:41+00:00",
+      "matches": 14
+    },
+    "regalcaracal": {
+      "name": "Regal Caracal",
+      "cashUsd": 10.25,
+      "checkedAt": "2026-10-13T19:55:41+00:00",
+      "matches": 9
+    },
+    "silverbackelder": {
+      "name": "Silverback Elder",
+      "cashUsd": 10.25,
+      "checkedAt": "2026-10-13T19:55:41+00:00",
+      "matches": 11
+    },
+    "suntitan": {
+      "name": "Sun Titan",
+      "cashUsd": 10.25,
+      "checkedAt": "2026-10-13T19:55:41+00:00",
+      "matches": 37
     }
   },
   "unmatched": {
