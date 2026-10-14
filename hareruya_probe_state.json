@@ -25529,6 +25529,48 @@
       "cashUsd": 10.2,
       "checkedAt": "2026-10-14T06:14:41+00:00",
       "matches": 5
+    },
+    "peachgardenoath": {
+      "name": "Peach Garden Oath",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-10-14T18:05:11+00:00",
+      "matches": 4
+    },
+    "sharktyphoon": {
+      "name": "Shark Typhoon",
+      "cashUsd": 10.25,
+      "checkedAt": "2026-10-14T18:05:11+00:00",
+      "matches": 18
+    },
+    "desertedbeach": {
+      "name": "Deserted Beach",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-14T18:05:11+00:00",
+      "matches": 44
+    },
+    "diplomaticescort": {
+      "name": "Diplomatic Escort",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-14T18:05:11+00:00",
+      "matches": 2
+    },
+    "experimentkraj": {
+      "name": "Experiment Kraj",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-14T18:05:11+00:00",
+      "matches": 3
+    },
+    "elendasaintofdusk": {
+      "name": "Elenda, Saint of Dusk",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-14T18:05:11+00:00",
+      "matches": 4
+    },
+    "fangfearlesslcie": {
+      "name": "Fang, Fearless l'Cie",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-14T18:05:11+00:00",
+      "matches": 3
     }
   },
   "unmatched": {
