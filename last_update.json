@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-13T19:54:18+00:00",
-  "cardKingdomCreatedAt": "2026-10-13 12:07:55",
-  "sealedCreatedAt": "2026-10-13 12:08:01",
-  "usdCny": 6.70582,
-  "fxUpdatedAt": "Mon, 12 Oct 2026 23:57:31 +0000",
+  "generatedAt": "2026-10-14T06:13:13+00:00",
+  "cardKingdomCreatedAt": "2026-10-13 22:07:26",
+  "sealedCreatedAt": "2026-10-13 23:07:30",
+  "usdCny": 6.705025,
+  "fxUpdatedAt": "Wed, 14 Oct 2026 00:02:32 +0000",
   "cards": 152270,
   "sealed": 2163,
   "missingCn": 248,
@@ -16,7 +16,7 @@
   "cardImagesCached": 84,
   "cardImagesFetched": 0,
   "cardImagesMissing": 0,
-  "sealedImagesCached": 2159,
-  "sealedImagesFetched": 4,
+  "sealedImagesCached": 2163,
+  "sealedImagesFetched": 0,
   "sealedImagesMissing": 0
 }
