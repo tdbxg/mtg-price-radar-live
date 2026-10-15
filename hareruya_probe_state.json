@@ -25613,6 +25613,42 @@
       "cashUsd": 10.25,
       "checkedAt": "2026-10-15T05:58:23+00:00",
       "matches": 15
+    },
+    "ardyntheusurper": {
+      "name": "Ardyn, the Usurper",
+      "cashUsd": 10.8,
+      "checkedAt": "2026-10-15T17:49:57+00:00",
+      "matches": 19
+    },
+    "fierytemper": {
+      "name": "Fiery Temper",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-15T17:49:57+00:00",
+      "matches": 7
+    },
+    "rogueclass": {
+      "name": "Rogue Class",
+      "cashUsd": 10.25,
+      "checkedAt": "2026-10-15T17:49:57+00:00",
+      "matches": 6
+    },
+    "assemblyhall": {
+      "name": "Assembly Hall",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-15T17:49:57+00:00",
+      "matches": 2
+    },
+    "foster": {
+      "name": "Foster",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-15T17:49:57+00:00",
+      "matches": 5
+    },
+    "gisathehellraiser": {
+      "name": "Gisa, the Hellraiser",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-15T17:49:57+00:00",
+      "matches": 14
     }
   },
   "unmatched": {
