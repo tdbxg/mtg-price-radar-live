@@ -25757,6 +25757,30 @@
       "cashUsd": 11.0,
       "checkedAt": "2026-10-17T05:41:47+00:00",
       "matches": 2
+    },
+    "ovikaenigmagoliath": {
+      "name": "Ovika, Enigma Goliath",
+      "cashUsd": 10.8,
+      "checkedAt": "2026-10-17T16:32:00+00:00",
+      "matches": 2
+    },
+    "brashtaunter": {
+      "name": "Brash Taunter",
+      "cashUsd": 10.25,
+      "checkedAt": "2026-10-17T16:32:00+00:00",
+      "matches": 18
+    },
+    "masterofcruelties": {
+      "name": "Master of Cruelties",
+      "cashUsd": 10.25,
+      "checkedAt": "2026-10-17T16:32:00+00:00",
+      "matches": 21
+    },
+    "oathofteferi": {
+      "name": "Oath of Teferi",
+      "cashUsd": 10.25,
+      "checkedAt": "2026-10-17T16:32:00+00:00",
+      "matches": 8
     }
   },
   "unmatched": {
