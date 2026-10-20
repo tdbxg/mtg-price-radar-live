@@ -25913,6 +25913,42 @@
       "cashUsd": 10.2,
       "checkedAt": "2026-10-20T06:08:11+00:00",
       "matches": 18
+    },
+    "benefactorsdraught": {
+      "name": "Benefactor's Draught",
+      "cashUsd": 10.5,
+      "checkedAt": "2026-10-20T18:02:42+00:00",
+      "matches": 2
+    },
+    "uncleistvan": {
+      "name": "Uncle Istvan",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-20T18:02:42+00:00",
+      "matches": 3
+    },
+    "unnaturalgrowth": {
+      "name": "Unnatural Growth",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-20T18:02:42+00:00",
+      "matches": 24
+    },
+    "volcanichammer": {
+      "name": "Volcanic Hammer",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-20T18:02:42+00:00",
+      "matches": 4
+    },
+    "wibblywobblytimeywimey": {
+      "name": "Wibbly-wobbly, Timey-wimey",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-20T18:02:42+00:00",
+      "matches": 2
+    },
+    "willkenrith": {
+      "name": "Will Kenrith",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-20T18:02:42+00:00",
+      "matches": 3
     }
   },
   "unmatched": {
