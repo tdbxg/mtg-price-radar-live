@@ -25889,6 +25889,30 @@
       "cashUsd": 10.2,
       "checkedAt": "2026-10-19T19:24:25+00:00",
       "matches": 4
+    },
+    "sphinxofthefinalword": {
+      "name": "Sphinx of the Final Word",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-20T06:08:11+00:00",
+      "matches": 9
+    },
+    "slateofancestry": {
+      "name": "Slate of Ancestry",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-20T06:08:11+00:00",
+      "matches": 12
+    },
+    "squallline": {
+      "name": "Squall Line",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-20T06:08:11+00:00",
+      "matches": 2
+    },
+    "thornofamethyst": {
+      "name": "Thorn of Amethyst",
+      "cashUsd": 10.2,
+      "checkedAt": "2026-10-20T06:08:11+00:00",
+      "matches": 18
     }
   },
   "unmatched": {
