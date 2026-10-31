@@ -34613,6 +34613,282 @@
       "cashUsd": 6.0,
       "checkedAt": "2026-10-31T07:05:31+00:00",
       "matches": 4
+    },
+    "subversion": {
+      "name": "Subversion",
+      "cashUsd": 10.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 3
+    },
+    "sigardianevangel": {
+      "name": "Sigardian Evangel",
+      "cashUsd": 7.2,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 1
+    },
+    "summongoodkingmogxii": {
+      "name": "Summon: Good King Mog XII",
+      "cashUsd": 7.2,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 9
+    },
+    "breyaetheriumshaper": {
+      "name": "Breya, Etherium Shaper",
+      "cashUsd": 6.6,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 7
+    },
+    "tamiyocompleatedsage": {
+      "name": "Tamiyo, Compleated Sage",
+      "cashUsd": 6.6,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 14
+    },
+    "courtofardenvale": {
+      "name": "Court of Ardenvale",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 8
+    },
+    "gatecreepervine": {
+      "name": "Gatecreeper Vine",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 4
+    },
+    "ghostvacuum": {
+      "name": "Ghost Vacuum",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 14
+    },
+    "intoodeep": {
+      "name": "In Too Deep",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 3
+    },
+    "inamedeathaspect": {
+      "name": "Iname, Death Aspect",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 2
+    },
+    "intimidation": {
+      "name": "Intimidation",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 7
+    },
+    "intothetimevortex": {
+      "name": "Into the Time Vortex",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 12
+    },
+    "ironmyr": {
+      "name": "Iron Myr",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 5
+    },
+    "kindredcharge": {
+      "name": "Kindred Charge",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 6
+    },
+    "kamiofwhisperedhopes": {
+      "name": "Kami of Whispered Hopes",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 10
+    },
+    "journeytonowhere": {
+      "name": "Journey to Nowhere",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 3
+    },
+    "koboldsofkherkeep": {
+      "name": "Kobolds of Kher Keep",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 3
+    },
+    "kingcrab": {
+      "name": "King Crab",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 2
+    },
+    "kodamaoftheeasttree": {
+      "name": "Kodama of the East Tree",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 8
+    },
+    "kodamaofthesouthtree": {
+      "name": "Kodama of the South Tree",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 2
+    },
+    "leafcrownedvisionary": {
+      "name": "Leaf-Crowned Visionary",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 20
+    },
+    "leviathan": {
+      "name": "Leviathan",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 31
+    },
+    "lodestonemyr": {
+      "name": "Lodestone Myr",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 3
+    },
+    "lysalanahuntmaster": {
+      "name": "Lys Alana Huntmaster",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 3
+    },
+    "malikgrimmanipulator": {
+      "name": "Malik, Grim Manipulator",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 1
+    },
+    "mastermindsacquisition": {
+      "name": "Mastermind's Acquisition",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 11
+    },
+    "mechanizedproduction": {
+      "name": "Mechanized Production",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 21
+    },
+    "mesaenchantress": {
+      "name": "Mesa Enchantress",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 7
+    },
+    "mirroroffate": {
+      "name": "Mirror of Fate",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 3
+    },
+    "mirroredlotus": {
+      "name": "Mirrored Lotus",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 2
+    },
+    "mobilization": {
+      "name": "Mobilization",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 6
+    },
+    "mortalfleshisweak": {
+      "name": "Mortal Flesh Is Weak",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 1
+    },
+    "morticianbeetle": {
+      "name": "Mortician Beetle",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 8
+    },
+    "munghawurm": {
+      "name": "Mungha Wurm",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 2
+    },
+    "mystifyingmaze": {
+      "name": "Mystifying Maze",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 8
+    },
+    "myrturbine": {
+      "name": "Myr Turbine",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 4
+    },
+    "nornsdecree": {
+      "name": "Norn's Decree",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 4
+    },
+    "nomadmythmaker": {
+      "name": "Nomad Mythmaker",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 9
+    },
+    "novablastwurm": {
+      "name": "Novablast Wurm",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 3
+    },
+    "nullmageshepherd": {
+      "name": "Nullmage Shepherd",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 7
+    },
+    "obnixilisthehatetwisted": {
+      "name": "Ob Nixilis, the Hate-Twisted",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 7
+    },
+    "omarthisghostfireinitiate": {
+      "name": "Omarthis, Ghostfire Initiate",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 6
+    },
+    "oxofagonas": {
+      "name": "Ox of Agonas",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 10
+    },
+    "opalavenger": {
+      "name": "Opal Avenger",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 2
+    },
+    "ozoliththeshatteredspire": {
+      "name": "Ozolith, the Shattered Spire",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 16
+    },
+    "paladinenvec": {
+      "name": "Paladin en-Vec",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-10-31T17:50:33+00:00",
+      "matches": 4
     }
   },
   "unmatched": {
