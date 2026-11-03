@@ -35855,6 +35855,228 @@
       "cashUsd": 5.5,
       "checkedAt": "2026-11-02T22:24:42+00:00",
       "matches": 3
+    },
+    "forthecommongood": {
+      "name": "For the Common Good",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 8
+    },
+    "knighthood": {
+      "name": "Knighthood",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 4
+    },
+    "urzasfactory": {
+      "name": "Urza's Factory",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 4
+    },
+    "fieldmarshal": {
+      "name": "Field Marshal",
+      "cashUsd": 5.7,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 17
+    },
+    "bardheirofgirion": {
+      "name": "Bard, Heir of Girion",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 2
+    },
+    "azraoddsmaker": {
+      "name": "Azra Oddsmaker",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 3
+    },
+    "baneofprogress": {
+      "name": "Bane of Progress",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 14
+    },
+    "befoul": {
+      "name": "Befoul",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 2
+    },
+    "bigapple3am": {
+      "name": "Big Apple, 3 a.m.",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 2
+    },
+    "bishopofwings": {
+      "name": "Bishop of Wings",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 11
+    },
+    "boonofthespiritrealm": {
+      "name": "Boon of the Spirit Realm",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 6
+    },
+    "boltbend": {
+      "name": "Bolt Bend",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 9
+    },
+    "bubblematrix": {
+      "name": "Bubble Matrix",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 2
+    },
+    "bulkup": {
+      "name": "Bulk Up",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 2
+    },
+    "catharcommando": {
+      "name": "Cathar Commando",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 3
+    },
+    "cavalierofgales": {
+      "name": "Cavalier of Gales",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 12
+    },
+    "celestialkirin": {
+      "name": "Celestial Kirin",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 4
+    },
+    "choarrimbruiser": {
+      "name": "Cho-Arrim Bruiser",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 2
+    },
+    "chulanetelleroftales": {
+      "name": "Chulane, Teller of Tales",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 8
+    },
+    "collectorprotector": {
+      "name": "Collector Protector",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 1
+    },
+    "collectorscage": {
+      "name": "Collector's Cage",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 16
+    },
+    "colossification": {
+      "name": "Colossification",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 7
+    },
+    "comeuppance": {
+      "name": "Comeuppance",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 8
+    },
+    "commanderssphere": {
+      "name": "Commander's Sphere",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 12
+    },
+    "concertedeffort": {
+      "name": "Concerted Effort",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 8
+    },
+    "consumingaberration": {
+      "name": "Consuming Aberration",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 5
+    },
+    "corpseharvester": {
+      "name": "Corpse Harvester",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 3
+    },
+    "contentiousplan": {
+      "name": "Contentious Plan",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 3
+    },
+    "cremate": {
+      "name": "Cremate",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 4
+    },
+    "cryptbreaker": {
+      "name": "Cryptbreaker",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 4
+    },
+    "curseofvengeance": {
+      "name": "Curse of Vengeance",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 2
+    },
+    "deadbridgechant": {
+      "name": "Deadbridge Chant",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 2
+    },
+    "defilerofsouls": {
+      "name": "Defiler of Souls",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 3
+    },
+    "desecratereality": {
+      "name": "Desecrate Reality",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 6
+    },
+    "direfleetpoisoner": {
+      "name": "Dire Fleet Poisoner",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 4
+    },
+    "duelistsflame": {
+      "name": "Duelist's Flame",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 4
+    },
+    "earthshape": {
+      "name": "Earthshape",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T08:01:06+00:00",
+      "matches": 3
     }
   },
   "unmatched": {
