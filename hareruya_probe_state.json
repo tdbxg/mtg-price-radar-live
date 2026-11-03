@@ -36077,6 +36077,228 @@
       "cashUsd": 5.5,
       "checkedAt": "2026-11-03T08:01:06+00:00",
       "matches": 3
+    },
+    "wildmongrel": {
+      "name": "Wild Mongrel",
+      "cashUsd": 16.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 5
+    },
+    "searingblaze": {
+      "name": "Searing Blaze",
+      "cashUsd": 8.0,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 10
+    },
+    "fierceempath": {
+      "name": "Fierce Empath",
+      "cashUsd": 6.6,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 4
+    },
+    "vincentvengefulatoner": {
+      "name": "Vincent, Vengeful Atoner",
+      "cashUsd": 6.8,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 6
+    },
+    "pippinwardenofisengard": {
+      "name": "Pippin, Warden of Isengard",
+      "cashUsd": 6.4,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 6
+    },
+    "tegwylldukeofsplendor": {
+      "name": "Tegwyll, Duke of Splendor",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 6
+    },
+    "warpworld": {
+      "name": "Warp World",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 9
+    },
+    "proftseideticmemory": {
+      "name": "Proft's Eidetic Memory",
+      "cashUsd": 5.7,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 14
+    },
+    "obeliskspider": {
+      "name": "Obelisk Spider",
+      "cashUsd": 5.6,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 5
+    },
+    "ambushcommander": {
+      "name": "Ambush Commander",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 4
+    },
+    "azuredrake": {
+      "name": "Azure Drake",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 1
+    },
+    "bravetheelements": {
+      "name": "Brave the Elements",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 3
+    },
+    "echoesofeternity": {
+      "name": "Echoes of Eternity",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 8
+    },
+    "ellywicktumblestrum": {
+      "name": "Ellywick Tumblestrum",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 4
+    },
+    "elvishclancaller": {
+      "name": "Elvish Clancaller",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 5
+    },
+    "energychamber": {
+      "name": "Energy Chamber",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 4
+    },
+    "eonhub": {
+      "name": "Eon Hub",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 4
+    },
+    "esotericduplicator": {
+      "name": "Esoteric Duplicator",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 16
+    },
+    "exclude": {
+      "name": "Exclude",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 2
+    },
+    "expedite": {
+      "name": "Expedite",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 5
+    },
+    "extortion": {
+      "name": "Extortion",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 35
+    },
+    "finaljudgment": {
+      "name": "Final Judgment",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 3
+    },
+    "finaleofglory": {
+      "name": "Finale of Glory",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 3
+    },
+    "firenationturret": {
+      "name": "Fire Nation Turret",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 3
+    },
+    "florianvoldarenscion": {
+      "name": "Florian, Voldaren Scion",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 5
+    },
+    "footstepsofthegoryo": {
+      "name": "Footsteps of the Goryo",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 4
+    },
+    "froghemoth": {
+      "name": "Froghemoth",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 3
+    },
+    "gamepreserve": {
+      "name": "Game Preserve",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 2
+    },
+    "gaveloftherighteous": {
+      "name": "Gavel of the Righteous",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 2
+    },
+    "gemstonearray": {
+      "name": "Gemstone Array",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 3
+    },
+    "giftofestates": {
+      "name": "Gift of Estates",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 10
+    },
+    "gilderbairn": {
+      "name": "Gilder Bairn",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 2
+    },
+    "goblingrenade": {
+      "name": "Goblin Grenade",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 3
+    },
+    "goblinguide": {
+      "name": "Goblin Guide",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 19
+    },
+    "goblinmime": {
+      "name": "Goblin Mime",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 2
+    },
+    "goblinsnowman": {
+      "name": "Goblin Snowman",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 3
+    },
+    "goldenwish": {
+      "name": "Golden Wish",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-03T20:12:02+00:00",
+      "matches": 2
     }
   },
   "unmatched": {
