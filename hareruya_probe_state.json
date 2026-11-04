@@ -36299,6 +36299,216 @@
       "cashUsd": 5.5,
       "checkedAt": "2026-11-03T20:12:02+00:00",
       "matches": 2
+    },
+    "nahiristormofstone": {
+      "name": "Nahiri, Storm of Stone",
+      "cashUsd": 13.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 5
+    },
+    "dirgebat": {
+      "name": "Dirge Bat",
+      "cashUsd": 8.0,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 3
+    },
+    "greattrainheist": {
+      "name": "Great Train Heist",
+      "cashUsd": 6.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 11
+    },
+    "urilthemiststalker": {
+      "name": "Uril, the Miststalker",
+      "cashUsd": 6.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 8
+    },
+    "tezzeretcruelcaptainemblem": {
+      "name": "Tezzeret, Cruel Captain Emblem",
+      "cashUsd": 6.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 2
+    },
+    "lonewolf": {
+      "name": "Lone Wolf",
+      "cashUsd": 6.4,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 7
+    },
+    "cruelultimatum": {
+      "name": "Cruel Ultimatum",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 4
+    },
+    "litamechanicalengineer": {
+      "name": "Lita, Mechanical Engineer",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 4
+    },
+    "pyrewoodgearhulk": {
+      "name": "Pyrewood Gearhulk",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 6
+    },
+    "scavengerfolk": {
+      "name": "Scavenger Folk",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 3
+    },
+    "unsettledmariner": {
+      "name": "Unsettled Mariner",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 5
+    },
+    "syrixcarrieroftheflame": {
+      "name": "Syrix, Carrier of the Flame",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 2
+    },
+    "wipeaway": {
+      "name": "Wipe Away",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 2
+    },
+    "ardenangel": {
+      "name": "Arden Angel",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 1
+    },
+    "circuitousroute": {
+      "name": "Circuitous Route",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 8
+    },
+    "elendashierophant": {
+      "name": "Elenda's Hierophant",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 5
+    },
+    "gruulwarplow": {
+      "name": "Gruul War Plow",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 3
+    },
+    "guardianofthegateless": {
+      "name": "Guardian of the Gateless",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 2
+    },
+    "haplessresearcher": {
+      "name": "Hapless Researcher",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 3
+    },
+    "heartbeatofspring": {
+      "name": "Heartbeat of Spring",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 10
+    },
+    "hedrondetonator": {
+      "name": "Hedron Detonator",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 4
+    },
+    "hellkiteoverlord": {
+      "name": "Hellkite Overlord",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 6
+    },
+    "herdheirloom": {
+      "name": "Herd Heirloom",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 14
+    },
+    "heritagedruid": {
+      "name": "Heritage Druid",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 9
+    },
+    "hermesoverseerofelpis": {
+      "name": "Hermes, Overseer of Elpis",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 7
+    },
+    "hero": {
+      "name": "Hero",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 60
+    },
+    "iizukatheruthless": {
+      "name": "Iizuka the Ruthless",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 3
+    },
+    "impostermech": {
+      "name": "Imposter Mech",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 4
+    },
+    "incandescentsoulstoke": {
+      "name": "Incandescent Soulstoke",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 3
+    },
+    "impulsivemaneuvers": {
+      "name": "Impulsive Maneuvers",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 5
+    },
+    "inexorabletide": {
+      "name": "Inexorable Tide",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 22
+    },
+    "infiltrationlens": {
+      "name": "Infiltration Lens",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 4
+    },
+    "instigator": {
+      "name": "Instigator",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 35
+    },
+    "jasmineboreal": {
+      "name": "Jasmine Boreal",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 3
+    },
+    "inverteroftruth": {
+      "name": "Inverter of Truth",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-04T07:35:13+00:00",
+      "matches": 4
     }
   },
   "unmatched": {
