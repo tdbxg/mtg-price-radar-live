@@ -36881,6 +36881,186 @@
       "cashUsd": 5.5,
       "checkedAt": "2026-11-05T07:59:19+00:00",
       "matches": 6
+    },
+    "bendorbreak": {
+      "name": "Bend or Break",
+      "cashUsd": 9.0,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 2
+    },
+    "growthspiral": {
+      "name": "Growth Spiral",
+      "cashUsd": 6.8,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 18
+    },
+    "greatbowdoyen": {
+      "name": "Greatbow Doyen",
+      "cashUsd": 6.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 3
+    },
+    "mendicantcoreguidelight": {
+      "name": "Mendicant Core, Guidelight",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 5
+    },
+    "noeticscales": {
+      "name": "Noetic Scales",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 2
+    },
+    "ridingredhare": {
+      "name": "Riding Red Hare",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 1
+    },
+    "thewanderer": {
+      "name": "The Wanderer",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 20
+    },
+    "restorationseminar": {
+      "name": "Restoration Seminar",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 12
+    },
+    "rhonassmonument": {
+      "name": "Rhonas's Monument",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 6
+    },
+    "ripapart": {
+      "name": "Rip Apart",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 6
+    },
+    "saberants": {
+      "name": "Saber Ants",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 2
+    },
+    "sacredcat": {
+      "name": "Sacred Cat",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 4
+    },
+    "scrabblingclaws": {
+      "name": "Scrabbling Claws",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 2
+    },
+    "scrybranger": {
+      "name": "Scryb Ranger",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 4
+    },
+    "searchforsurvivors": {
+      "name": "Search for Survivors",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 2
+    },
+    "seedsofinnocence": {
+      "name": "Seeds of Innocence",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 2
+    },
+    "sentinelsliver": {
+      "name": "Sentinel Sliver",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 3
+    },
+    "shamblingvent": {
+      "name": "Shambling Vent",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 9
+    },
+    "shelobdreadweaver": {
+      "name": "Shelob, Dread Weaver",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 6
+    },
+    "shrine": {
+      "name": "Shrine",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 60
+    },
+    "sidisibroodtyrant": {
+      "name": "Sidisi, Brood Tyrant",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 13
+    },
+    "siphoninsight": {
+      "name": "Siphon Insight",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 2
+    },
+    "skeletalswarming": {
+      "name": "Skeletal Swarming",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 2
+    },
+    "skyknightsquire": {
+      "name": "Skyknight Squire",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 5
+    },
+    "slumberingdragon": {
+      "name": "Slumbering Dragon",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 4
+    },
+    "soltarichampion": {
+      "name": "Soltari Champion",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 2
+    },
+    "soulherder": {
+      "name": "Soulherder",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 7
+    },
+    "sovereignokinecahau": {
+      "name": "Sovereign Okinec Ahau",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 14
+    },
+    "spinalembrace": {
+      "name": "Spinal Embrace",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 2
+    },
+    "squeesrevenge": {
+      "name": "Squee's Revenge",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-05T20:45:11+00:00",
+      "matches": 2
     }
   },
   "unmatched": {
