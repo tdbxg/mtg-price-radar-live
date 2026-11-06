@@ -37265,6 +37265,210 @@
       "cashUsd": 5.5,
       "checkedAt": "2026-11-06T08:01:40+00:00",
       "matches": 5
+    },
+    "qstackingthedeck": {
+      "name": "Q, Stacking the Deck",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 10
+    },
+    "orbofdreams": {
+      "name": "Orb of Dreams",
+      "cashUsd": 10.0,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 4
+    },
+    "suluspaceswashbuckler": {
+      "name": "Sulu, Space Swashbuckler",
+      "cashUsd": 10.0,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 6
+    },
+    "abolethspawn": {
+      "name": "Aboleth Spawn",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 4
+    },
+    "daruwarchief": {
+      "name": "Daru Warchief",
+      "cashUsd": 5.6,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 4
+    },
+    "supremeinquisitor": {
+      "name": "Supreme Inquisitor",
+      "cashUsd": 5.6,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 2
+    },
+    "silverquillthedisputant": {
+      "name": "Silverquill, the Disputant",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 10
+    },
+    "stagbeetle": {
+      "name": "Stag Beetle",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 2
+    },
+    "stayingpower": {
+      "name": "Staying Power",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 1
+    },
+    "stupor": {
+      "name": "Stupor",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 7
+    },
+    "summontitan": {
+      "name": "Summon: Titan",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 9
+    },
+    "surgespanner": {
+      "name": "Surgespanner",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 1
+    },
+    "surprisedeployment": {
+      "name": "Surprise Deployment",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 2
+    },
+    "talesend": {
+      "name": "Tale's End",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 8
+    },
+    "thegoosemother": {
+      "name": "The Goose Mother",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 6
+    },
+    "thepartingoftheways": {
+      "name": "The Parting of the Ways",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 4
+    },
+    "thermopod": {
+      "name": "Thermopod",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 2
+    },
+    "thoughtdevourer": {
+      "name": "Thought Devourer",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 2
+    },
+    "thrissnantukoprimus": {
+      "name": "Thriss, Nantuko Primus",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 2
+    },
+    "thunderscapefamiliar": {
+      "name": "Thunderscape Familiar",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 2
+    },
+    "tibaltrakishinstigator": {
+      "name": "Tibalt, Rakish Instigator",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 6
+    },
+    "titanofindustry": {
+      "name": "Titan of Industry",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 16
+    },
+    "tocatlihonorguard": {
+      "name": "Tocatli Honor Guard",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 6
+    },
+    "troublesomespirit": {
+      "name": "Troublesome Spirit",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 2
+    },
+    "tyritesanctum": {
+      "name": "Tyrite Sanctum",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 12
+    },
+    "undergrowthrecon": {
+      "name": "Undergrowth Recon",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 9
+    },
+    "vaanstreetthief": {
+      "name": "Vaan, Street Thief",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 7
+    },
+    "verdantforce": {
+      "name": "Verdant Force",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 10
+    },
+    "viashinoheretic": {
+      "name": "Viashino Heretic",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 2
+    },
+    "viridianlongbow": {
+      "name": "Viridian Longbow",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 4
+    },
+    "vivienonthehunt": {
+      "name": "Vivien on the Hunt",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 14
+    },
+    "vodalianhexcatcher": {
+      "name": "Vodalian Hexcatcher",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 14
+    },
+    "voidrend": {
+      "name": "Void Rend",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 9
+    },
+    "vraskathesilencer": {
+      "name": "Vraska, the Silencer",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-06T20:03:19+00:00",
+      "matches": 10
     }
   },
   "unmatched": {
