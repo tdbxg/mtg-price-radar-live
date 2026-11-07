@@ -37661,6 +37661,192 @@
       "cashUsd": 5.5,
       "checkedAt": "2026-11-07T07:18:37+00:00",
       "matches": 16
+    },
+    "borgcube": {
+      "name": "Borg Cube",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 8
+    },
+    "thegitrogravenousride": {
+      "name": "The Gitrog, Ravenous Ride",
+      "cashUsd": 6.5,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 10
+    },
+    "sarekfederationambassador": {
+      "name": "Sarek, Federation Ambassador",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 2
+    },
+    "ussdiscoveryatblackalert": {
+      "name": "U.S.S. Discovery, at Black Alert",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 8
+    },
+    "ussenterpriseafreespirit": {
+      "name": "U.S.S. Enterprise-A, Free Spirit",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 8
+    },
+    "ussenterprisedgalaxyclass": {
+      "name": "U.S.S. Enterprise-D, Galaxy-Class",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 2
+    },
+    "ussreliantfromhellsheart": {
+      "name": "U.S.S. Reliant, From Hell's Heart",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 2
+    },
+    "ravenouschupacabra": {
+      "name": "Ravenous Chupacabra",
+      "cashUsd": 5.7,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 18
+    },
+    "wiltleafliege": {
+      "name": "Wilt-Leaf Liege",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 3
+    },
+    "wishmonger": {
+      "name": "Wishmonger",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 2
+    },
+    "wulfgaroficewinddale": {
+      "name": "Wulfgar of Icewind Dale",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 4
+    },
+    "wyllsreversal": {
+      "name": "Wyll's Reversal",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 6
+    },
+    "xandedarkmage": {
+      "name": "Xande, Dark Mage",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 1
+    },
+    "yesmanpersonalsecuritron": {
+      "name": "Yes Man, Personal Securitron",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 12
+    },
+    "ashbarrens": {
+      "name": "Ash Barrens",
+      "cashUsd": 5.3,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 6
+    },
+    "courtoflocthwain": {
+      "name": "Court of Locthwain",
+      "cashUsd": 5.3,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 8
+    },
+    "creepingbloodsucker": {
+      "name": "Creeping Bloodsucker",
+      "cashUsd": 5.3,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 4
+    },
+    "goblinrabblemaster": {
+      "name": "Goblin Rabblemaster",
+      "cashUsd": 5.3,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 5
+    },
+    "openthearmory": {
+      "name": "Open the Armory",
+      "cashUsd": 5.3,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 10
+    },
+    "modok": {
+      "name": "M.O.D.O.K.",
+      "cashUsd": 5.3,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 12
+    },
+    "satoruumezawa": {
+      "name": "Satoru Umezawa",
+      "cashUsd": 5.3,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 9
+    },
+    "ramunapexcavator": {
+      "name": "Ramunap Excavator",
+      "cashUsd": 5.3,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 16
+    },
+    "turbulentsteppe": {
+      "name": "Turbulent Steppe",
+      "cashUsd": 5.3,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 4
+    },
+    "wolf": {
+      "name": "Wolf",
+      "cashUsd": 5.3,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 59
+    },
+    "brokersconfluence": {
+      "name": "Brokers Confluence",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 6
+    },
+    "gleefularsonist": {
+      "name": "Gleeful Arsonist",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 4
+    },
+    "apocalypse": {
+      "name": "Apocalypse",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 60
+    },
+    "holdoutsettlement": {
+      "name": "Holdout Settlement",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 4
+    },
+    "huatlithesunsheart": {
+      "name": "Huatli, the Sun's Heart",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 4
+    },
+    "hornofdeafening": {
+      "name": "Horn of Deafening",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 2
+    },
+    "karnstemporalsundering": {
+      "name": "Karn's Temporal Sundering",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-07T18:07:01+00:00",
+      "matches": 5
     }
   },
   "unmatched": {
