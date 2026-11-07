@@ -37469,6 +37469,198 @@
       "cashUsd": 5.5,
       "checkedAt": "2026-11-06T20:03:19+00:00",
       "matches": 10
+    },
+    "lieutenantcommanderdata": {
+      "name": "Lieutenant Commander Data",
+      "cashUsd": 40.0,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 14
+    },
+    "drbeverlycrusher": {
+      "name": "Dr. Beverly Crusher",
+      "cashUsd": 30.0,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 10
+    },
+    "jadziadaxlivinglegacy": {
+      "name": "Jadzia Dax, Living Legacy",
+      "cashUsd": 10.0,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 8
+    },
+    "birchlorerangers": {
+      "name": "Birchlore Rangers",
+      "cashUsd": 9.2,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 2
+    },
+    "spireofindustry": {
+      "name": "Spire of Industry",
+      "cashUsd": 9.0,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 34
+    },
+    "zombietrailblazer": {
+      "name": "Zombie Trailblazer",
+      "cashUsd": 8.0,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 2
+    },
+    "firebolt": {
+      "name": "Firebolt",
+      "cashUsd": 6.8,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 3
+    },
+    "whisperingmadness": {
+      "name": "Whispering Madness",
+      "cashUsd": 6.8,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 6
+    },
+    "quarkhumbleproprietor": {
+      "name": "Quark, Humble Proprietor",
+      "cashUsd": 6.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 8
+    },
+    "dathonhisheartopen": {
+      "name": "Dathon, His Heart Open",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 2
+    },
+    "deathisirrelevant": {
+      "name": "Death Is Irrelevant",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 14
+    },
+    "garrukcursedhuntsman": {
+      "name": "Garruk, Cursed Huntsman",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 11
+    },
+    "nemesisofreason": {
+      "name": "Nemesis of Reason",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 5
+    },
+    "slogurktheoverslime": {
+      "name": "Slogurk, the Overslime",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 1
+    },
+    "ardennintrepidarchaeologist": {
+      "name": "Ardenn, Intrepid Archaeologist",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 6
+    },
+    "bloomingmarsh": {
+      "name": "Blooming Marsh",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 22
+    },
+    "contestofclaws": {
+      "name": "Contest of Claws",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 4
+    },
+    "crystallineentity": {
+      "name": "Crystalline Entity",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 8
+    },
+    "gontinightminister": {
+      "name": "Gonti, Night Minister",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 9
+    },
+    "lizardblades": {
+      "name": "Lizard Blades",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 11
+    },
+    "murmuringmystic": {
+      "name": "Murmuring Mystic",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 6
+    },
+    "nightdealings": {
+      "name": "Night Dealings",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 2
+    },
+    "replicator": {
+      "name": "Replicator",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 16
+    },
+    "sorrowspath": {
+      "name": "Sorrow's Path",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 1
+    },
+    "thelastagnikai": {
+      "name": "The Last Agni Kai",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 10
+    },
+    "tibaltthefiendblooded": {
+      "name": "Tibalt, the Fiend-Blooded",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 5
+    },
+    "wallofglare": {
+      "name": "Wall of Glare",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 2
+    },
+    "warofthelastalliance": {
+      "name": "War of the Last Alliance",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 6
+    },
+    "weatherlightcompleated": {
+      "name": "Weatherlight Compleated",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 4
+    },
+    "whenfluffybunniesattack": {
+      "name": "When Fluffy Bunnies Attack",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 1
+    },
+    "whirlpoolrider": {
+      "name": "Whirlpool Rider",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 2
+    },
+    "whiteorchidphantom": {
+      "name": "White Orchid Phantom",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-07T07:18:37+00:00",
+      "matches": 16
     }
   },
   "unmatched": {
