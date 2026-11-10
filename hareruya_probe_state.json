@@ -38693,6 +38693,66 @@
       "cashUsd": 5.0,
       "checkedAt": "2026-11-10T08:30:20+00:00",
       "matches": 11
+    },
+    "squid": {
+      "name": "Squid",
+      "cashUsd": 10.5,
+      "checkedAt": "2026-11-10T20:31:18+00:00",
+      "matches": 8
+    },
+    "jeweledamulet": {
+      "name": "Jeweled Amulet",
+      "cashUsd": 7.8,
+      "checkedAt": "2026-11-10T20:31:18+00:00",
+      "matches": 1
+    },
+    "velomachuslorehold": {
+      "name": "Velomachus Lorehold",
+      "cashUsd": 5.7,
+      "checkedAt": "2026-11-10T20:31:18+00:00",
+      "matches": 11
+    },
+    "yargleandmultani": {
+      "name": "Yargle and Multani",
+      "cashUsd": 5.3,
+      "checkedAt": "2026-11-10T20:31:18+00:00",
+      "matches": 7
+    },
+    "luxcannon": {
+      "name": "Lux Cannon",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-10T20:31:18+00:00",
+      "matches": 2
+    },
+    "maiscornfulstriker": {
+      "name": "Mai, Scornful Striker",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-10T20:31:18+00:00",
+      "matches": 10
+    },
+    "maliciousaffliction": {
+      "name": "Malicious Affliction",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-10T20:31:18+00:00",
+      "matches": 4
+    },
+    "marithekillingquill": {
+      "name": "Mari, the Killing Quill",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-10T20:31:18+00:00",
+      "matches": 8
+    },
+    "marisibreakerofthecoil": {
+      "name": "Marisi, Breaker of the Coil",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-10T20:31:18+00:00",
+      "matches": 3
+    },
+    "marionettemaster": {
+      "name": "Marionette Master",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-10T20:31:18+00:00",
+      "matches": 7
     }
   },
   "unmatched": {
