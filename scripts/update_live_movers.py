@@ -437,6 +437,7 @@ def main() -> int:
             "source": source,
             "activeRows": cash_active_rows,
             "retailActiveRows": retail_active_rows,
+            "sampleIntervalMinutes": 15,
             "changedSkus": len(changes),
             "retailChangedSkus": len(retail_changes),
             "autoWatchRows": len(auto_watchlist),

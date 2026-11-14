@@ -305,7 +305,7 @@ function render() {
   const meta = state.data.meta || {};
   const cashScope = scopedPeriod("cash");
   const retailScope = scopedPeriod("retail");
-  $("#statusLine").textContent = `每小时采样 · 数据源：${meta.source || "Card Kingdom"} · 追踪开始于 ${formatTime(meta.trackedSince)}`;
+  $("#statusLine").textContent = `每15分钟采样 · 数据源：${meta.source || "Card Kingdom"} · 追踪开始于 ${formatTime(meta.trackedSince)}`;
   $("#sampleAt").textContent = formatTime(meta.generatedAt);
   $("#activeRows").textContent = Number(meta.activeRows || 0).toLocaleString("zh-CN");
   $("#cashUps").textContent = currentRows("cash", "winners").length.toLocaleString("zh-CN");
