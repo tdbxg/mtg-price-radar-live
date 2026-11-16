@@ -39113,6 +39113,30 @@
       "cashUsd": 6.0,
       "checkedAt": "2026-11-16T08:05:30+00:00",
       "matches": 2
+    },
+    "ardbertwarriorofdarkness": {
+      "name": "Ardbert, Warrior of Darkness",
+      "cashUsd": 6.4,
+      "checkedAt": "2026-11-16T22:58:10+00:00",
+      "matches": 6
+    },
+    "henzietoolboxtorre": {
+      "name": "Henzie \"Toolbox\" Torre",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-16T22:58:10+00:00",
+      "matches": 5
+    },
+    "knight": {
+      "name": "Knight",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-16T22:58:10+00:00",
+      "matches": 60
+    },
+    "overflowsubmatrix": {
+      "name": "Overflow Submatrix",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-16T22:58:10+00:00",
+      "matches": 4
     }
   },
   "unmatched": {
