@@ -39095,6 +39095,24 @@
       "cashUsd": 6.0,
       "checkedAt": "2026-11-15T07:57:07+00:00",
       "matches": 3
+    },
+    "flyingmen": {
+      "name": "Flying Men",
+      "cashUsd": 6.9,
+      "checkedAt": "2026-11-16T08:05:30+00:00",
+      "matches": 5
+    },
+    "steelhellkite": {
+      "name": "Steel Hellkite",
+      "cashUsd": 6.4,
+      "checkedAt": "2026-11-16T08:05:30+00:00",
+      "matches": 4
+    },
+    "planeswalkersfavor": {
+      "name": "Planeswalker's Favor",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-16T08:05:30+00:00",
+      "matches": 2
     }
   },
   "unmatched": {
