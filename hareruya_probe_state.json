@@ -39143,6 +39143,240 @@
       "cashUsd": 6.4,
       "checkedAt": "2026-11-17T09:21:16+00:00",
       "matches": 3
+    },
+    "sapphirecollector": {
+      "name": "Sapphire Collector",
+      "cashUsd": 78.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 1
+    },
+    "jetcollector": {
+      "name": "Jet Collector",
+      "cashUsd": 84.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 1
+    },
+    "rubycollector": {
+      "name": "Ruby Collector",
+      "cashUsd": 78.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 1
+    },
+    "emeraldcollector": {
+      "name": "Emerald Collector",
+      "cashUsd": 72.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 1
+    },
+    "pearlcollector": {
+      "name": "Pearl Collector",
+      "cashUsd": 72.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 1
+    },
+    "arzakon": {
+      "name": "Arzakon",
+      "cashUsd": 48.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "euruacornscrounger": {
+      "name": "Euru, Acorn Scrounger",
+      "cashUsd": 48.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 1
+    },
+    "ekthicontaminatorpriest": {
+      "name": "Ekthi, Contaminator Priest",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "overcooked": {
+      "name": "Overcooked",
+      "cashUsd": 24.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 1
+    },
+    "whtzthebibliophile": {
+      "name": "Whtz, the Bibliophile",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "blortheimpervious": {
+      "name": "Blor the Impervious",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "olagandmiaunewfriends": {
+      "name": "Olag and Miau, New Friends",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "seleniathecursedheart": {
+      "name": "Selenia, the Cursed Heart",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "uugguutheomniplasm": {
+      "name": "Uugguu, the Omniplasm",
+      "cashUsd": 15.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "homerthehermit": {
+      "name": "Homer, the Hermit",
+      "cashUsd": 13.2,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "maularthenextevolution": {
+      "name": "Maular, the Next Evolution",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "theeverforger": {
+      "name": "The Everforger",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "themadcapjester": {
+      "name": "The Madcap Jester",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "thomilthedestroyer": {
+      "name": "Thomil, the Destroyer",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "worzeltheprotector": {
+      "name": "Worzel, the Protector",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "meatsqueakhoardlord": {
+      "name": "Meatsqueak, Hoard Lord",
+      "cashUsd": 11.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "massimothemagician": {
+      "name": "Massimo, the Magician",
+      "cashUsd": 9.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "selumalightofaysen": {
+      "name": "Seluma, Light of Aysen",
+      "cashUsd": 9.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "theweaverking": {
+      "name": "The Weaver King",
+      "cashUsd": 9.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "olindatheoblivious": {
+      "name": "Olinda the Oblivious",
+      "cashUsd": 8.5,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "bossuramonshadowsreach": {
+      "name": "Boss Uramon, Shadow's Reach",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "caseofthelostwitness": {
+      "name": "Case of the Lost Witness",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 1
+    },
+    "ferozulgrothaswarden": {
+      "name": "Feroz, Ulgrotha's Warden",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "gravebetrayal": {
+      "name": "Grave Betrayal",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "istvanbutcherofeln": {
+      "name": "Istvan, Butcher of Eln",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "jovenandchandler": {
+      "name": "Joven and Chandler",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "lynaveilofvengeance": {
+      "name": "Lyna, Veil of Vengeance",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "misshighwater": {
+      "name": "Miss Highwater",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "nephilimepochal": {
+      "name": "Nephilim Epochal",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "partythrasher": {
+      "name": "Party Thrasher",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 7
+    },
+    "niveabelovedbattlemage": {
+      "name": "Nivea, Beloved Battlemage",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "perforatorcrocodile": {
+      "name": "Perforator Crocodile",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 1
+    },
+    "szadeklordofsecrets": {
+      "name": "Szadek, Lord of Secrets",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
+    },
+    "theunluckiestplaneswalker": {
+      "name": "The Unluckiest Planeswalker",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-17T21:52:15+00:00",
+      "matches": 2
     }
   },
   "unmatched": {
