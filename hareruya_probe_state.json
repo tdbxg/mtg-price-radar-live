@@ -39377,6 +39377,162 @@
       "cashUsd": 6.0,
       "checkedAt": "2026-11-17T21:52:15+00:00",
       "matches": 2
+    },
+    "d7battlecruiser": {
+      "name": "D-7 Battle Cruiser",
+      "cashUsd": 7.5,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 2
+    },
+    "hmsbountyunlikelytimeship": {
+      "name": "H.M.S. Bounty, Unlikely Timeship",
+      "cashUsd": 7.5,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 2
+    },
+    "skorpekhlord": {
+      "name": "Skorpekh Lord",
+      "cashUsd": 6.6,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 3
+    },
+    "cloudshift": {
+      "name": "Cloudshift",
+      "cashUsd": 6.4,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 16
+    },
+    "ancientziggurat": {
+      "name": "Ancient Ziggurat",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 7
+    },
+    "firemanecommando": {
+      "name": "Firemane Commando",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 8
+    },
+    "magneticmountain": {
+      "name": "Magnetic Mountain",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 3
+    },
+    "stopthat": {
+      "name": "Stop That",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 1
+    },
+    "orostheavenger": {
+      "name": "Oros, the Avenger",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 2
+    },
+    "tsaganraiderwarlord": {
+      "name": "Tsagan, Raider Warlord",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 2
+    },
+    "valkoindorian": {
+      "name": "Valko Indorian",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 2
+    },
+    "nahiritheharbinger": {
+      "name": "Nahiri, the Harbinger",
+      "cashUsd": 5.7,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 5
+    },
+    "squallgunbladeduelist": {
+      "name": "Squall, Gunblade Duelist",
+      "cashUsd": 5.7,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 4
+    },
+    "callousoppressor": {
+      "name": "Callous Oppressor",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 2
+    },
+    "jackolantern": {
+      "name": "Jack-o'-Lantern",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 1
+    },
+    "hideoustaskmaster": {
+      "name": "Hideous Taskmaster",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 3
+    },
+    "karumonixtheratking": {
+      "name": "Karumonix, the Rat King",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 4
+    },
+    "kayaorzhovusurper": {
+      "name": "Kaya, Orzhov Usurper",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 4
+    },
+    "kirkenterprisingcaptain": {
+      "name": "Kirk, Enterprising Captain",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 2
+    },
+    "midnightclock": {
+      "name": "Midnight Clock",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 6
+    },
+    "mygeniusknowsnobounds": {
+      "name": "My Genius Knows No Bounds",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 1
+    },
+    "nalfeshnee": {
+      "name": "Nalfeshnee",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 4
+    },
+    "returnofthemoleman": {
+      "name": "Return of the Mole Man",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 4
+    },
+    "samiwildcatcaptain": {
+      "name": "Sami, Wildcat Captain",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 11
+    },
+    "staffoftitania": {
+      "name": "Staff of Titania",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 6
+    },
+    "wavebreakhippocamp": {
+      "name": "Wavebreak Hippocamp",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-18T08:38:35+00:00",
+      "matches": 6
     }
   },
   "unmatched": {
