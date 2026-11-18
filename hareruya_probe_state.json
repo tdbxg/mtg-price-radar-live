@@ -39533,6 +39533,132 @@
       "cashUsd": 5.5,
       "checkedAt": "2026-11-18T08:38:35+00:00",
       "matches": 6
+    },
+    "thousandyearstorm": {
+      "name": "Thousand-Year Storm",
+      "cashUsd": 6.6,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 9
+    },
+    "causticwasps": {
+      "name": "Caustic Wasps",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 2
+    },
+    "creepingtarpit": {
+      "name": "Creeping Tar Pit",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 16
+    },
+    "immerwolf": {
+      "name": "Immerwolf",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 3
+    },
+    "phialofgaladriel": {
+      "name": "Phial of Galadriel",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 5
+    },
+    "valor": {
+      "name": "Valor",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 33
+    },
+    "ellievengefulhunter": {
+      "name": "Ellie, Vengeful Hunter",
+      "cashUsd": 5.7,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 2
+    },
+    "empyrialplate": {
+      "name": "Empyrial Plate",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 6
+    },
+    "rithliberatedprimeval": {
+      "name": "Rith, Liberated Primeval",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 8
+    },
+    "voldarenepicure": {
+      "name": "Voldaren Epicure",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 5
+    },
+    "cosmichorror": {
+      "name": "Cosmic Horror",
+      "cashUsd": 5.3,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 2
+    },
+    "oltecmatterweaver": {
+      "name": "Oltec Matterweaver",
+      "cashUsd": 5.3,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 17
+    },
+    "wildmagicsorcerer": {
+      "name": "Wild-Magic Sorcerer",
+      "cashUsd": 5.3,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 8
+    },
+    "alertshuinfantry": {
+      "name": "Alert Shu Infantry",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 1
+    },
+    "bloodforgedbattleaxe": {
+      "name": "Bloodforged Battle-Axe",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 26
+    },
+    "cabalarchon": {
+      "name": "Cabal Archon",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 2
+    },
+    "chandraflamescatalyst": {
+      "name": "Chandra, Flame's Catalyst",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 4
+    },
+    "highclifffelidar": {
+      "name": "Highcliff Felidar",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 2
+    },
+    "metamorphicwurm": {
+      "name": "Metamorphic Wurm",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 2
+    },
+    "radagastofrhosgobel": {
+      "name": "Radagast of Rhosgobel",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 8
+    },
+    "smugglerscoptersmugglerscopter": {
+      "name": "Smuggler's Copter // Smuggler's Copter",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-18T21:30:14+00:00",
+      "matches": 6
     }
   },
   "unmatched": {
