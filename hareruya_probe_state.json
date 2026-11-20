@@ -39911,6 +39911,84 @@
       "cashUsd": 5.0,
       "checkedAt": "2026-11-20T08:40:56+00:00",
       "matches": 2
+    },
+    "stormchaserstalent": {
+      "name": "Stormchaser's Talent",
+      "cashUsd": 7.5,
+      "checkedAt": "2026-11-20T21:19:10+00:00",
+      "matches": 10
+    },
+    "rimescaledragon": {
+      "name": "Rimescale Dragon",
+      "cashUsd": 6.8,
+      "checkedAt": "2026-11-20T21:19:10+00:00",
+      "matches": 3
+    },
+    "championoftheparish": {
+      "name": "Champion of the Parish",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-20T21:19:10+00:00",
+      "matches": 3
+    },
+    "tresserhornslordreturned": {
+      "name": "Tresserhorn's Lord, Returned",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-20T21:19:10+00:00",
+      "matches": 2
+    },
+    "plarggandnassari": {
+      "name": "Plargg and Nassari",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-20T21:19:10+00:00",
+      "matches": 7
+    },
+    "willofthemardu": {
+      "name": "Will of the Mardu",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-20T21:19:10+00:00",
+      "matches": 4
+    },
+    "mindrot": {
+      "name": "Mind Rot",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-20T21:19:10+00:00",
+      "matches": 1
+    },
+    "merryesquireofrohan": {
+      "name": "Merry, Esquire of Rohan",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-20T21:19:10+00:00",
+      "matches": 6
+    },
+    "mindspringmerfolk": {
+      "name": "Mindspring Merfolk",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-20T21:19:10+00:00",
+      "matches": 5
+    },
+    "moonringisland": {
+      "name": "Moonring Island",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-20T21:19:10+00:00",
+      "matches": 2
+    },
+    "mycosynthwellspring": {
+      "name": "Mycosynth Wellspring",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-20T21:19:10+00:00",
+      "matches": 4
+    },
+    "myojinoflifesweb": {
+      "name": "Myojin of Life's Web",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-20T21:19:10+00:00",
+      "matches": 5
+    },
+    "narsetenlightenedmaster": {
+      "name": "Narset, Enlightened Master",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-20T21:19:10+00:00",
+      "matches": 5
     }
   },
   "unmatched": {
