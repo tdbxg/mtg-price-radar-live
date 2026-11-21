@@ -39989,6 +39989,90 @@
       "cashUsd": 5.0,
       "checkedAt": "2026-11-20T21:19:10+00:00",
       "matches": 5
+    },
+    "otherworldatlas": {
+      "name": "Otherworld Atlas",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-21T08:22:46+00:00",
+      "matches": 2
+    },
+    "sanctimony": {
+      "name": "Sanctimony",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-21T08:22:46+00:00",
+      "matches": 4
+    },
+    "selesnyasanctuary": {
+      "name": "Selesnya Sanctuary",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-21T08:22:46+00:00",
+      "matches": 5
+    },
+    "utopiamycon": {
+      "name": "Utopia Mycon",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-21T08:22:46+00:00",
+      "matches": 4
+    },
+    "patchworkbanner": {
+      "name": "Patchwork Banner",
+      "cashUsd": 5.3,
+      "checkedAt": "2026-11-21T08:22:46+00:00",
+      "matches": 12
+    },
+    "terastodon": {
+      "name": "Terastodon",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-21T08:22:46+00:00",
+      "matches": 5
+    },
+    "echoperceptiveprodigy": {
+      "name": "Echo, Perceptive Prodigy",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T08:22:46+00:00",
+      "matches": 1
+    },
+    "nestingdragon": {
+      "name": "Nesting Dragon",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T08:22:46+00:00",
+      "matches": 2
+    },
+    "obstinatefamiliar": {
+      "name": "Obstinate Familiar",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T08:22:46+00:00",
+      "matches": 2
+    },
+    "obeliskofurd": {
+      "name": "Obelisk of Urd",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T08:22:46+00:00",
+      "matches": 5
+    },
+    "ofherbsandstewedrabbit": {
+      "name": "Of Herbs and Stewed Rabbit",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T08:22:46+00:00",
+      "matches": 4
+    },
+    "ophiomancer": {
+      "name": "Ophiomancer",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T08:22:46+00:00",
+      "matches": 14
+    },
+    "pharikagodofaffliction": {
+      "name": "Pharika, God of Affliction",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T08:22:46+00:00",
+      "matches": 4
+    },
+    "patriarsseal": {
+      "name": "Patriar's Seal",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T08:22:46+00:00",
+      "matches": 4
     }
   },
   "unmatched": {
