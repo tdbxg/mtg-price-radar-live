@@ -768,6 +768,10 @@
     "language": "JP"
   },
   {
+    "productId": "315",
+    "language": "EN"
+  },
+  {
     "productId": "317",
     "language": "EN"
   },
@@ -11252,6 +11256,10 @@
     "language": "JP"
   },
   {
+    "productId": "6260",
+    "language": "EN"
+  },
+  {
     "productId": "6274",
     "language": "EN"
   },
@@ -15425,6 +15433,14 @@
   },
   {
     "productId": "10629",
+    "language": "JP"
+  },
+  {
+    "productId": "10635",
+    "language": "EN"
+  },
+  {
+    "productId": "10635",
     "language": "JP"
   },
   {
@@ -21540,6 +21556,10 @@
     "language": "EN"
   },
   {
+    "productId": "15852",
+    "language": "EN"
+  },
+  {
     "productId": "15862",
     "language": "EN"
   },
@@ -22070,6 +22090,10 @@
   {
     "productId": "16276",
     "language": "JP"
+  },
+  {
+    "productId": "16280",
+    "language": "EN"
   },
   {
     "productId": "16289",
@@ -22740,6 +22764,10 @@
     "language": "JP"
   },
   {
+    "productId": "16848",
+    "language": "EN"
+  },
+  {
     "productId": "16851",
     "language": "EN"
   },
@@ -22893,6 +22921,14 @@
   },
   {
     "productId": "17012",
+    "language": "JP"
+  },
+  {
+    "productId": "17025",
+    "language": "EN"
+  },
+  {
+    "productId": "17025",
     "language": "JP"
   },
   {
@@ -33640,6 +33676,10 @@
     "language": "EN"
   },
   {
+    "productId": "30714",
+    "language": "EN"
+  },
+  {
     "productId": "30719",
     "language": "EN"
   },
@@ -33785,6 +33825,10 @@
   },
   {
     "productId": "30867",
+    "language": "EN"
+  },
+  {
+    "productId": "30870",
     "language": "EN"
   },
   {
@@ -38504,6 +38548,14 @@
     "language": "JP"
   },
   {
+    "productId": "36937",
+    "language": "EN"
+  },
+  {
+    "productId": "36937",
+    "language": "JP"
+  },
+  {
     "productId": "36938",
     "language": "EN"
   },
@@ -39800,6 +39852,10 @@
     "language": "JP"
   },
   {
+    "productId": "37378",
+    "language": "EN"
+  },
+  {
     "productId": "37394",
     "language": "EN"
   },
@@ -40877,6 +40933,14 @@
   },
   {
     "productId": "38120",
+    "language": "JP"
+  },
+  {
+    "productId": "38137",
+    "language": "EN"
+  },
+  {
+    "productId": "38137",
     "language": "JP"
   },
   {
@@ -48876,6 +48940,14 @@
     "language": "JP"
   },
   {
+    "productId": "42397",
+    "language": "EN"
+  },
+  {
+    "productId": "42397",
+    "language": "JP"
+  },
+  {
     "productId": "42410",
     "language": "EN"
   },
@@ -49293,6 +49365,14 @@
   },
   {
     "productId": "42651",
+    "language": "JP"
+  },
+  {
+    "productId": "42653",
+    "language": "EN"
+  },
+  {
+    "productId": "42653",
     "language": "JP"
   },
   {
@@ -50929,6 +51009,14 @@
   },
   {
     "productId": "43843",
+    "language": "JP"
+  },
+  {
+    "productId": "43845",
+    "language": "EN"
+  },
+  {
+    "productId": "43845",
     "language": "JP"
   },
   {
@@ -52974,6 +53062,14 @@
   {
     "productId": "45407",
     "language": "EN"
+  },
+  {
+    "productId": "45411",
+    "language": "EN"
+  },
+  {
+    "productId": "45411",
+    "language": "JP"
   },
   {
     "productId": "45417",
@@ -57785,6 +57881,14 @@
   },
   {
     "productId": "48304",
+    "language": "JP"
+  },
+  {
+    "productId": "48307",
+    "language": "EN"
+  },
+  {
+    "productId": "48307",
     "language": "JP"
   },
   {
@@ -68680,6 +68784,14 @@
     "language": "JP"
   },
   {
+    "productId": "54775",
+    "language": "EN"
+  },
+  {
+    "productId": "54775",
+    "language": "JP"
+  },
+  {
     "productId": "54786",
     "language": "EN"
   },
@@ -69440,6 +69552,14 @@
     "language": "JP"
   },
   {
+    "productId": "55283",
+    "language": "EN"
+  },
+  {
+    "productId": "55283",
+    "language": "JP"
+  },
+  {
     "productId": "55286",
     "language": "EN"
   },
@@ -69645,6 +69765,14 @@
   },
   {
     "productId": "55398",
+    "language": "JP"
+  },
+  {
+    "productId": "55402",
+    "language": "EN"
+  },
+  {
+    "productId": "55402",
     "language": "JP"
   },
   {
@@ -70654,6 +70782,14 @@
   {
     "productId": "56095",
     "language": "EN"
+  },
+  {
+    "productId": "56100",
+    "language": "EN"
+  },
+  {
+    "productId": "56100",
+    "language": "JP"
   },
   {
     "productId": "56102",
@@ -73068,6 +73204,10 @@
     "language": "JP"
   },
   {
+    "productId": "58521",
+    "language": "EN"
+  },
+  {
     "productId": "58544",
     "language": "EN"
   },
@@ -74649,6 +74789,14 @@
   },
   {
     "productId": "60739",
+    "language": "JP"
+  },
+  {
+    "productId": "60768",
+    "language": "EN"
+  },
+  {
+    "productId": "60768",
     "language": "JP"
   },
   {
@@ -76289,6 +76437,10 @@
   },
   {
     "productId": "66885",
+    "language": "EN"
+  },
+  {
+    "productId": "66889",
     "language": "EN"
   },
   {
@@ -85870,6 +86022,14 @@
   {
     "productId": "77102",
     "language": "EN"
+  },
+  {
+    "productId": "77103",
+    "language": "EN"
+  },
+  {
+    "productId": "77103",
+    "language": "JP"
   },
   {
     "productId": "77105",
@@ -113984,6 +114144,10 @@
     "language": "JP"
   },
   {
+    "productId": "106644",
+    "language": "EN"
+  },
+  {
     "productId": "106651",
     "language": "EN"
   },
@@ -128544,6 +128708,14 @@
     "language": "JP"
   },
   {
+    "productId": "118950",
+    "language": "EN"
+  },
+  {
+    "productId": "118950",
+    "language": "JP"
+  },
+  {
     "productId": "118958",
     "language": "EN"
   },
@@ -128949,6 +129121,10 @@
   },
   {
     "productId": "119246",
+    "language": "EN"
+  },
+  {
+    "productId": "119247",
     "language": "EN"
   },
   {
@@ -156436,6 +156612,10 @@
     "language": "JP"
   },
   {
+    "productId": "141294",
+    "language": "EN"
+  },
+  {
     "productId": "141298",
     "language": "EN"
   },
@@ -159517,6 +159697,14 @@
   },
   {
     "productId": "142764",
+    "language": "JP"
+  },
+  {
+    "productId": "142766",
+    "language": "EN"
+  },
+  {
+    "productId": "142766",
     "language": "JP"
   },
   {
@@ -169468,6 +169656,10 @@
     "language": "EN"
   },
   {
+    "productId": "147367",
+    "language": "EN"
+  },
+  {
     "productId": "147368",
     "language": "EN"
   },
@@ -169773,6 +169965,10 @@
   },
   {
     "productId": "147514",
+    "language": "EN"
+  },
+  {
+    "productId": "147515",
     "language": "EN"
   },
   {
@@ -171118,6 +171314,10 @@
   {
     "productId": "148696",
     "language": "JP"
+  },
+  {
+    "productId": "148697",
+    "language": "EN"
   },
   {
     "productId": "148699",
@@ -172708,6 +172908,10 @@
     "language": "JP"
   },
   {
+    "productId": "149790",
+    "language": "EN"
+  },
+  {
     "productId": "149791",
     "language": "EN"
   },
@@ -172721,6 +172925,10 @@
   },
   {
     "productId": "149794",
+    "language": "EN"
+  },
+  {
+    "productId": "149795",
     "language": "EN"
   },
   {
@@ -186620,6 +186828,14 @@
     "language": "JP"
   },
   {
+    "productId": "158195",
+    "language": "EN"
+  },
+  {
+    "productId": "158195",
+    "language": "JP"
+  },
+  {
     "productId": "158201",
     "language": "EN"
   },
@@ -186637,6 +186853,14 @@
   },
   {
     "productId": "158229",
+    "language": "JP"
+  },
+  {
+    "productId": "158231",
+    "language": "EN"
+  },
+  {
+    "productId": "158231",
     "language": "JP"
   },
   {
@@ -188580,6 +188804,14 @@
     "language": "JP"
   },
   {
+    "productId": "159571",
+    "language": "EN"
+  },
+  {
+    "productId": "159571",
+    "language": "JP"
+  },
+  {
     "productId": "159574",
     "language": "EN"
   },
@@ -189053,6 +189285,14 @@
   },
   {
     "productId": "159698",
+    "language": "JP"
+  },
+  {
+    "productId": "159699",
+    "language": "EN"
+  },
+  {
+    "productId": "159699",
     "language": "JP"
   },
   {
@@ -189956,6 +190196,14 @@
     "language": "JP"
   },
   {
+    "productId": "160067",
+    "language": "EN"
+  },
+  {
+    "productId": "160067",
+    "language": "JP"
+  },
+  {
     "productId": "160070",
     "language": "EN"
   },
@@ -190433,6 +190681,14 @@
   },
   {
     "productId": "160194",
+    "language": "JP"
+  },
+  {
+    "productId": "160195",
+    "language": "EN"
+  },
+  {
+    "productId": "160195",
     "language": "JP"
   },
   {
@@ -191213,6 +191469,14 @@
   },
   {
     "productId": "160375",
+    "language": "JP"
+  },
+  {
+    "productId": "160376",
+    "language": "EN"
+  },
+  {
+    "productId": "160376",
     "language": "JP"
   },
   {
@@ -203910,6 +204174,10 @@
   {
     "productId": "169645",
     "language": "JP"
+  },
+  {
+    "productId": "169646",
+    "language": "EN"
   },
   {
     "productId": "169692",

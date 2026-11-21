@@ -40073,6 +40073,102 @@
       "cashUsd": 5.0,
       "checkedAt": "2026-11-21T08:22:46+00:00",
       "matches": 4
+    },
+    "spymastersvault": {
+      "name": "Spymaster's Vault",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-21T20:11:07+00:00",
+      "matches": 10
+    },
+    "riverkelpie": {
+      "name": "River Kelpie",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-21T20:11:07+00:00",
+      "matches": 4
+    },
+    "plotsthatspancenturies": {
+      "name": "Plots That Span Centuries",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T20:11:07+00:00",
+      "matches": 1
+    },
+    "pyrezombie": {
+      "name": "Pyre Zombie",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T20:11:07+00:00",
+      "matches": 2
+    },
+    "rapiddecay": {
+      "name": "Rapid Decay",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T20:11:07+00:00",
+      "matches": 2
+    },
+    "rendersilent": {
+      "name": "Render Silent",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T20:11:07+00:00",
+      "matches": 5
+    },
+    "reverberate": {
+      "name": "Reverberate",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T20:11:07+00:00",
+      "matches": 14
+    },
+    "revive": {
+      "name": "Revive",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T20:11:07+00:00",
+      "matches": 3
+    },
+    "rimetransfusion": {
+      "name": "Rime Transfusion",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T20:11:07+00:00",
+      "matches": 2
+    },
+    "rosenoble": {
+      "name": "Rose Noble",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T20:11:07+00:00",
+      "matches": 2
+    },
+    "rudeawakening": {
+      "name": "Rude Awakening",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T20:11:07+00:00",
+      "matches": 4
+    },
+    "rustelemental": {
+      "name": "Rust Elemental",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T20:11:07+00:00",
+      "matches": 2
+    },
+    "sanctumseeker": {
+      "name": "Sanctum Seeker",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T20:11:07+00:00",
+      "matches": 11
+    },
+    "sandscout": {
+      "name": "Sand Scout",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T20:11:07+00:00",
+      "matches": 4
+    },
+    "scrambleverse": {
+      "name": "Scrambleverse",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T20:11:07+00:00",
+      "matches": 3
+    },
+    "seedtheland": {
+      "name": "Seed the Land",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-21T20:11:07+00:00",
+      "matches": 4
     }
   },
   "unmatched": {
