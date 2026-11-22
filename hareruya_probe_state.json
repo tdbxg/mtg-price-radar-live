@@ -40169,6 +40169,120 @@
       "cashUsd": 5.0,
       "checkedAt": "2026-11-21T20:11:07+00:00",
       "matches": 4
+    },
+    "determinediteration": {
+      "name": "Determined Iteration",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 7
+    },
+    "sanctumprelate": {
+      "name": "Sanctum Prelate",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 7
+    },
+    "ichorrats": {
+      "name": "Ichor Rats",
+      "cashUsd": 5.6,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 5
+    },
+    "weldingjar": {
+      "name": "Welding Jar",
+      "cashUsd": 5.6,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 8
+    },
+    "evinwaterdeepopportunist": {
+      "name": "Evin, Waterdeep Opportunist",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 1
+    },
+    "geistofsainttraft": {
+      "name": "Geist of Saint Traft",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 11
+    },
+    "mawloc": {
+      "name": "Mawloc",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 3
+    },
+    "circleofprotectionblack": {
+      "name": "Circle of Protection: Black",
+      "cashUsd": 5.22,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 10
+    },
+    "stellaleewildcard": {
+      "name": "Stella Lee, Wild Card",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 7
+    },
+    "shattergangbrothers": {
+      "name": "Shattergang Brothers",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 2
+    },
+    "turbulentwilderness": {
+      "name": "Turbulent Wilderness",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 4
+    },
+    "clockworkdragon": {
+      "name": "Clockwork Dragon",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 2
+    },
+    "frankensteinsmonster": {
+      "name": "Frankenstein's Monster",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 1
+    },
+    "otrimitheeverplayful": {
+      "name": "Otrimi, the Ever-Playful",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 4
+    },
+    "serraparagon": {
+      "name": "Serra Paragon",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 15
+    },
+    "signalpest": {
+      "name": "Signal Pest",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 6
+    },
+    "simoon": {
+      "name": "Simoon",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 2
+    },
+    "smartass": {
+      "name": "Smart Ass",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 1
+    },
+    "smashtosmithereens": {
+      "name": "Smash to Smithereens",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T08:08:10+00:00",
+      "matches": 5
     }
   },
   "unmatched": {
