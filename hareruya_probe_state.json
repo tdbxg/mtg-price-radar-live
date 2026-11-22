@@ -40283,6 +40283,102 @@
       "cashUsd": 5.0,
       "checkedAt": "2026-11-22T08:08:10+00:00",
       "matches": 5
+    },
+    "kobayashimaruscenario": {
+      "name": "Kobayashi Maru Scenario",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-11-22T20:25:53+00:00",
+      "matches": 10
+    },
+    "zodiacdog": {
+      "name": "Zodiac Dog",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-22T20:25:53+00:00",
+      "matches": 1
+    },
+    "trainedcheetah": {
+      "name": "Trained Cheetah",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-22T20:25:53+00:00",
+      "matches": 1
+    },
+    "roktahkbuddingscientist": {
+      "name": "Rok-Tahk, Budding Scientist",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T20:25:53+00:00",
+      "matches": 8
+    },
+    "stirringwildwood": {
+      "name": "Stirring Wildwood",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T20:25:53+00:00",
+      "matches": 7
+    },
+    "tatyovabenthicdruid": {
+      "name": "Tatyova, Benthic Druid",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T20:25:53+00:00",
+      "matches": 6
+    },
+    "telekineticsliver": {
+      "name": "Telekinetic Sliver",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T20:25:53+00:00",
+      "matches": 3
+    },
+    "thousandfacedshadow": {
+      "name": "Thousand-Faced Shadow",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T20:25:53+00:00",
+      "matches": 10
+    },
+    "threaten": {
+      "name": "Threaten",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T20:25:53+00:00",
+      "matches": 1
+    },
+    "tsabosassassin": {
+      "name": "Tsabo's Assassin",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T20:25:53+00:00",
+      "matches": 2
+    },
+    "undyingevil": {
+      "name": "Undying Evil",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T20:25:53+00:00",
+      "matches": 3
+    },
+    "wakeningsunsavatar": {
+      "name": "Wakening Sun's Avatar",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T20:25:53+00:00",
+      "matches": 6
+    },
+    "warriorsresolve": {
+      "name": "Warrior's Resolve",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T20:25:53+00:00",
+      "matches": 3
+    },
+    "wellofdiscovery": {
+      "name": "Well of Discovery",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T20:25:53+00:00",
+      "matches": 2
+    },
+    "willoftheabzan": {
+      "name": "Will of the Abzan",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T20:25:53+00:00",
+      "matches": 4
+    },
+    "yoretillernephilim": {
+      "name": "Yore-Tiller Nephilim",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-22T20:25:53+00:00",
+      "matches": 2
     }
   },
   "unmatched": {
