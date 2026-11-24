@@ -40457,6 +40457,228 @@
       "cashUsd": 5.0,
       "checkedAt": "2026-11-23T09:13:54+00:00",
       "matches": 14
+    },
+    "roguesgloves": {
+      "name": "Rogue's Gloves",
+      "cashUsd": 33.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 6
+    },
+    "betaraybill": {
+      "name": "Beta Ray Bill",
+      "cashUsd": 33.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 1
+    },
+    "jabsmistressofmockery": {
+      "name": "Jabs, Mistress of Mockery",
+      "cashUsd": 18.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "doctorstrangemasterofmagic": {
+      "name": "Doctor Strange, Master of Magic",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 1
+    },
+    "greensleeves": {
+      "name": "Greensleeves",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 13
+    },
+    "grizzlegomhurloonhero": {
+      "name": "Grizzlegom, Hurloon Hero",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "itazuralingeringwick": {
+      "name": "Itazura, Lingering Wick",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "sifagrent": {
+      "name": "Sifa Grent",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "zagorkamotherofsanctum": {
+      "name": "Zagorka, Mother of Sanctum",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "ashayasenduringbond": {
+      "name": "Ashaya's Enduring Bond",
+      "cashUsd": 9.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "autumnwillowharmony": {
+      "name": "Autumn Willow, Harmony",
+      "cashUsd": 9.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "balefangtheunslayable": {
+      "name": "Balefang the Unslayable",
+      "cashUsd": 9.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "fieryconfluence": {
+      "name": "Fiery Confluence",
+      "cashUsd": 9.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 21
+    },
+    "jandorfortunedtraveler": {
+      "name": "Jandor, Fortuned Traveler",
+      "cashUsd": 9.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "kurokithiefoftalents": {
+      "name": "Kuroki, Thief of Talents",
+      "cashUsd": 9.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "primalmight": {
+      "name": "Primal Might",
+      "cashUsd": 9.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 3
+    },
+    "themuckslingergang": {
+      "name": "The Muckslinger Gang",
+      "cashUsd": 9.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "yumechroniclerofvalor": {
+      "name": "Yume, Chronicler of Valor",
+      "cashUsd": 9.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "tolabowlochrascal": {
+      "name": "Tolabow, Loch Rascal",
+      "cashUsd": 9.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "mjolnirstormhammer": {
+      "name": "Mjolnir, Storm Hammer",
+      "cashUsd": 8.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 10
+    },
+    "cheapass": {
+      "name": "Cheap Ass",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 1
+    },
+    "brilliantultimatum": {
+      "name": "Brilliant Ultimatum",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 3
+    },
+    "cinderhazewretch": {
+      "name": "Cinderhaze Wretch",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 1
+    },
+    "collectiveeffort": {
+      "name": "Collective Effort",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 5
+    },
+    "dictateofthetwingods": {
+      "name": "Dictate of the Twin Gods",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 7
+    },
+    "flitwinglyevdetective": {
+      "name": "Flitwing, Lyev Detective",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "glavafiveadventsmage": {
+      "name": "Glava, Five-Advents Mage",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "grakkthepacifist": {
+      "name": "Grakk the Pacifist",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "grandmothergoby": {
+      "name": "Grandmother Goby",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "gusthaebbasdotter": {
+      "name": "Gustha Ebbasdotter",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "lifebloodhydra": {
+      "name": "Lifeblood Hydra",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 3
+    },
+    "matoclavamancer": {
+      "name": "Matoc, Lavamancer",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "professordellianfelemblem": {
+      "name": "Professor Dellian Fel Emblem",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "rikalahomaridking": {
+      "name": "Rikala, Homarid King",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "shiftydoppelganger": {
+      "name": "Shifty Doppelganger",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "venservisionarytraveler": {
+      "name": "Venser, Visionary Traveler",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
+    },
+    "dragonssmile": {
+      "name": "Dragon's Smile",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-24T01:03:27+00:00",
+      "matches": 2
     }
   },
   "unmatched": {
