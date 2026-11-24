@@ -40679,6 +40679,54 @@
       "cashUsd": 5.5,
       "checkedAt": "2026-11-24T01:03:27+00:00",
       "matches": 2
+    },
+    "kuropitlord": {
+      "name": "Kuro, Pitlord",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T11:06:48+00:00",
+      "matches": 2
+    },
+    "kyrentoy": {
+      "name": "Kyren Toy",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-24T11:06:48+00:00",
+      "matches": 2
+    },
+    "vinesofvastwood": {
+      "name": "Vines of Vastwood",
+      "cashUsd": 5.5,
+      "checkedAt": "2026-11-24T11:06:48+00:00",
+      "matches": 6
+    },
+    "swordofonceandfuture": {
+      "name": "Sword of Once and Future",
+      "cashUsd": 5.25,
+      "checkedAt": "2026-11-24T11:06:48+00:00",
+      "matches": 14
+    },
+    "chiefmagistrateofmercadia": {
+      "name": "Chief Magistrate of Mercadia",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-24T11:06:48+00:00",
+      "matches": 2
+    },
+    "deprive": {
+      "name": "Deprive",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-24T11:06:48+00:00",
+      "matches": 2
+    },
+    "sinunendingcataclysm": {
+      "name": "Sin, Unending Cataclysm",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-24T11:06:48+00:00",
+      "matches": 6
+    },
+    "syphonmind": {
+      "name": "Syphon Mind",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-24T11:06:48+00:00",
+      "matches": 8
     }
   },
   "unmatched": {
