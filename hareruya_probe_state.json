@@ -40727,6 +40727,12 @@
       "cashUsd": 5.0,
       "checkedAt": "2026-11-24T11:06:48+00:00",
       "matches": 8
+    },
+    "stonecalendar": {
+      "name": "Stone Calendar",
+      "cashUsd": 5.3,
+      "checkedAt": "2026-11-24T23:08:30+00:00",
+      "matches": 1
     }
   },
   "unmatched": {
