@@ -40733,6 +40733,30 @@
       "cashUsd": 5.3,
       "checkedAt": "2026-11-24T23:08:30+00:00",
       "matches": 1
+    },
+    "temurbattlerage": {
+      "name": "Temur Battle Rage",
+      "cashUsd": 7.0,
+      "checkedAt": "2026-11-25T09:56:32+00:00",
+      "matches": 5
+    },
+    "angelofdespair": {
+      "name": "Angel of Despair",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-25T09:56:32+00:00",
+      "matches": 6
+    },
+    "dreamtrawler": {
+      "name": "Dream Trawler",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-25T09:56:32+00:00",
+      "matches": 6
+    },
+    "deglamer": {
+      "name": "Deglamer",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-25T09:56:32+00:00",
+      "matches": 5
     }
   },
   "unmatched": {
