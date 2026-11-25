@@ -40757,6 +40757,42 @@
       "cashUsd": 5.0,
       "checkedAt": "2026-11-25T09:56:32+00:00",
       "matches": 5
+    },
+    "nyotauhuracommunications": {
+      "name": "Nyota Uhura, Communications",
+      "cashUsd": 9.0,
+      "checkedAt": "2026-11-25T22:40:44+00:00",
+      "matches": 7
+    },
+    "bladesliver": {
+      "name": "Blade Sliver",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-25T22:40:44+00:00",
+      "matches": 2
+    },
+    "strefanmaurerprogenitor": {
+      "name": "Strefan, Maurer Progenitor",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-25T22:40:44+00:00",
+      "matches": 3
+    },
+    "nadirkraken": {
+      "name": "Nadir Kraken",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-25T22:40:44+00:00",
+      "matches": 4
+    },
+    "psychicpaper": {
+      "name": "Psychic Paper",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-25T22:40:44+00:00",
+      "matches": 4
+    },
+    "zureternalschemer": {
+      "name": "Zur, Eternal Schemer",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-25T22:40:44+00:00",
+      "matches": 10
     }
   },
   "unmatched": {
