@@ -40793,6 +40793,54 @@
       "cashUsd": 5.0,
       "checkedAt": "2026-11-25T22:40:44+00:00",
       "matches": 10
+    },
+    "chiraallin": {
+      "name": "Chira, All In",
+      "cashUsd": 12.0,
+      "checkedAt": "2026-11-26T09:45:39+00:00",
+      "matches": 2
+    },
+    "lysehext": {
+      "name": "Lyse Hext",
+      "cashUsd": 7.5,
+      "checkedAt": "2026-11-26T09:45:39+00:00",
+      "matches": 7
+    },
+    "dyfedtheguidinghand": {
+      "name": "Dyfed, the Guiding Hand",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-26T09:45:39+00:00",
+      "matches": 2
+    },
+    "encroach": {
+      "name": "Encroach",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-26T09:45:39+00:00",
+      "matches": 5
+    },
+    "blessedwind": {
+      "name": "Blessed Wind",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-26T09:45:39+00:00",
+      "matches": 4
+    },
+    "celestialpurge": {
+      "name": "Celestial Purge",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-26T09:45:39+00:00",
+      "matches": 14
+    },
+    "furystokegiant": {
+      "name": "Furystoke Giant",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-26T09:45:39+00:00",
+      "matches": 3
+    },
+    "tayamluminousenigma": {
+      "name": "Tayam, Luminous Enigma",
+      "cashUsd": 5.0,
+      "checkedAt": "2026-11-26T09:45:39+00:00",
+      "matches": 3
     }
   },
   "unmatched": {
