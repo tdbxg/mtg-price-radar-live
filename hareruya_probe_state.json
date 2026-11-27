@@ -40943,6 +40943,24 @@
       "cashUsd": 5.0,
       "checkedAt": "2026-11-27T09:52:48+00:00",
       "matches": 13
+    },
+    "fangrenmarauder": {
+      "name": "Fangren Marauder",
+      "cashUsd": 6.0,
+      "checkedAt": "2026-11-27T22:08:40+00:00",
+      "matches": 4
+    },
+    "rattlechains": {
+      "name": "Rattlechains",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-27T22:08:40+00:00",
+      "matches": 4
+    },
+    "uchuulon": {
+      "name": "Uchuulon",
+      "cashUsd": 5.2,
+      "checkedAt": "2026-11-27T22:08:40+00:00",
+      "matches": 4
     }
   },
   "unmatched": {
